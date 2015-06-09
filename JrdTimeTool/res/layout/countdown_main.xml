@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/title_bar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:duplicateParentState="true"
+            android:gravity="center_vertical"
+            android:text="@string/activity_timer"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="7"
+        >
+
+        <!-- timer set -->
+
+        <LinearLayout
+            android:id="@+id/timer_set_time_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+            
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <com.jrdcom.timetool.countdown.view.CountDownPickerTcl
+                android:id="@+id/countDownPickerTcl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- timer run layout set -->
+
+        <FrameLayout
+            android:id="@+id/timer_time_run_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/timer_timer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:gravity="center_horizontal"
+                    android:textColor="#525a66"
+                    android:layout_centerInParent="true"
+                    android:textSize="48dp" />
+            </RelativeLayout>
+        </FrameLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+      >
+        <!-- modify by liang.zhang for PR 829453 at 2014-12-17 begin -->
+        <RelativeLayout
+            android:id="@+id/timer_start_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/timer_Start"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="260dp"
+                android:layout_height="42dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/countdown_start_button_bg_selector"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:text="@string/timer_start"
+                android:textColor="@color/timer_record_color"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/timer_CancelofStart"
+                android:layout_width="260dp"
+                android:layout_height="42dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/countdown_cancel_button_bg_selector"
+                android:focusable="true"
+                android:onClick="onButtonClick"
+                android:text="@string/timer_cancel"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/ring_Btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="260dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/timer_start_cancel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/timer_btn_gray_bk"
+            android:focusable="true"
+            android:onClick="onButtonClick"
+            android:text="@string/timer_choose_ring"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    <!-- modify by liang.zhang for PR 829453 at 2014-12-17 end -->
+
+</LinearLayout>

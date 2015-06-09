@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Dec 09 13:35:51 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="loading_ringtone">"កំពុងផ្ទុកសំលេងរោទ៍…"</string>
+	<!---->
+	<string name="app_name">"ម៉ោង"</string>
+	<!---->
+	<string name="activity_worldclock">"នាឡិកា​ពិភពលោក"</string>
+	<!---->
+	<string name="activity_alarm">"ពញ្ញាក់អារម្មណ៍"</string>
+	<!---->
+	<string name="activity_Timer">"ការកំណត់ពេលឲ្យរាប់ថយក្រោយ"</string>
+	<!---->
+	<string name="activity_timer">"ការរាប់ថយក្រោយ"</string>
+	<!---->
+	<string name="Timer_start">"ចាប់ផ្តើម"</string>
+	<!---->
+	<string name="Timer_stop">"បញ្ឈប់"</string>
+	<!---->
+	<string name="Timer_resume">"ធ្វើបន្ត"</string>
+	<!---->
+	<string name="Timer_clean">"សំអាត"</string>
+	<!---->
+	<string name="Timer_record">"រយៈពេលរាប់បន្ត"</string>
+	<!---->
+	<string name="Timer_absolutetime">"សរុប"</string>
+	<!---->
+	<string name="Timer_relativetime">"រយៈពេលរាប់បន្តនេះ"</string>
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!---->
+	<string name="Timer_warning">"ម៉ូដព្រមាន"</string>
+	<!---->
+	<string name="Timer_exit_warning">"ការកំណត់ពេលឲ្យរាប់ថយក្រោយ កំពុងដំណើរការ។ តើ​អ្នក​ចង់​ចាកចេញ​ទេ?"</string>
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"សំលេងរោទ៍"</string>
+	<!---->
+	<string name="timer_start">"ចាប់ផ្តើម"</string>
+	<!---->
+	<string name="timer_cancel">"បោះបង់"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"ស្ងាត់ស្ងៀម"</string>
+	<!---->
+	<string name="timer_ringtone_choose_title">"សិតសម្លេងញ័"</string>
+	<!---->
+	<string name="timer_exit_warning">"ការរាប់ថយក្រោយ កំពុងដំណើរការ តើ​អ្នក​ចង់​ចាកចេញ​ទេ?"</string>
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_alert_label">"អស់ម៉ោង"</string>
+	<!---->
+	<string name="timer_hour">"ម៉ោង"</string>
+	<!---->
+	<string name="timer_minute">"នាទី"</string>
+	<!---->
+	<string name="timer_second">"វិនាទី"</string>
+	<!---->
+	<string name="set_alarm">"កំណត់ម៉ោងរោទ៍"</string>
+	<!---->
+	<string name="settings">"ការកំណត់"</string>
+	<!---->
+	<string name="auto_silence_title">"បិទសំលេងដោយស្វ័យប្រវត្តិ"</string>
+	<!---->
+	<string name="auto_silence_summary">"ម៉ោងរោទ៍ នឹងស្ងាត់វិញ បន្ទាប់ពី <xliff:g id="minutes">%d</xliff:g> នាទី"</string>
+	<!---->
+	<string name="auto_silence_never">"បិទ"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"ម៉ោងរោទ៍ កំពុងស្ថិតក្នុងម៉ូដស្ងាត់"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"ដំណើរការម៉ោងរោទ៍ បើទោះជាទូរស័ព្ទកំពុងស្ថិតក្នុងម៉ូតស្ងាត់ក៏ដោយ"</string>
+	<string-array name="auto_silence_entries">
+		<item>"បិទ"</item>
+		<item>"5 នាទី"</item>
+		<item>"10 នាទី"</item>
+		<item>"15 នាទី"</item>
+		<item>"20 នាទី"</item>
+		<item>"25 នាទី"</item>
+		<item>"30 នាទី"</item>
+	</string-array>
+	<!---->
+	<string name="add_alarm">"បន្ថែមម៉ោងរោទ៍"</string>
+	<!---->
+	<string name="default_label">"ប្រកាសអាសន្ន"</string>
+	<!---->
+	<string name="never">"កុំ​ឲ្យ​សោះ"</string>
+	<!---->
+	<string name="every_day">"រៀងរាល់ថ្ងៃ"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!---->
+	<string name="alarm_settings">"ការកំណត់"</string>
+	<!---->
+	<string name="delete_alarm">"លុបម៉ោងរោទ៍"</string>
+	<!---->
+	<string name="delete_alarm_confirm">"ម៉ោងរោទ៍នេះនឹងត្រូវលុប។"</string>
+	<!---->
+	<string name="snooze_duration_title">"រយៈពេលផ្អាកមួយស្របក់"</string>
+	<!---->
+	<string name="delete_alarm_message">"លុបម៉ោងរោទ៍ដែលបានជ្រើសរើសឬ?"</string>
+	<string-array name="snooze_duration_entries">
+		<item>"5 នាទី"</item>
+		<item>"10 នាទី"</item>
+		<item>"15 នាទី"</item>
+		<item>"20 នាទី"</item>
+		<item>"25 នាទី"</item>
+		<item>"30 នាទី"</item>
+	</string-array>
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"ប៊ូតុងសំលេង"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"ឥរិយាបថប៊ូតុង"</string>
+	<!---->
+	<string name="volume_button_setting_summary">"កំណត់ឥរិយាបថតាមត្រូវការនៃប៊ូតុងនានា នៅពេលគេចុច ក្នុងកំឡុងពេលម៉ោងរោទ៍"</string>
+	<string-array name="volume_button_setting_entries">
+		<item>"គ្មាន"</item>
+		<item>"ដេកបន្តិច"</item>
+		<item>"លុបចោល"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!---->
+	<string name="turn_over_to_active_title">"ត្រឡប់​ដើម្បី​បើកដំណើរការ"</string>
+	<!---->
+	<string name="turn_over_to_active_dialog_title">"បើកឥរិយាបថ"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"រោទ៍ឡើងវិញ"</string>
+	<!---->
+	<string name="alarm_vibrate">"ញ័រ"</string>
+	<!---->
+	<string name="label">"ស្លាក"</string>
+	<!---->
+	<string name="day">"1 ថ្ងៃ"</string>
+	<!---->
+	<string name="days">"%s ថ្ងៃ"</string>
+	<!---->
+	<string name="hour">"1 ម៉ោង"</string>
+	<!---->
+	<string name="hours">"%s ម៉ោង"</string>
+	<!---->
+	<string name="minute">"1 នាទី"</string>
+	<!---->
+	<string name="minutes">"%s នាទី"</string>
+	<string-array name="alarm_set">
+		<item>"ការពញ្ញាក់អារម្មណ៍សិតឲ្យដើរ 1 ចាប់ពីពេលនេះ ។"</item>
+		<item>"នាឡិការោទិ៍នេះត្រូវបានកំណត់រយៈពេល %1$s ពីឥឡូវនេះ។"</item>
+		<item>"នាឡិការោទិ៍នេះត្រូវបានកំណត់រយៈពេល %2$s ពីឥឡូវនេះ។"</item>
+		<item>"នាឡិការោទិ៍នេះត្រូវបានកំណត់រយៈពេល %1$s និង %2$s ពីឥឡូវនេះ។"</item>
+		<item>"នាឡិការោទិ៍នេះត្រូវបានកំណត់រយៈពេល %3$s ពីឥឡូវនេះ។"</item>
+		<item>"នាឡិការោទិ៍នេះត្រូវបានកំណត់រយៈពេល %1$s និង %3$s ពីឥឡូវនេះ។"</item>
+		<item>"នាឡិការោទិ៍នេះត្រូវបានកំណត់រយៈពេល %2$s និង %3$s ពីឥឡូវនេះ។"</item>
+		<item>"នាឡិការោទិ៍នេះត្រូវបានកំណត់រយៈពេល %1$s, %2$s, and %3$s ពីឥឡូវនេះ។"</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"ស្ងាត់ស្ងៀម"</string>
+	<!---->
+	<string name="alarm_notify_text">"ជ្រើសរើសការផ្អាកមួយស្របក់ ឬទាត់ចោលម៉ោងរោទ៍នេះ។"</string>
+	<!---->
+	<string name="alarm_alert_alert_silenced">"ម៉ោងរោទ៍ ស្ងាត់ទៅវិញបន្ទាប់ពី %d នាទី"</string>
+	<!---->
+	<string name="alarm_alert_snooze_text">"ផ្អាក​មួយ​ស្របក់"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"បញ្ឈប់"</string>
+	<!---->
+	<string name="alarm_notify_snooze_label">"%s（បានផ្អាកមួយស្របក់）"</string>
+	<!---->
+	<string name="alarm_notify_snooze_text">"នាឡិការោទិ៍កំណត់សម្រាប់ <xliff:g id="time">%s</xliff:g>។ ជ្រើសរើសដើម្បីផ្អាក។"</string>
+	<!---->
+	<string name="alarm_alert_snooze_set">"កំពុងផ្អាករយៈពេល %d នាទី។"</string>
+	<!---->
+	<string name="system_acticity_name">"ប្រព័ន្ធ"</string>
+	<!---->
+	<string name="music_acticity_name">"តន្រ្តីរបស់ខ្ញុំ"</string>
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!---->
+	<string name="no_music">"គ្មានតន្រ្តី"</string>
+	<!---->
+	<string name="default_ringtone">"សំលេងរោទ៍តាមលំនាំដើម"</string>
+	<!---->
+	<string name="add_city">"បន្ថែមទីក្រុង"</string>
+	<!---->
+	<string name="select_city">"ជ្រើសរើសទីក្រុង"</string>
+	<!---->
+	<string name="delete_city">"លុបចោល"</string>
+	<!---->
+	<string name="delete_worldtime_message">"តើអ្នកប្រាកដថាអ្នកចង់លុបនាឡិកាឬ?"</string>
+	<!---->
+	<string name="worldtime_search_hint">"បញ្ចូល​ឈ្មោះ​ទីក្រុង"</string>
+	<!---->
+	<string name="sel_from_below">"ឬជ្រើសរើសពីខាងក្រោម៖"</string>
+	<!---->
+	<string name="worldtime_is_showed">"(បានបន្ថែម)"</string>
+	<!---->
+	<string name="worldtime_menu_delete">"លុបចោល"</string>
+	<!---->
+	<string name="worldtime_delete_title">"លុបទីក្រុង"</string>
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"ថ្ងៃនេះ"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"ម្សិលមិញ"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"ថ្ងៃស្អែក"</string>
+	<!---->
+	<string name="time_am">"AM"</string>
+	<!---->
+	<string name="time_pm">"PM"</string>
+	<!---->
+	<string name="no_city">"មិនអាចស្វែងរកទីក្រុង"</string>
+	<!---->
+	<string name="time_picker_cancel">"លើកលែង"</string>
+	<!---->
+	<string name="time_picker_set">"ព្រម"</string>
+	<!---->
+	<string name="night_mode_title">"ម៉ូដ ពេលយប់"</string>
+	<!---->
+	<string name="night_mode_summary">"ការបញ្ចេញពន្លឺមិនច្បាស់ខ្លាំង (សម្រាប់បន្ទប់ងងឹត)"</string>
+	<!---->
+	<string name="app_label">"នាឡិកា"</string>
+	<!---->
+	<string name="clock_style">"ស្ទីល"</string>
+	<!---->
+	<string name="screensaver_settings">"ការកំនត់ការសុបិន"</string>
+	<!---->
+	<string name="screensaver_clock_label">"នាឡិកា"</string>
+	<!-- no translation found for alarm_in_silent_mode_summary_tablet -->
+	<skip />
+	<!---->
+	<string name="app_name_clock">"នាឡិកា"</string>
+</resources>

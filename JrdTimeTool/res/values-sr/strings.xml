@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="loading_ringtone">"Učitavanje melodije zvona\u2026"</string>
+	<!---->
+	<string name="app_name">"Vreme"</string>
+	<!---->
+	<string name="activity_worldclock">"Svetski časovnik"</string>
+	<!---->
+	<string name="activity_alarm">"Alarm"</string>
+	<!---->
+	<string name="activity_Timer">"Tajmer"</string>
+	<!---->
+	<string name="activity_timer">"Odbrojavanje"</string>
+	<!---->
+	<string name="Timer_start">"Pokreni"</string>
+	<!---->
+	<string name="Timer_stop">"Stop"</string>
+	<!---->
+	<string name="Timer_resume">"Nastavi"</string>
+	<!---->
+	<string name="Timer_clean">"Izbriši"</string>
+	<!---->
+	<string name="Timer_record">"Etapa"</string>
+	<!---->
+	<string name="Timer_absolutetime">"Ukupno"</string>
+	<!---->
+	<string name="Timer_relativetime">"Ova etapa"</string>
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!---->
+	<string name="Timer_warning">"Upozorenje"</string>
+	<!---->
+	<string name="Timer_exit_warning">"Tajmer teče. Želite li da prekinete?"</string>
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"Melodija"</string>
+	<!---->
+	<string name="timer_start">"Pokreni"</string>
+	<!---->
+	<string name="timer_cancel">"Otkaži"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"Nečujno"</string>
+	<!---->
+	<string name="timer_ringtone_choose_title">"Postavi tonove zvona"</string>
+	<!---->
+	<string name="timer_exit_warning">"Odbrojavanje je u toku. Želite li da ga isključite?"</string>
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_alert_label">"Vreme ističe"</string>
+	<!---->
+	<string name="timer_hour">"sat"</string>
+	<!---->
+	<string name="timer_minute">"Minut"</string>
+	<!---->
+	<string name="timer_second">"Sekunda"</string>
+	<!---->
+	<string name="set_alarm">"Postavite alarm"</string>
+	<!---->
+	<string name="settings">"Podešavanja"</string>
+	<!---->
+	<string name="auto_silence_title">"Automatsko utišavanje"</string>
+	<!---->
+	<string name="auto_silence_summary">"Alarm će se utišati nakon <xliff:g id="minutes">%d</xliff:g> minuta"</string>
+	<!---->
+	<string name="auto_silence_never">"ISKLJUČI"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"Sledeći alarm je za  <xliff:g id="minutes">%d</xliff:g>. Izaberite za otkazivanje."</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"Reprodukuj alarm i kad je telefon u nečujnom režimu"</string>
+	<string-array name="auto_silence_entries">
+		<item>"Isključeno"</item>
+		<item>"5 minuta"</item>
+		<item>"10 minuta"</item>
+		<item>"15 minuta"</item>
+		<item>"20 minuta"</item>
+		<item>"25 minuta"</item>
+		<item>"30 minuta"</item>
+	</string-array>
+	<!---->
+	<string name="add_alarm">"Dodajte alarm"</string>
+	<!---->
+	<string name="default_label">"Alarm"</string>
+	<!---->
+	<string name="never">"Nikad"</string>
+	<!---->
+	<string name="every_day">"svakog dana"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!---->
+	<string name="alarm_settings">"Podešavanja"</string>
+	<!---->
+	<string name="delete_alarm">"Izbrišite alarm"</string>
+	<!---->
+	<string name="delete_alarm_confirm">"Ovaj alarm će biti izbrisan."</string>
+	<!---->
+	<string name="snooze_duration_title">"Trajanje odlaganja"</string>
+	<!---->
+	<string name="delete_alarm_message">"Izbrisati izabrani alarm?"</string>
+	<string-array name="snooze_duration_entries">
+		<item>"5 minuta"</item>
+		<item>"10 minuta"</item>
+		<item>"15 minuta"</item>
+		<item>"20 minuta"</item>
+		<item>"25 minuta"</item>
+		<item>"30 minuta"</item>
+	</string-array>
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"Tasteri za jačinu"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"Ponašanje tastera"</string>
+	<!---->
+	<string name="volume_button_setting_summary">"Podesite odgovarajuće ponašanje tastera kada se pritisnu tokom alarma"</string>
+	<string-array name="volume_button_setting_entries">
+		<item>"Ništa"</item>
+		<item>"Odloži"</item>
+		<item>"Odbaci"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!---->
+	<string name="turn_over_to_active_title">"Okrenite za aktivaciju"</string>
+	<!---->
+	<string name="turn_over_to_active_dialog_title">"Ponašanje pri preokretanju"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"Ponovi"</string>
+	<!---->
+	<string name="alarm_vibrate">"Vibracija"</string>
+	<!---->
+	<string name="label">"Označi"</string>
+	<!---->
+	<string name="day">"1 dan"</string>
+	<!---->
+	<string name="days">"%s dana"</string>
+	<!---->
+	<string name="hour">"1 sat"</string>
+	<!---->
+	<string name="hours">"%s sati"</string>
+	<!---->
+	<string name="minute">"1 minut"</string>
+	<!---->
+	<string name="minutes">"%s minuta"</string>
+	<string-array name="alarm_set">
+		<item>"Naredni alarm za: manje od jednog minuta."</item>
+		<item>"Ovaj alarm je od sada postavljen za  %1$s od sada."</item>
+		<item>"Ovaj alarm je od sada postavljen za %2$s od sada."</item>
+		<item>"Ovaj alarm je postavljen za  %1$s i %2$s od sada."</item>
+		<item>"Alarm je postavljen za %3$s od sada."</item>
+		<item>"Alarm je postavljen za %1$s i %3$s od sada."</item>
+		<item>"Alarm je postavljen za %2$s i %3$s od sada."</item>
+		<item>"Alarm je postavljen za %1$s, %2$s i %3$s od sada."</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"Nečujno"</string>
+	<!---->
+	<string name="alarm_notify_text">"Izaberite za odlaganje ili odbacivanje ovog alarma."</string>
+	<!---->
+	<string name="alarm_alert_alert_silenced">"Alarm je utišan nakon %d minuta."</string>
+	<!---->
+	<string name="alarm_alert_snooze_text">"Odloži"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"Zaustavi"</string>
+	<!---->
+	<string name="alarm_notify_snooze_label">"%s (odloženo)"</string>
+	<!---->
+	<string name="alarm_notify_snooze_text">"Naredni alarm za <xliff:g id="time">%s</xliff:g>. Izaberite za otkazivanje."</string>
+	<!---->
+	<string name="alarm_alert_snooze_set">"Odlaganje za %d minuta."</string>
+	<!---->
+	<string name="system_acticity_name">"Sistem"</string>
+	<!---->
+	<string name="music_acticity_name">"Moja muzika"</string>
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!---->
+	<string name="no_music">"Nema muzike"</string>
+	<!---->
+	<string name="default_ringtone">"Podrazumevana melodija"</string>
+	<!---->
+	<string name="add_city">"Dodajte grad"</string>
+	<!---->
+	<string name="select_city">"Izaberite grad"</string>
+	<!---->
+	<string name="delete_city">"Izbriši"</string>
+	<!---->
+	<string name="delete_worldtime_message">"Sigurno želite da izbrišete ovaj sat?"</string>
+	<!---->
+	<string name="worldtime_search_hint">"Unesite ime grada"</string>
+	<!---->
+	<string name="sel_from_below">"Ili izaberite iz sledećeg:"</string>
+	<!---->
+	<string name="worldtime_is_showed">"(Dodato)"</string>
+	<!---->
+	<string name="worldtime_menu_delete">"Izbriši"</string>
+	<!---->
+	<string name="worldtime_delete_title">"Obrišite grad"</string>
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"Danas"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"Juče"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"Sutra"</string>
+	<!---->
+	<string name="time_am">"pre podne"</string>
+	<!---->
+	<string name="time_pm">"posle podne"</string>
+	<!---->
+	<string name="no_city">"Ne može da pronađe grad"</string>
+	<!---->
+	<string name="time_picker_cancel">"Otkaži"</string>
+	<!---->
+	<string name="time_picker_set">"U redu"</string>
+	<!---->
+	<string name="night_mode_title">"Noćni režim"</string>
+	<!---->
+	<string name="night_mode_summary">"Veoma zatamnjen izgled (za mračne prostorije)"</string>
+	<!---->
+	<string name="app_label">"Sat"</string>
+	<!---->
+	<string name="clock_style">"Stil"</string>
+	<!---->
+	<string name="screensaver_settings">"Podešavanja sna"</string>
+	<!---->
+	<string name="screensaver_clock_label">"Sat"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary_tablet">"Reprodukuj alarm i kad je tablet u nečujnom režimu"</string>
+	<!---->
+	<string name="app_name_clock">"Sat"</string>
+</resources>

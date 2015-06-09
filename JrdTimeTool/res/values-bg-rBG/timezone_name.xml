@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="Pacific_Midway">"Остров Мидуей"</string>
+	<!---->
+	<string name="Pacific_Honolulu">"Хавай"</string>
+	<!---->
+	<string name="America_Anchorage">"Аляскса"</string>
+	<!---->
+	<string name="America_Los_Angeles">"Тихоокеанско време"</string>
+	<!---->
+	<string name="America_Tijuana">"Тихуана"</string>
+	<!---->
+	<string name="America_Phoenix">"Аризона"</string>
+	<!---->
+	<string name="America_Chihuahua">"Чихуахуа"</string>
+	<!---->
+	<string name="America_Denver">"Планинско време"</string>
+	<!---->
+	<string name="America_Costa_Rica">"Централна Америка"</string>
+	<!---->
+	<string name="America_Chicago">"Централно време"</string>
+	<!---->
+	<string name="America_Mexico_City">"Мексико Сити"</string>
+	<!---->
+	<string name="America_Regina">"Саскачеван"</string>
+	<!---->
+	<string name="America_Bogota">"Богота"</string>
+	<!---->
+	<string name="America_New_York">"Ню Йорк"</string>
+	<!---->
+	<string name="America_Caracas">"Венецуела"</string>
+	<!---->
+	<string name="America_Barbados">"Атлантическо време"</string>
+	<!---->
+	<string name="America_Manaus">"Манаус"</string>
+	<!---->
+	<string name="Europe_Paris">"Париж"</string>
+	<!---->
+	<string name="America_Santiago">"Сантяго"</string>
+	<!---->
+	<string name="America_St_Johns">"Нюфаундленд"</string>
+	<!---->
+	<string name="America_Araguaina">"Бразилия"</string>
+	<!---->
+	<string name="America_Argentina_Buenos_Aires">"Буенос айрес"</string>
+	<!---->
+	<string name="America_Godthab">"Гренландия"</string>
+	<!---->
+	<string name="America_Montevideo">"Монтевидео"</string>
+	<!---->
+	<string name="Atlantic_South_Georgia">"Среден Атлантик"</string>
+	<!---->
+	<string name="Atlantic_Azores">"Азори"</string>
+	<!---->
+	<string name="Atlantic_Cape_Verde">"Острови Капо Верде"</string>
+	<!---->
+	<string name="Africa_Casablanca">"Казабланка"</string>
+	<!---->
+	<string name="Europe_London">"Лондон"</string>
+	<!---->
+	<string name="Europe_Amsterdam">"Амстердам"</string>
+	<!---->
+	<string name="Europe_Berlin">"Берлин"</string>
+	<!---->
+	<string name="Europe_Belgrade">"Белград"</string>
+	<!---->
+	<string name="Europe_Brussels">"Брюксел"</string>
+	<!---->
+	<string name="Europe_Sarajevo">"Сараево"</string>
+	<!---->
+	<string name="Africa_Windhoek">"Виндхук"</string>
+	<!---->
+	<string name="Africa_Brazzaville">"Зап. Африканско време"</string>
+	<!---->
+	<string name="Asia_Amman">"Аман"</string>
+	<!---->
+	<string name="Europe_Athens">"Атина"</string>
+	<!---->
+	<string name="Asia_Istanbul">"Истанбул"</string>
+	<!---->
+	<string name="Asia_Beirut">"Бейрут"</string>
+	<!---->
+	<string name="Africa_Cairo">"Кайро"</string>
+	<!---->
+	<string name="Europe_Helsinki">"Хелзинки"</string>
+	<!---->
+	<string name="Asia_Jerusalem">"Йерусалим"</string>
+	<!---->
+	<string name="Europe_Minsk">"Минск"</string>
+	<!---->
+	<string name="Africa_Harare">"Хараре"</string>
+	<!---->
+	<string name="Asia_Baghdad">"Багдад"</string>
+	<!---->
+	<string name="Europe_Moscow">"Москва"</string>
+	<!---->
+	<string name="Asia_Kuwait">"Кувейт"</string>
+	<!---->
+	<string name="Africa_Nairobi">"Найроби"</string>
+	<!---->
+	<string name="Asia_Tehran">"Техеран"</string>
+	<!---->
+	<string name="Asia_Baku">"Баку"</string>
+	<!---->
+	<string name="Asia_Tbilisi">"Тбилиси"</string>
+	<!---->
+	<string name="Asia_Yerevan">"Ереван"</string>
+	<!---->
+	<string name="Asia_Dubai">"Дубай"</string>
+	<!---->
+	<string name="Asia_Kabul">"Кабул"</string>
+	<!---->
+	<string name="Asia_Karachi">"Карачи"</string>
+	<!---->
+	<string name="Asia_Oral">"Уралск"</string>
+	<!---->
+	<string name="Asia_Yekaterinburg">"Екатерининбург"</string>
+	<!---->
+	<string name="Asia_Calcutta">"Калкута"</string>
+	<!---->
+	<string name="Asia_Colombo">"Шри Ланка"</string>
+	<!---->
+	<string name="Asia_Katmandu">"Катманду"</string>
+	<!---->
+	<string name="Asia_Almaty">"Астана"</string>
+	<!---->
+	<string name="Asia_Rangoon">"Янгон"</string>
+	<!---->
+	<string name="Asia_Krasnoyarsk">"Красноярск"</string>
+	<!---->
+	<string name="Asia_Bangkok">"Бангкок"</string>
+	<!---->
+	<string name="Asia_Jakarta">"Джакарта"</string>
+	<!---->
+	<string name="Asia_Hong_Kong">"Хонг Конг"</string>
+	<!---->
+	<string name="Asia_Shanghai">"Пекин"</string>
+	<!---->
+	<string name="Asia_Irkutsk">"Иркутск"</string>
+	<!---->
+	<string name="Asia_Kuala_Lumpur">"Куала Лумпур"</string>
+	<!---->
+	<string name="Australia_Perth">"Пърт"</string>
+	<!---->
+	<string name="Asia_Taipei">"Тайпей"</string>
+	<!---->
+	<string name="Asia_Manila">"Манила"</string>
+	<!---->
+	<string name="Asia_Seoul">"Сеул"</string>
+	<!---->
+	<string name="Asia_Tokyo">"Токио"</string>
+	<!---->
+	<string name="Asia_Yakutsk">"Якутск"</string>
+	<!---->
+	<string name="Australia_Adelaide">"Аделайд"</string>
+	<!---->
+	<string name="Australia_Darwin">"Даруин"</string>
+	<!---->
+	<string name="Australia_Brisbane">"Брисбейн"</string>
+	<!---->
+	<string name="Australia_Hobart">"Хобърт"</string>
+	<!---->
+	<string name="Australia_Sydney">"Сидни, Камбера"</string>
+	<!---->
+	<string name="Asia_Vladivostok">"Владивисток"</string>
+	<!---->
+	<string name="Pacific_Guam">"Гуам"</string>
+	<!---->
+	<string name="Asia_Magadan">"Магадан"</string>
+	<!---->
+	<string name="Pacific_Auckland">"Оукланд"</string>
+	<!---->
+	<string name="Pacific_Fiji">"Фиджи"</string>
+	<!---->
+	<string name="Pacific_Tongatapu">"Тонга"</string>
+	<!---->
+	<string name="Pacific_Majuro">"Маршалови острови"</string>
+</resources>

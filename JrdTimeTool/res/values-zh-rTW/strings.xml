@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="loading_ringtone">"正在載入鈴聲..."</string>
+	<!---->
+	<string name="app_name">"時間"</string>
+	<!---->
+	<string name="activity_worldclock">"世界時鐘"</string>
+	<!---->
+	<string name="activity_alarm">"鬧鐘"</string>
+	<!---->
+	<string name="activity_Timer">"碼錶"</string>
+	<!---->
+	<string name="activity_timer">"計時器"</string>
+	<!---->
+	<string name="Timer_start">"開始"</string>
+	<!---->
+	<string name="Timer_stop">"停止"</string>
+	<!---->
+	<string name="Timer_resume">"繼續"</string>
+	<!---->
+	<string name="Timer_clean">"清除"</string>
+	<!---->
+	<string name="Timer_record">"計次"</string>
+	<!---->
+	<string name="Timer_absolutetime">"總共"</string>
+	<!---->
+	<string name="Timer_relativetime">"此次"</string>
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!---->
+	<string name="Timer_warning">"警告"</string>
+	<!---->
+	<string name="Timer_exit_warning">"碼錶正在運行中,是否退出?"</string>
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"鈴聲"</string>
+	<!---->
+	<string name="timer_start">"開始"</string>
+	<!---->
+	<string name="timer_cancel">"取消"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"靜音"</string>
+	<!---->
+	<string name="timer_ringtone_choose_title">"鈴聲列表"</string>
+	<!---->
+	<string name="timer_exit_warning">"計時器運行中,是否退出?"</string>
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_alert_label">"時間到了"</string>
+	<!---->
+	<string name="timer_hour">"小時"</string>
+	<!---->
+	<string name="timer_minute">"分鐘"</string>
+	<!---->
+	<string name="timer_second">"秒"</string>
+	<!---->
+	<string name="set_alarm">"設定鬧鐘"</string>
+	<!---->
+	<string name="settings">"設定"</string>
+	<!---->
+	<string name="auto_silence_title">"自動停止鈴聲"</string>
+	<!---->
+	<string name="auto_silence_summary">"鬧鐘將會在<xliff:g id="minutes">%d</xliff:g>分鐘後停止響鬧"</string>
+	<!---->
+	<string name="auto_silence_never">"關閉"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"靜音模式下的鬧鐘"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"手機處於靜音模式時，鬧鐘仍會響"</string>
+	<string-array name="auto_silence_entries">
+		<item>"關閉"</item>
+		<item>"5 分鐘"</item>
+		<item>"10 分鐘"</item>
+		<item>"15 分鐘"</item>
+		<item>"20 分鐘"</item>
+		<item>"25 分鐘"</item>
+		<item>"30 分鐘"</item>
+	</string-array>
+	<!---->
+	<string name="add_alarm">"新增鬧鐘"</string>
+	<!---->
+	<string name="default_label">"鬧鐘"</string>
+	<!---->
+	<string name="never">"從不"</string>
+	<!---->
+	<string name="every_day">"每天"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!---->
+	<string name="alarm_settings">"設定"</string>
+	<!---->
+	<string name="delete_alarm">"刪除鬧鐘"</string>
+	<!---->
+	<string name="delete_alarm_confirm">"將刪除此鬧鐘。"</string>
+	<!---->
+	<string name="snooze_duration_title">"貪睡時間"</string>
+	<!---->
+	<string name="delete_alarm_message">"刪除所選的鬧鐘？"</string>
+	<string-array name="snooze_duration_entries">
+		<item>"5 分鐘"</item>
+		<item>"10 分鐘"</item>
+		<item>"15 分鐘"</item>
+		<item>"20 分鐘"</item>
+		<item>"25 分鐘"</item>
+		<item>"30 分鐘"</item>
+	</string-array>
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"音量按鈕"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"按鈕功用"</string>
+	<!---->
+	<string name="volume_button_setting_summary">"設定按鍵在鬧鐘響起時的功能"</string>
+	<string-array name="volume_button_setting_entries">
+		<item>"無"</item>
+		<item>"稍後提醒"</item>
+		<item>"取消"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!---->
+	<string name="turn_over_to_active_title">"把手機翻轉以啟動功能"</string>
+	<!---->
+	<string name="turn_over_to_active_dialog_title">"翻轉功能"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"重複"</string>
+	<!---->
+	<string name="alarm_vibrate">"震動"</string>
+	<!---->
+	<string name="label">"標籤"</string>
+	<!---->
+	<string name="day">"1 天"</string>
+	<!---->
+	<string name="days">"%s天"</string>
+	<!---->
+	<string name="hour">"1 小時"</string>
+	<!---->
+	<string name="hours">"%s小時"</string>
+	<!---->
+	<string name="minute">"1 分鐘"</string>
+	<!---->
+	<string name="minutes">"%s分鐘"</string>
+	<string-array name="alarm_set">
+		<item>"鬧鐘將於少於1分鐘後響。"</item>
+		<item>"已將此鬧鐘設定為從現在起%1$s後再提醒。"</item>
+		<item>"已將此鬧鐘設定為從現在起%2$s後再提醒。"</item>
+		<item>"已將此鬧鐘設定為從現在起%1$s%2$s後再提醒。"</item>
+		<item>"已將此鬧鐘設定為從現在起%3$s後再提醒。"</item>
+		<item>"已將此鬧鐘設定為從現在起%1$s%3$s後再提醒。"</item>
+		<item>"已將此鬧鐘設定為從現在起%2$s%3$s後再提醒。"</item>
+		<item>"已將該鬧鐘設定為從現在起%1$s、%2$s和%3$s後再提醒。"</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"靜音"</string>
+	<!---->
+	<string name="alarm_notify_text">"選擇暫停或關閉此鬧鐘。"</string>
+	<!---->
+	<string name="alarm_alert_alert_silenced">"鬧鐘響鈴時間為%d分鐘"</string>
+	<!---->
+	<string name="alarm_alert_snooze_text">"暫停再響"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"停止"</string>
+	<!---->
+	<string name="alarm_notify_snooze_label">"%s（已暫停）"</string>
+	<!---->
+	<string name="alarm_notify_snooze_text">"鬧鐘設定在 <xliff:g id="TIME">%s</xliff:g>，選取即可取消"</string>
+	<!---->
+	<string name="alarm_alert_snooze_set">"暫停%d分鐘。"</string>
+	<!---->
+	<string name="system_acticity_name">"系統"</string>
+	<!---->
+	<string name="music_acticity_name">"我的音樂"</string>
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!---->
+	<string name="no_music">"沒有音樂"</string>
+	<!---->
+	<string name="default_ringtone">"預設鈴聲"</string>
+	<!---->
+	<string name="add_city">"增加城市"</string>
+	<!---->
+	<string name="select_city">"選擇城市"</string>
+	<!---->
+	<string name="delete_city">"刪除"</string>
+	<!---->
+	<string name="delete_worldtime_message">"確定刪除此時鐘?"</string>
+	<!---->
+	<string name="worldtime_search_hint">"請輸入城市名稱"</string>
+	<!---->
+	<string name="sel_from_below">"或從以下列表中選擇："</string>
+	<!---->
+	<string name="worldtime_is_showed">"(已增加)"</string>
+	<!---->
+	<string name="worldtime_menu_delete">"刪除"</string>
+	<!---->
+	<string name="worldtime_delete_title">"刪除城市"</string>
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"今日"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"昨天"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"明天"</string>
+	<!---->
+	<string name="time_am">"上午"</string>
+	<!---->
+	<string name="time_pm">"下午"</string>
+	<!---->
+	<string name="no_city">"無法找到該城市"</string>
+	<!---->
+	<string name="time_picker_cancel">"取消"</string>
+	<!---->
+	<string name="time_picker_set">"確定"</string>
+	<!---->
+	<string name="night_mode_title">"夜間模式"</string>
+	<!---->
+	<string name="night_mode_summary">"非常暗淡的顯示畫面 (適用於昏暗的室內)"</string>
+	<!---->
+	<string name="app_label">"時鐘"</string>
+	<!---->
+	<string name="clock_style">"樣式"</string>
+	<!---->
+	<string name="screensaver_settings">"Dream 設定"</string>
+	<!---->
+	<string name="screensaver_clock_label">"時鐘"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary_tablet">"平板處於靜音模式時，鬧鐘仍會響"</string>
+	<!---->
+	<string name="app_name_clock">"時鐘"</string>
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- add for ICS porting -->
+    <string-array name="proxy_error">
+        <item>Host field can not be empty</item>
+        <item>Port field can not be empty</item>
+        <item>Invalid host</item>
+        <item>Invalid port</item>
+    </string-array>
+    
+    <string-array name="step_option_array">
+        <item>@string/setp_option_three_second</item>
+        <item>@string/setp_option_six_second</item>
+    </string-array>
+    <string-array name="step_option_array_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+    <array name="template_layout_2_thumb_list">
+        <item>@drawable/thumb_template_layout_2_1</item>
+        <item>@drawable/thumb_template_layout_2_2</item>
+        <item>@drawable/thumb_template_layout_2_3</item>
+        <item>@drawable/thumb_template_layout_2_4</item>
+        <item>@drawable/thumb_template_layout_2_5</item>
+        <item>@drawable/thumb_template_layout_2_6</item>
+    </array>
+    <array name="template_layout_3_thumb_list">
+        <item>@drawable/thumb_template_layout_3_1</item>
+        <item>@drawable/thumb_template_layout_3_2</item>
+        <item>@drawable/thumb_template_layout_3_3</item>
+        <item>@drawable/thumb_template_layout_3_4</item>
+        <item>@drawable/thumb_template_layout_3_5</item>
+        <item>@drawable/thumb_template_layout_3_6</item>
+        <item>@drawable/thumb_template_layout_3_7</item>
+        <item>@drawable/thumb_template_layout_3_8</item>
+        <item>@drawable/thumb_template_layout_3_9</item>
+        <item>@drawable/thumb_template_layout_3_10</item>
+        <item>@drawable/thumb_template_layout_3_11</item>
+        <item>@drawable/thumb_template_layout_3_12</item>
+        <item>@drawable/thumb_template_layout_3_13</item>
+        <item>@drawable/thumb_template_layout_3_14</item>
+    </array>
+    <array name="template_layout_4_thumb_list">
+        <item>@drawable/thumb_template_layout_4_1</item>
+        <item>@drawable/thumb_template_layout_4_2</item>
+        <item>@drawable/thumb_template_layout_4_3</item>
+        <item>@drawable/thumb_template_layout_4_4</item>
+        <item>@drawable/thumb_template_layout_4_5</item>
+        <item>@drawable/thumb_template_layout_4_6</item>
+        <item>@drawable/thumb_template_layout_4_7</item>
+        <item>@drawable/thumb_template_layout_4_8</item>
+        <item>@drawable/thumb_template_layout_4_9</item>
+        <item>@drawable/thumb_template_layout_4_10</item>
+        <item>@drawable/thumb_template_layout_4_11</item>
+        <item>@drawable/thumb_template_layout_4_12</item>
+    </array>
+    <array name="template_layout_5_thumb_list">
+        <item>@drawable/thumb_template_layout_5_1</item>
+        <item>@drawable/thumb_template_layout_5_2</item>
+        <item>@drawable/thumb_template_layout_5_3</item>
+        <item>@drawable/thumb_template_layout_5_4</item>
+        <item>@drawable/thumb_template_layout_5_5</item>
+        <item>@drawable/thumb_template_layout_5_6</item>
+        <item>@drawable/thumb_template_layout_5_7</item>
+        <item>@drawable/thumb_template_layout_5_8</item>
+        <item>@drawable/thumb_template_layout_5_9</item>
+        <item>@drawable/thumb_template_layout_5_10</item>
+        <item>@drawable/thumb_template_layout_5_11</item>
+        <item>@drawable/thumb_template_layout_5_12</item>
+    </array>
+    <array name="template_layout_6_thumb_list">
+        <item>@drawable/thumb_template_layout_6_1</item>
+        <item>@drawable/thumb_template_layout_6_2</item>
+        <item>@drawable/thumb_template_layout_6_3</item>
+        <item>@drawable/thumb_template_layout_6_4</item>
+        <item>@drawable/thumb_template_layout_6_5</item>
+        <item>@drawable/thumb_template_layout_6_6</item>
+        <item>@drawable/thumb_template_layout_6_7</item>
+        <item>@drawable/thumb_template_layout_6_8</item>
+        <item>@drawable/thumb_template_layout_6_9</item>
+        <item>@drawable/thumb_template_layout_6_10</item>
+        <item>@drawable/thumb_template_layout_6_11</item>
+    </array>
+    <array name="template_layout_7_thumb_list">
+        <item>@drawable/thumb_template_layout_7_1</item>
+        <item>@drawable/thumb_template_layout_7_2</item>
+        <item>@drawable/thumb_template_layout_7_3</item>
+        <item>@drawable/thumb_template_layout_7_4</item>
+        <item>@drawable/thumb_template_layout_7_5</item>
+        <item>@drawable/thumb_template_layout_7_6</item>
+        <item>@drawable/thumb_template_layout_7_7</item>
+        <item>@drawable/thumb_template_layout_7_8</item>
+        <item>@drawable/thumb_template_layout_7_9</item>
+        <item>@drawable/thumb_template_layout_7_10</item>
+        <item>@drawable/thumb_template_layout_7_11</item>
+    </array>
+    <array name="template_layout_8_thumb_list">
+        <item>@drawable/thumb_template_layout_8_1</item>
+        <item>@drawable/thumb_template_layout_8_2</item>
+        <item>@drawable/thumb_template_layout_8_3</item>
+        <item>@drawable/thumb_template_layout_8_4</item>
+        <item>@drawable/thumb_template_layout_8_5</item>
+        <item>@drawable/thumb_template_layout_8_6</item>
+        <item>@drawable/thumb_template_layout_8_7</item>
+        <item>@drawable/thumb_template_layout_8_8</item>
+        <item>@drawable/thumb_template_layout_8_9</item>
+        <item>@drawable/thumb_template_layout_8_10</item>
+    </array>
+    <array name="template_layout_9_thumb_list">
+        <item>@drawable/thumb_template_layout_9_1</item>
+        <item>@drawable/thumb_template_layout_9_2</item>
+        <item>@drawable/thumb_template_layout_9_3</item>
+        <item>@drawable/thumb_template_layout_9_4</item>
+        <item>@drawable/thumb_template_layout_9_5</item>
+        <item>@drawable/thumb_template_layout_9_6</item>
+        <item>@drawable/thumb_template_layout_9_7</item>
+        <item>@drawable/thumb_template_layout_9_8</item>
+    </array>
+    
+    <array name="effect_layout_lomo_list">
+        <item>@drawable/lomoeffect_00</item>
+        <item>@drawable/lomoeffect_01</item>
+        <item>@drawable/lomoeffect_02</item>
+        <item>@drawable/lomoeffect_03</item>
+        <item>@drawable/lomoeffect_04</item>
+        <item>@drawable/lomoeffect_05</item>
+        <item>@drawable/lomoeffect_06</item>
+        <item>@drawable/lomoeffect_07</item>
+        <item>@drawable/lomoeffect_08</item>
+        <item>@drawable/lomoeffect_09</item>
+        <item>@drawable/lomoeffect_10</item>
+        <item>@drawable/lomoeffect_11</item>
+        <item>@drawable/lomoeffect_12</item>
+        <item>@drawable/lomoeffect_13</item>
+        <item>@drawable/lomoeffect_14</item>
+    </array>
+    
+    <array name="img_effect_yishu_thumbs">
+        <item>@drawable/effect_0</item>
+        <item>@drawable/arteffect_01</item>
+        <item>@drawable/arteffect_02</item>
+        <item>@drawable/arteffect_03</item>
+        <item>@drawable/arteffect_04</item>
+        <item>@drawable/arteffect_05</item>
+        <item>@drawable/arteffect_06</item>
+    </array>
+    
+    <array name="img_effect_shishang_thumbs">
+        <item>@drawable/effect_0</item>
+        <item>@drawable/fashioneffect_01</item>
+        <item>@drawable/fashioneffect_02</item>
+        <item>@drawable/fashioneffect_03</item>
+        <item>@drawable/fashioneffect_04</item>
+        <item>@drawable/fashioneffect_05</item>
+        <item>@drawable/fashioneffect_06</item>
+        <item>@drawable/fashioneffect_07</item>
+    </array>
+    
+    <array name="img_effect_yinglou_thumbs">
+        <item>@drawable/effect_0</item>
+        <item>@drawable/photoeffect_01</item>
+        <item>@drawable/photoeffect_02</item>
+        <item>@drawable/photoeffect_03</item>
+        <item>@drawable/photoeffect_04</item>
+        <item>@drawable/photoeffect_05</item>
+        <item>@drawable/photoeffect_11</item>
+        <item>@drawable/photoeffect_06</item>
+        <item>@drawable/photoeffect_07</item>
+        <item>@drawable/photoeffect_08</item>
+        <item>@drawable/photoeffect_09</item>
+        <item>@drawable/photoeffect_10</item>
+    </array>
+    
+    <array name="img_mosaic">
+        <item>@drawable/mosaic_style_icon_1</item>
+        <item>@drawable/mosaic_style_icon_2</item>
+        <item>@drawable/mosaic_style_icon_3</item>
+        <item>@drawable/mosaic_style_icon_4</item>
+        <item>@drawable/mosaic_style_icon_5</item>
+        <item>@drawable/mosaic_style_icon_6</item>
+        <item>@drawable/mosaic_style_icon_7</item>
+        <item>@drawable/mosaic_style_icon_8</item>
+        <item>@drawable/mosaic_style_icon_9</item>
+        <item>@drawable/mosaic_style_icon_10</item>
+        <item>@drawable/mosaic_style_icon_11</item>
+        <item>@drawable/mosaic_style_icon_12</item>
+    </array>
+
+</resources>

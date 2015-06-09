@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"/>
+   <LinearLayout
+        android:id="@+id/linearLayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/empty1"
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"/>
+	<LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_sharpness"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_sharpness"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView_sharpness_progress"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/Sharpness" />
+   </LinearLayout>
+
+   <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_color"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"/>
+        <TextView
+            android:id="@+id/textView_color"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView_color_progress"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/Color" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_skinTone"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_skinTone"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView_skinTone_progress"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/SkinTone" />
+    </LinearLayout>
+
+<LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView1_skinSat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_skinSat"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_skinSat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/SGS_number"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView_skinSat_progress"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/Skin_tone_Sat" />
+   </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_grassTone"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_grassTone"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView_grassTone_progress"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/GrassTone" />
+    </LinearLayout>
+
+<LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView1_GrassSat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_GrassSat"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_GrassSat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/SGS_number"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView_GrassSat_progress"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/Grass_tone_Sat" />
+</LinearLayout>
+
+   <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_skyTone"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_skyTone"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView_skyTone_progress"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/SkyTone" />
+        </LinearLayout>
+
+<LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView1_skySat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_skySat"
+            android:layout_height="wrap_content"
+            android:layout_width="320dp"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_skySat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/SGS_number"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView_skySat_progress"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/Sky_tone_Sat" />
+    </LinearLayout>
+</LinearLayout>
+</FrameLayout>

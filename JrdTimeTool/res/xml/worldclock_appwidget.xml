@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**************************************************************************************************/
+/*                                                                                 Date : 05/2011 */
+/*                            PRESENTATION                                                        */
+/*              Copyright (c) 2010 JRD Communications, Inc.                                       */
+/**************************************************************************************************/
+/*                                                                                                */
+/*    This material is company confidential, cannot be reproduced in any                          */
+/*    form without the written permission of JRD Communications, Inc.                             */
+/*                                                                                                */
+/*================================================================================================*/
+/*   Author :   Xingke Wu                                                                         */
+/*   Role :     WorldClock GUI                                                                    */
+/*   Reference documents : NONE                                                                   */
+/*================================================================================================*/
+/* Comments :                                                                                     */
+/*     file    : ./packages/apps/WorldClock/res/xml/worldclock_appwidget.xml                      */
+/*     Labels  :                                                                                  */
+/*================================================================================================*/
+/* Modifications   (month/day/year)                                                               */
+/*================================================================================================*/
+/* date    | author       |FeatureID                   |modification                              */
+/*=========|==============|============================|==========================================*/
+/*05/27/11 |  Xingke Wu   | FR-116524-Xingke-Wu-001    | porting WorldClock                       */
+/*================================================================================================*/
+/*         |              |                            |                                          */
+/*================================================================================================*/
+/* Problems Report(PR/CR)                                                                         */
+/*================================================================================================*/
+/* date    | author       | PR #                       |                                          */
+/*=========|==============|============================|==========================================*/
+/*         |              |                            |                                          */
+/*================================================================================================*/
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_layout"
+    android:minWidth="294dp"
+    android:minHeight="60dip"
+    android:previewImage="@drawable/appwidget_worldclock_preview"
+    android:resizeMode="none"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen" >
+
+</appwidget-provider>

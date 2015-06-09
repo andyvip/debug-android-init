@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- LOMO特效底部按钮标题数组 // LOMO:原图、经典LOMO、炫彩LOMO、胶片、复古、印象、HDR、经典HDR、 老照片、古铜色、牛皮纸、流金岁月、哥特风、反转色、移轴特效 -->
+	<string-array name="img_effect_lomo_titles">
+		<item>@string/effect_normal</item>
+		<item>@string/effect_lomo_1</item>
+		<item>@string/effect_lomo_2</item>
+		<item>@string/effect_lomo_3</item>
+		<item>@string/effect_lomo_4</item>
+		<item>@string/effect_lomo_5</item>
+		<item>@string/effect_lomo_6</item>
+		<item>@string/effect_lomo_7</item>
+		<item>@string/effect_lomo_8</item>
+		<item>@string/effect_lomo_9</item>
+		<item>@string/effect_lomo_10</item>
+		<item>@string/effect_lomo_11</item>
+		<item>@string/effect_lomo_12</item>
+		<item>@string/effect_lomo_13</item>
+		<item>@string/effect_lomo_14</item>
+	</string-array>
+
+	<!-- 影楼特效相关资源 // 影楼：原图、淡雅、日系、阿宝色、古典、旧时光、暖洋洋 -->
+	<string-array name="img_effect_yinglou_titles">
+		<item>@string/effect_normal</item>
+		<item>@string/effect_photo_1</item>
+		<item>@string/effect_photo_2</item>
+		<item>@string/effect_photo_3</item>
+		<item>@string/effect_photo_4</item>
+		<item>@string/effect_photo_5</item>
+		<item>@string/effect_photo_11</item>
+		<item>@string/effect_photo_6</item>
+		<item>@string/effect_photo_7</item>
+		<item>@string/effect_photo_8</item>
+		<item>@string/effect_photo_9</item>
+		<item>@string/effect_photo_10</item>
+	</string-array>
+
+	<!-- 时尚特效相关资源配置 // 时尚：原图、亮红、平安夜、飞雪、夜景、七彩光晕、星芒 -->
+	<!-- PR860361 modify translation problem by fengke at 2014.12.10 -->
+	<string-array name="img_effect_shishang_titles">
+		<item>@string/effect_normal</item>
+		<item>@string/effect_fashion_1</item>
+		<item>@string/effect_fashion_2</item>
+		<item>@string/effect_fashion_3</item>
+		<item>@string/effect_fashion_4</item>
+		<item>@string/effect_fashion_5</item>
+		<item>@string/pixi335_effect_fashion_6</item>
+		<item>@string/effect_fashion_7</item>
+	</string-array>
+
+	<!-- 艺术特效相关配置 // 艺术：原图、写生素描、古典素描、彩铅、油画 -->
+	<string-array name="img_effect_yishu_titles">
+		<item>@string/effect_normal</item>
+		<item>@string/effect_art_1</item>
+		<item>@string/effect_art_2</item>
+		<item>@string/effect_art_3</item>
+		<item>@string/effect_art_4</item>
+		<item>@string/effect_art_5</item>
+		<item>@string/effect_art_6</item>
+	</string-array>
+    
+    <string-array name="img_simple_frame_titles">
+        <item>@string/frame_simple_1</item>
+        <item>@string/frame_simple_2</item>
+        <item>@string/frame_simple_3</item>
+        <item>@string/frame_simple_4</item>
+        <item>@string/frame_simple_5</item>
+        <item>@string/frame_simple_6</item>
+        <item>@string/frame_simple_7</item>
+        <item>@string/frame_simple_8</item>
+        <item>@string/frame_simple_9</item>
+        <item>@string/frame_simple_10</item>
+        <item>@string/frame_simple_11</item>
+        <item>@string/frame_simple_12</item>
+    </string-array>
+    
+    <string-array name="img_colorful_frame_titles">
+        <item>@string/frame_colorful_1</item>
+        <item>@string/frame_colorful_2</item>
+        <item>@string/frame_colorful_3</item>
+        <item>@string/frame_colorful_4</item>
+        <item>@string/frame_colorful_5</item>
+        <item>@string/frame_colorful_6</item>
+    </string-array>
+	
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topselect_folder"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/bg_view_topmenubackgroundpic_a" >
+
+    <Button
+        android:id="@+id/folders_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:background="@drawable/btn_top_back"
+        android:paddingLeft="7.0dip"
+        android:text="@string/btn_return"
+        android:visibility="gone"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/album_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/album_title"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="20.0dip"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12.0dip"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_square_short"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="6.0dip"
+        android:text="@string/cancel"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

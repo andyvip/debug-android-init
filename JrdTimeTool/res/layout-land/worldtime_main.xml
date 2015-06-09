@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_title_heght"
+        android:background="@drawable/title_bar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:duplicateParentState="true"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/activity_worldclock"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:id="@+id/worldtime_option"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true" >
+
+            <LinearLayout
+                android:id="@+id/add_worldtime"
+                android:layout_width="52dp"
+                android:layout_height="48dp"
+               android:background="@drawable/titlebar_button_bg_selector"
+                android:gravity="center_horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/add" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/del_worldtime"
+                android:layout_width="52dp"
+                android:layout_height="48dp"
+                android:background="@drawable/titlebar_button_bg_selector"
+                android:gravity="center_horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/delete" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/worldtime_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@null"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:listSelector="@drawable/list_selector"
+        android:numColumns="3"
+        android:stretchMode="columnWidth" />
+
+</LinearLayout>

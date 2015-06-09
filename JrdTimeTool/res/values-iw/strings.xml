@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="loading_ringtone">"טוען צלצול..."</string>
+	<!---->
+	<string name="app_name">"שעון"</string>
+	<!---->
+	<string name="activity_worldclock">"שעון עולמי"</string>
+	<!---->
+	<string name="activity_alarm">"התראה"</string>
+	<!---->
+	<string name="activity_Timer">"טיימר עצמי"</string>
+	<!---->
+	<string name="activity_timer">"טיימר עצמי"</string>
+	<!---->
+	<string name="Timer_start">"התחל"</string>
+	<!---->
+	<string name="Timer_stop">"עצור"</string>
+	<!---->
+	<string name="Timer_resume">"המשך"</string>
+	<!---->
+	<string name="Timer_clean">"נקה"</string>
+	<!---->
+	<string name="Timer_record">"הקפה"</string>
+	<!---->
+	<string name="Timer_absolutetime">"סך הכל"</string>
+	<!---->
+	<string name="Timer_relativetime">"הקפה זו"</string>
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!---->
+	<string name="Timer_warning">"מצב אזהרה"</string>
+	<!---->
+	<string name="Timer_exit_warning">"טיימר רץ. האם ברצונך לצאת?"</string>
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"צלצול"</string>
+	<!---->
+	<string name="timer_start">"התחל"</string>
+	<!---->
+	<string name="timer_cancel">"ביטול"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"שקט"</string>
+	<!---->
+	<string name="timer_ringtone_choose_title">"קבע צילצול"</string>
+	<!---->
+	<string name="timer_exit_warning">"טיימר רץ. האם ברצונך לצאת?"</string>
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_alert_label">"זמן למעלה"</string>
+	<!---->
+	<string name="timer_hour">"שעה"</string>
+	<!---->
+	<string name="timer_minute">"דקה"</string>
+	<!---->
+	<string name="timer_second">"שניה"</string>
+	<!---->
+	<string name="set_alarm">"הגדר התראה"</string>
+	<!---->
+	<string name="settings">"הגדרות"</string>
+	<!---->
+	<string name="auto_silence_title">"השתקה אוטומטית"</string>
+	<!---->
+	<string name="auto_silence_summary">"ההתראות יושתקו כעבור <xliff:g id="MINUTES">%d</xliff:g> דקות"</string>
+	<!---->
+	<string name="auto_silence_never">"כבוי"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"התראה במצב שקט"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"השמע התראות גם כאשר הטלפון במצב שקט"</string>
+	<string-array name="auto_silence_entries">
+		<item>"כבוי"</item>
+		<item>"5 דקות"</item>
+		<item>"עשר דקות"</item>
+		<item>"15 דקות"</item>
+		<item>"20 דקות"</item>
+		<item>"25 דקות"</item>
+		<item>"30 דקות"</item>
+	</string-array>
+	<!---->
+	<string name="add_alarm">"הוסף התראה"</string>
+	<!---->
+	<string name="default_label">"התראה"</string>
+	<!---->
+	<string name="never">"אף פעם"</string>
+	<!---->
+	<string name="every_day">"כל יום"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!---->
+	<string name="alarm_settings">"הגדרות"</string>
+	<!---->
+	<string name="delete_alarm">"מחק התראה"</string>
+	<!---->
+	<string name="delete_alarm_confirm">"ההתראה תמחק."</string>
+	<!---->
+	<string name="snooze_duration_title">"פרק זמן בין נידנודים"</string>
+	<!---->
+	<string name="delete_alarm_message">"למחוק את ההתראה שנבחרה?"</string>
+	<string-array name="snooze_duration_entries">
+		<item>"5 דקות"</item>
+		<item>"עשר דקות"</item>
+		<item>"15 דקות"</item>
+		<item>"20 דקות"</item>
+		<item>"25 דקות"</item>
+		<item>"30 דקות"</item>
+	</string-array>
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"לחצני עוצמת קול"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"פעולת הלחצן"</string>
+	<!---->
+	<string name="volume_button_setting_summary">"קבע את ההתנהגות הרצויה של הכפתורים שנלחצים בזמן התראה"</string>
+	<string-array name="volume_button_setting_entries">
+		<item>"ללא"</item>
+		<item>"נודניק"</item>
+		<item>"בטל"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!---->
+	<string name="turn_over_to_active_title">"הפוך כדי להפעיל"</string>
+	<!---->
+	<string name="turn_over_to_active_dialog_title">"התנהגות הפיכת המכשיר"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"חזרה"</string>
+	<!---->
+	<string name="alarm_vibrate">"רטט"</string>
+	<!---->
+	<string name="label">"תווית"</string>
+	<!---->
+	<string name="day">"יום"</string>
+	<!---->
+	<string name="days">"%s ימים"</string>
+	<!---->
+	<string name="hour">"שעה"</string>
+	<!---->
+	<string name="hours">"%s שעות"</string>
+	<!---->
+	<string name="minute">"דקה"</string>
+	<!---->
+	<string name="minutes">"%s דקות"</string>
+	<string-array name="alarm_set">
+		<item>"התראה זו מוגדרת לעוד פחות מדקה מעכשיו."</item>
+		<item>"שעון מעורר זה נקבע ל-%1$s מעכשיו"</item>
+		<item>"שעון מעורר זה נקבע ל-%2$s מעכשיו."</item>
+		<item>"שעון מעורר זה נקבע ל-%1$s ו-%2$s מעכשיו."</item>
+		<item>"שעון מעורר זה נקבע ל-%3$s מעכשיו."</item>
+		<item>"שעון מעורר זה נקבע ל-%1$s ו- %3$s מעכשיו."</item>
+		<item>"שעון מעורר זה נקבע ל-%2$s ו-%3$s מעכשיו."</item>
+		<item>"שעון מעורר זה נקבע ל-%1$s, %2$s,  מעכשיו."</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"שקט"</string>
+	<!---->
+	<string name="alarm_notify_text">"בחר נודניק או צא מההתראה"</string>
+	<!---->
+	<string name="alarm_alert_alert_silenced">"התראה מושתקת אחרי %d דקות"</string>
+	<!---->
+	<string name="alarm_alert_snooze_text">"נודניק"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"עצור"</string>
+	<!---->
+	<string name="alarm_notify_snooze_label">"%s (נודניק)"</string>
+	<!---->
+	<string name="alarm_notify_snooze_text">"התראה נקבעה לשעה <xliff:g id="TIME">%s</xliff:g>. בחר כדי לבטל."</string>
+	<!---->
+	<string name="alarm_alert_snooze_set">"נדנד למשל %d דקות."</string>
+	<!---->
+	<string name="system_acticity_name">"מערכת"</string>
+	<!---->
+	<string name="music_acticity_name">"המוסיקה שלי"</string>
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!---->
+	<string name="no_music">"אין מוסיקה"</string>
+	<!---->
+	<string name="default_ringtone">"צלצול ברירת מחדל"</string>
+	<!---->
+	<string name="add_city">"הוספת עיר"</string>
+	<!---->
+	<string name="select_city">"בחר עיר"</string>
+	<!---->
+	<string name="delete_city">"מחק"</string>
+	<!---->
+	<string name="delete_worldtime_message">"האם אתה בטוח שברצונך למחוק את השעון?"</string>
+	<!---->
+	<string name="worldtime_search_hint">"הכנס שם עיר"</string>
+	<!---->
+	<string name="sel_from_below">"או בחר מלמטה:"</string>
+	<!---->
+	<string name="worldtime_is_showed">"(הוסף)"</string>
+	<!---->
+	<string name="worldtime_menu_delete">"מחק"</string>
+	<!---->
+	<string name="worldtime_delete_title">"מחק עיר"</string>
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"היום"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"אתמול"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"מחר"</string>
+	<!---->
+	<string name="time_am">"לפנה"צ"</string>
+	<!---->
+	<string name="time_pm">"אחה"צ"</string>
+	<!---->
+	<string name="no_city">"לא יכול למצוא עיר"</string>
+	<!---->
+	<string name="time_picker_cancel">"ביטול"</string>
+	<!---->
+	<string name="time_picker_set">"אישור"</string>
+	<!---->
+	<string name="night_mode_title">"מצב לילה"</string>
+	<!---->
+	<string name="night_mode_summary">"תצוגה עמומה מאוד (לחדרים חשוכים)"</string>
+	<!---->
+	<string name="app_label">"שעון"</string>
+	<!---->
+	<string name="clock_style">"סיגנון"</string>
+	<!---->
+	<string name="screensaver_settings">"הגדרות חלום"</string>
+	<!---->
+	<string name="screensaver_clock_label">"שעון"</string>
+	<!--translate [alarm_in_silent_mode_summary_tablet] from sourcecode xml -->
+	<string name="alarm_in_silent_mode_summary_tablet">"השמע התראה גם כשהטאבלט במצב שקט"</string>
+	<!---->
+	<string name="app_name_clock">"שעון"</string>
+</resources>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="loading_ringtone">"جارٍ تحميل نغمة الرنين\u2026"</string>
+	<!---->
+	<string name="app_name">"الوقت"</string>
+	<!---->
+	<string name="activity_worldclock">"الساعة العالمية"</string>
+	<!---->
+	<string name="activity_alarm">"منبه"</string>
+	<!---->
+	<string name="activity_Timer">"الموقت"</string>
+	<!---->
+	<string name="activity_timer">"موقت العد العكسي"</string>
+	<!---->
+	<string name="Timer_start">"بدء"</string>
+	<!---->
+	<string name="Timer_stop">"إيقاف"</string>
+	<!---->
+	<string name="Timer_resume">"استئناف"</string>
+	<!---->
+	<string name="Timer_clean">"مسح"</string>
+	<!---->
+	<string name="Timer_record">"دورة"</string>
+	<!---->
+	<string name="Timer_absolutetime">"الإجمالي"</string>
+	<!---->
+	<string name="Timer_relativetime">"هذه الدورة"</string>
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!---->
+	<string name="Timer_warning">"تحذير"</string>
+	<!---->
+	<string name="Timer_exit_warning">"المؤقت قيد التشغيل. هل ترغب في الإنهاء؟"</string>
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"نغمة الرنين"</string>
+	<!---->
+	<string name="timer_start">"بدء"</string>
+	<!---->
+	<string name="timer_cancel">"إلغاء"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"صامت"</string>
+	<!---->
+	<string name="timer_ringtone_choose_title">"تعيين نغمة الرنين"</string>
+	<!---->
+	<string name="timer_exit_warning">"موقت العد العكسي قيد التشغيل، هل تريد الإنهاء؟"</string>
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_alert_label">"انتهى الوقت"</string>
+	<!---->
+	<string name="timer_hour">"ساعة"</string>
+	<!---->
+	<string name="timer_minute">"دقيقة"</string>
+	<!---->
+	<string name="timer_second">"ثانية"</string>
+	<!---->
+	<string name="set_alarm">"ضبط منبه"</string>
+	<!---->
+	<string name="settings">"الإعدادات"</string>
+	<!---->
+	<string name="auto_silence_title">"صمت تلقائي"</string>
+	<!---->
+	<string name="auto_silence_summary">"سيتم ضبط المنبه على صامت بعد مرور <xliff:g id="minutes">%d</xliff:g> دقائق"</string>
+	<!---->
+	<string name="auto_silence_never">"إيقاف"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"المنبه في الوضع الصامت"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"تشغيل المنبه حتى عندما يكون الهاتف في الوضع الصامت"</string>
+	<string-array name="auto_silence_entries">
+		<item>"إيقاف"</item>
+		<item>"5 دقائق"</item>
+		<item>"10 دقائق"</item>
+		<item>"15 دقيقة"</item>
+		<item>"20 دقيقة"</item>
+		<item>"25 دقيقة"</item>
+		<item>"30 دقيقة"</item>
+	</string-array>
+	<!---->
+	<string name="add_alarm">"إضافة منبه"</string>
+	<!---->
+	<string name="default_label">"منبه"</string>
+	<!---->
+	<string name="never">"مطلقًا"</string>
+	<!---->
+	<string name="every_day">"كل يوم"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!---->
+	<string name="alarm_settings">"الإعدادات"</string>
+	<!---->
+	<string name="delete_alarm">"حذف منبه"</string>
+	<!---->
+	<string name="delete_alarm_confirm">"سيتم حذف هذا المنبه."</string>
+	<!---->
+	<string name="snooze_duration_title">"مدة الغفوة"</string>
+	<!---->
+	<string name="delete_alarm_message">"حذف المنبه المحدد؟"</string>
+	<string-array name="snooze_duration_entries">
+		<item>"5 دقائق"</item>
+		<item>"10 دقائق"</item>
+		<item>"15 دقيقة"</item>
+		<item>"20 دقيقة"</item>
+		<item>"25 دقيقة"</item>
+		<item>"30 دقيقة"</item>
+	</string-array>
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"أزرار مستوى الصوت"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"أداء الزر"</string>
+	<!---->
+	<string name="volume_button_setting_summary">"تعيين السلوك المطلوب للأزرار عند الضغط عليها أثناء المنبه"</string>
+	<string-array name="volume_button_setting_entries">
+		<item>"بدون"</item>
+		<item>"غفوة"</item>
+		<item>"تجاهل"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!---->
+	<string name="turn_over_to_active_title">"قلب للتنشيط"</string>
+	<!---->
+	<string name="turn_over_to_active_dialog_title">"سلوك تغيير الاتجاه"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"تكرار"</string>
+	<!---->
+	<string name="alarm_vibrate">"اهتزاز"</string>
+	<!---->
+	<string name="label">"بطاقة"</string>
+	<!---->
+	<string name="day">"يوم واحد"</string>
+	<!---->
+	<string name="days">"%s أيام"</string>
+	<!---->
+	<string name="hour">"ساعة واحدة"</string>
+	<!---->
+	<string name="hours">"%s ساعات"</string>
+	<!---->
+	<string name="minute">"دقيقة واحدة"</string>
+	<!---->
+	<string name="minutes">"%s دقائق"</string>
+	<string-array name="alarm_set">
+		<item>"تم ضبط هذا المنبه لأقل من دقيقة بدءًا من الآن."</item>
+		<item>"تم تعيين هذا المنبه لـ %1$s من الآن."</item>
+		<item>"تم تعيين هذا المنبه لـ %2$s من الآن."</item>
+		<item>"تم تعيين هذا المنبه لـ %1$s و%2$s من الآن."</item>
+		<item>"تم تعيين هذا المنبه لـ %3$s من الآن."</item>
+		<item>"تم تعيين هذا المنبه لـ %1$s و%3$s من الآن."</item>
+		<item>"تم تعيين هذا المنبه لـ %2$s و%3$s من الآن."</item>
+		<item>"تم تعيين هذا المنبه لـ %1$s و%2$s و%3$s من الآن."</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"صامت"</string>
+	<!---->
+	<string name="alarm_notify_text">"حدد لرفض هذا المنبه أو ضبطه على غفوة."</string>
+	<!---->
+	<string name="alarm_alert_alert_silenced">"صار المنبه صامتًا بعد مرور %d دقائق"</string>
+	<!---->
+	<string name="alarm_alert_snooze_text">"غفوة"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"إيقاف"</string>
+	<!---->
+	<string name="alarm_notify_snooze_label">"%s (في غفوة)"</string>
+	<!---->
+	<string name="alarm_notify_snooze_text">"تم ضبط المنبه لمدة <xliff:g id="time">%s</xliff:g>. حدد للإلغاء."</string>
+	<!---->
+	<string name="alarm_alert_snooze_set">"غفوة لمدة %d دقائق."</string>
+	<!---->
+	<string name="system_acticity_name">"النظام"</string>
+	<!---->
+	<string name="music_acticity_name">"الموسيقى"</string>
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!---->
+	<string name="no_music">"لا توجد موسيقى"</string>
+	<!---->
+	<string name="default_ringtone">"نغمة الرنين الافتراضية"</string>
+	<!---->
+	<string name="add_city">"إضافة مدينة"</string>
+	<!---->
+	<string name="select_city">"تحديد المدينة"</string>
+	<!---->
+	<string name="delete_city">"حذف"</string>
+	<!---->
+	<string name="delete_worldtime_message">"هل تريد حذف الساعة بالفعل؟"</string>
+	<!---->
+	<string name="worldtime_search_hint">"أدخل اسم المدينة"</string>
+	<!---->
+	<string name="sel_from_below">"أو اختر مما يلي:"</string>
+	<!---->
+	<string name="worldtime_is_showed">"(تمت الإضافة)"</string>
+	<!---->
+	<string name="worldtime_menu_delete">"حذف"</string>
+	<!---->
+	<string name="worldtime_delete_title">"حذف المدينة"</string>
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"هذا اليوم"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"أمس"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"غدًا"</string>
+	<!---->
+	<string name="time_am">"ص"</string>
+	<!---->
+	<string name="time_pm">"م"</string>
+	<!---->
+	<string name="no_city">"يتعذر العثور على المدينة"</string>
+	<!---->
+	<string name="time_picker_cancel">"إلغاء"</string>
+	<!---->
+	<string name="time_picker_set">"موافق"</string>
+	<!---->
+	<string name="night_mode_title">"وضع المساء"</string>
+	<!---->
+	<string name="night_mode_summary">"شاشة معتمة للغاية (للغرف المظلمة)"</string>
+	<!---->
+	<string name="app_label">"الساعة"</string>
+	<!---->
+	<string name="clock_style">"النمط"</string>
+	<!---->
+	<string name="screensaver_settings">"إعدادات وضع الحلم"</string>
+	<!---->
+	<string name="screensaver_clock_label">"الساعة"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary_tablet">"تشغيل المنبه عندما يكون الجهاز اللوحي في الوصع الصامت"</string>
+	<!---->
+	<string name="app_name_clock">"الساعة"</string>
+</resources>

@@ -1,0 +1,505 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.deskclock"
+    android:versionCode="59"
+    android:versionName="4.0.1.0059.0" >
+
+    <original-package android:name="com.jrdcom.timetool" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <!-- PR:433114 add by caorongxing start -->
+    <uses-permission android:name="android.permission.SHUTDOWN" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <!-- PR:433114 add by caorongxing end -->
+    <!-- add permission for theme2 begin -->
+    <permission android:name="com.jrd.permission.SWITCH_JRDTHEME" />
+
+    <uses-permission android:name="com.jrd.permission.SWITCH_JRDTHEME" />
+    <!-- add permission for theme2 end -->
+    <!-- PR:498174 add by XIBIN start -->
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES" />
+    <!-- PR:498174 add by XIBIN end -->
+    <!-- FR 567457- Neo Skunkworks - Paul Xu added - 001 Begin -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <!-- FR 567457- Neo Skunkworks - Paul Xu added - 001 End -->
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:icon="@drawable/ic_launcher_timetool"
+        android:label="@string/app_name"
+        android:supportsRtl="true" >
+        <activity
+            android:name="com.jrdcom.timetool.TimeToolActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/MyNoTitleBar"
+            android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name="DeskClock"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:targetActivity="com.jrdcom.timetool.TimeToolActivity"
+            android:theme="@style/MyNoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- PR 653807 - Neo Skunkworks - Paul Xu added - 001 Begin -->
+                <!--
+                <action android:name="android.intent.action.SHOW_ALARMS" />
+                <action android:name="android.intent.action.SET_TIMER" />
+                -->
+                <!-- PR 653807 - Neo Skunkworks - Paul Xu added - 001 End -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- alarm -->
+        <activity
+            android:name="com.jrdcom.timetool.alarm.activity.AlarmActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_alarm"
+			android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/set_alarm" />
+            </intent-filter>
+        </activity>
+        <!-- PR:488578 add by XIBIN start -->
+        <activity-alias
+            android:name="AlarmClock"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/activity_alarm"
+            android:targetActivity="com.jrdcom.timetool.TimeToolActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="WorldClock"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/activity_alarm"
+            android:targetActivity="com.jrdcom.timetool.TimeToolActivity" />
+
+        <activity
+            android:name="com.jrdcom.timetool.alarm.activity.SettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/alarm_settings"
+            android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name="SettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/alarm_settings"
+            android:targetActivity="com.jrdcom.timetool.alarm.activity.SettingsActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.jrdcom.timetool.alarm.activity.SetAlarm"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/add_alarm"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+        </activity>
+        <activity
+            android:name="com.jrdcom.timetool.alarm.activity.DeleteAlarm"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/delete_alarm"
+            android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+        </activity>
+        <!-- PR 607431 - Neo Skunkworks - Soar Gao - 001 begin    add   android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <!--
+            PR 673758 	- Neo Skunkworks - Paul Xu modified @android:style/Theme.Holo.Dialog to 
+        	android:theme="@style/Transparent" - 001 Begin
+        -->
+        <activity
+            android:name="com.jrdcom.timetool.alarm.activity.AlarmAlert"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:theme="@style/custom_dialog_theme"
+            android:screenOrientation="portrait" /> <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+        <activity
+            android:name="com.jrdcom.timetool.alarm.activity.AlarmAlertFullScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:theme="@style/Transparent"
+            android:screenOrientation="portrait" /> <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+        <activity
+            android:name="com.jrdcom.timetool.countdown.activity.CountDownChooseRingtoneDialogActivity"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            android:screenOrientation="portrait" /> <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+
+        <!-- PR 607431 - Neo Skunkworks - Soar Gao - 001 end    add   android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <activity
+            android:name="com.jrdcom.timetool.alarm.activity.HandleSetAlarm"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:permission="com.android.alarm.permission.SET_ALARM"
+            android:theme="@android:style/Theme.NoDisplay"
+            android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- PR 653807 - Neo Skunkworks - Paul Xu added - 001 Begin -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SHOW_ALARMS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SET_TIMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- PR 653807 - Neo Skunkworks - Paul Xu added - 001 End -->
+        </activity>
+
+        <activity-alias
+            android:name="HandleSetAlarm"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:permission="com.android.alarm.permission.SET_ALARM"
+            android:targetActivity="com.jrdcom.timetool.alarm.activity.HandleSetAlarm"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM" />
+            </intent-filter>
+        </activity-alias>
+        <!-- PR 587415 - Neo Skunkworks - Soar Gao - delete -001 -->
+        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <activity
+            android:name="com.jrdcom.timetool.alarm.activity.GotoRingtoneActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Holo.Dialog" 
+            android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jrdcom.timetool.alarm.activity.SystemActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jrdcom.timetool.alarm.activity.MusicActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.jrdcom.timetool.alarm.provider.AlarmProvider"
+            android:authorities="com.jrdcom.timetool.alarm"
+            android:exported="true" /> <!-- add by Yanjingming for FR506933 -->
+
+        <receiver android:name="com.jrdcom.timetool.alarm.receiver.AlarmInitReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <!-- FR 562625- Neo Skunkworks - Paul Xu added android:exported="true" - 001 Begin -->
+        <receiver
+            android:name="com.jrdcom.timetool.alarm.receiver.AlarmReceiver"
+            android:exported="true" >
+            <intent-filter>
+
+                <!-- PR 655226 - Neo Skunkworks - Paul Xu modified - 001 Begin -->
+                <!-- PR:415395 20130315 hengfeng.liu modified start -->
+                <!-- <action android:name="com.android.deskclock.ALARM_ALERT" /> -->
+                <action android:name="com.android.deskclock.START_ALARM" />
+                <!-- PR:415395 20130315 hengfeng.liu modified end -->
+                <!-- PR 655226 - Neo Skunkworks - Paul Xu modified - 001 End -->
+                <action android:name="alarm_killed" />
+                <action android:name="cancel_snooze" />
+                <!-- PR 665930 - Neo Skunkworks - Paul Xu added - 001 Begin -->
+                <action android:name="android.intent.action.PHONE_STATE" />
+                <!-- PR 665930 - Neo Skunkworks - Paul Xu added - 001 End -->
+            </intent-filter>
+        </receiver>
+        <!-- PR:446598 add by xibin start -->
+        <receiver android:name="com.jrdcom.timetool.alarm.receiver.ClearSnoozeReceiver" >
+            <intent-filter>
+                <action android:name="com.android.deskclock.alarm.receiver.CLEAR_SNOOZE_DATA" />
+            </intent-filter>
+        </receiver>
+        <!-- PR:446598 add by xibin end -->
+        <!-- PR535346-Xiaorong-Yu-449 -->
+        <receiver android:name="com.jrdcom.timetool.alarm.receiver.CancelAlarmReceiver" >
+            <intent-filter>
+                <action android:name="com.jrdcom.carmode_cancel_alarm" />
+            </intent-filter>
+        </receiver>
+        <!-- PR535346-Xiaorong-Yu-449 -->
+        <!--
+			This service receives the same intent as AlarmReceiver but it does
+			not respond to the same broadcast. The AlarmReceiver will receive the
+			alert broadcast and will start this service with the same intent. The
+			service plays the alarm alert and vibrates the device. This allows
+			the alert to continue playing even if another activity causes the
+			AlarmAlert activity to pause.
+        -->
+        <service android:name="com.jrdcom.timetool.alarm.service.AlarmKlaxon" >
+            <intent-filter>
+
+                <!-- PR 655226 - Neo Skunkworks - Paul Xu modified - 001 Begin -->
+                <!-- PR:415395 20130315 hengfeng.liu modified start -->
+                <!-- <action android:name="com.android.deskclock.ALARM_ALERT" /> -->
+                <!-- PR:415395 20130315 hengfeng.liu modified end -->
+                <action android:name="com.android.deskclock.START_ALARM" />
+                <!-- PR 655226 - Neo Skunkworks - Paul Xu modified - 001 End -->
+            </intent-filter>
+        </service>
+
+        <!-- PR:433114 add by caorongxing start -->
+        <service android:name="com.jrdcom.timetool.alarm.service.PowerOffAlarmService" >
+            <intent-filter>
+
+                <!-- PR 655226 - Neo Skunkworks - Paul Xu modified - 001 Begin -->
+                <!-- <action android:name="android.intent.action.SNOOZE" /> -->
+                <action android:name="com.android.deskclock.SNOOZE_ALARM" />
+                <!-- PR 655226 - Neo Skunkworks - Paul Xu modified - 001 End -->
+            </intent-filter>
+        </service>
+        <!-- PR:446598 add by xibin start -->
+        <service android:name="com.jrdcom.timetool.alarm.service.ClearSnoozeService" >
+        </service>
+        <!-- PR:446598 add by xibin end -->
+        <!-- PR:433114 add by caorongxing end -->
+
+
+        <!-- timer -->
+        <activity
+            android:name="com.jrdcom.timetool.timer.activity.TimerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_Timer"
+            android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+        </activity>
+
+        <service android:name="com.jrdcom.timetool.timer.service.EmptyService" >
+        </service>
+        <service android:name="com.jrdcom.timetool.timer.service.MediaPlayerServiceForButton" >
+        </service>
+
+        <!-- Count Down -->
+        <activity
+            android:name="com.jrdcom.timetool.countdown.activity.CountDownActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_timer"
+			android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+        </activity>
+        <activity
+            android:name="com.jrdcom.timetool.countdown.activity.CountDownAlarmAlert"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Holo.Dialog"
+			android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+        </activity>
+
+        <service android:name="com.jrdcom.timetool.countdown.service.BackgroundCountDownService" >
+        </service>
+        <service android:name="com.jrdcom.timetool.countdown.service.MediaPlayerService" >
+        </service>
+
+        <activity
+            android:name="com.jrdcom.timetool.countdown.activity.CountDownAlarmAlertFullScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:theme="@style/Transparent"
+            android:screenOrientation="portrait" /> <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+
+        <!-- world clock -->
+        <activity
+            android:name="com.jrdcom.timetool.worldclock.activity.WorldClockActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/activity_worldclock"
+            android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+        </activity>
+
+        <!-- PR 585760- Neo Skunkworks - Paul Xu added android:windowSoftInputMode="adjustPan"- 001 -->
+        <activity
+            android:name="com.jrdcom.timetool.worldclock.activity.TimeZoneChooseActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/add_city"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+        </activity>
+
+        <activity-alias
+            android:name=".worldclock.CitiesActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/add_city"
+            android:targetActivity="com.jrdcom.timetool.worldclock.activity.TimeZoneChooseActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.jrdcom.timetool.worldclock.activity.DeleteWorldClockActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/worldtime_delete_title"
+            android:screenOrientation="portrait" /> <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+
+        <provider
+            android:name="com.jrdcom.timetool.worldclock.provider.TimeZoneProvider"
+            android:authorities="com.jrdcom.timetool.worldclock"
+            android:exported="true"
+            android:grantUriPermissions="true" />
+        <!-- add pr447868 xibin start JrdTimetool与Deskclock功能整合 -->
+        <service
+            android:name="com.jrdcom.timetool.dreamservice.Screensaver"
+            android:exported="true"
+            android:label="@string/screensaver_clock_label" >
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.dream"
+                android:resource="@xml/dream_info" />
+        </service>
+        <!-- Settings activity for screensaver -->
+        <activity
+            android:name="com.jrdcom.timetool.dreamservice.ScreensaverSettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/screensaver_settings"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Holo.Light"
+            android:screenOrientation="portrait" > <!-- modify by liang.zhang for PR 873188 at 2014-12-19 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name=".dreamservice.ScreensaverSettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/screensaver_settings"
+            android:targetActivity="com.jrdcom.timetool.dreamservice.ScreensaverSettingsActivity"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Holo.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- add pr447868 xibin end -->
+        <receiver
+            android:name="com.jrdcom.timetool.worldclock.widget.WorldClockProvider"
+            android:label="@string/activity_worldclock" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE_VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/worldclock_appwidget" />
+        </receiver>
+
+        <service
+            android:name="com.jrdcom.timetool.worldclock.widget.UpdateService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <!-- PR:488578 add by XIBIN end -->
+        <!-- PR:491883 add by XIBIN start -->
+        <service
+            android:name="com.jrdcom.timetool.worldclock.widget.UpdateKeyguardService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <receiver
+            android:name="com.jrdcom.timetool.worldclock.widget.WorldClockKeyguardProvider"
+            android:label="@string/activity_worldclock" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE_VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/worldclock_appwidget_keyguard" />
+        </receiver>
+        <!-- PR:491883 add by XIBIN end -->
+        <!-- PR:500047 update by XIBIN start -->
+        <receiver android:name="com.jrdcom.timetool.alarm.receiver.PackageDataClearedReceiver" >
+            <intent-filter>
+                <action android:name="com.mediatek.intent.action.SETTINGS_PACKAGE_DATA_CLEARED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <!-- PR:500047 update by XIBIN end -->
+
+        <provider
+            android:name="com.jrdcom.timetool.countdown.provider.CountDownProvider"
+            android:authorities="com.jrdcom.timetool.provider"
+            android:exported="true" />
+    </application>
+
+</manifest>

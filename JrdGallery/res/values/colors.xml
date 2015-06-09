@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <color name="default_background">#000</color>
+
+    <!-- configuration for album set page -->
+    <color name="albumset_background">#1A1A1A</color>
+    <color name="albumset_placeholder">#333</color>
+    <color name="albumset_label_background">#E6E6E6</color>
+    <color name="albumset_label_title">#000000</color>
+    <color name="albumset_label_count">#000000</color>
+
+    <!-- configuration for album page -->
+    <color name="album_background">#1A1A1A</color>
+    <color name="album_placeholder">#333</color>
+
+    <!-- configuration for photo page -->
+    <color name="photo_background">#1A1A1A</color>
+    <color name="photo_placeholder">#333</color>
+
+    <!-- configuration for manage cache page -->
+    <color name="cache_background">#1A1A1A</color>
+    <color name="cache_placeholder">#333</color>
+
+    <color name="bitmap_screennail_placeholder">#333</color>
+
+    <color name="slideshow_background">#1A1A1A</color>
+
+    <color name="button_dark_transparent_background">#6000</color>
+
+
+
+<!--     <color name="white">#ffffffff</color>
+    <color name="lucency">#00000000</color>
+    <color name="gray">#ff3d3d3d</color> -->
+    
+    
+     <color name="gray">#3D3D3D</color>
+  <color name="white">#FFFFFF</color>
+  <color name="black">#080808</color>
+   <color name="Ablack">#BF080808</color>
+  <color name="lucency">#00000000</color>
+  <color name="ashy">#EBEBEB</color>
+  <color name="mask">#292929</color>
+  <color name="blue">#7D9EC0</color>
+  <color name="bluegrey">#D8D8D8</color>
+  <color name="jingpingrey">#5e55aa</color>
+  <color name="blank">#00000000</color>
+  <color name="light_gray">#D5D5D5</color>
+ <color name="lightblack">#454545</color>
+ <color name="img_text_color1">#fff60713</color>
+    <color name="img_text_color2">#ffd86e00</color>
+    <color name="img_text_color3">#ffa43a20</color>
+    <color name="img_text_color4">#ffd01863</color>
+    <color name="img_text_color5">#ff8a2094</color>
+    <color name="img_text_color6">#ffa93a8c</color>
+    <color name="img_text_color7">#ffa33453</color>
+    <color name="img_text_color8">#ffcf1d79</color>
+    <color name="img_text_color9">#ff56a830</color>
+    <color name="img_text_color10">#ff2382d2</color>
+    <color name="img_text_color11">#ff2792ff</color>
+    <color name="img_text_color12">#ff2e55ce</color>
+    <color name="img_text_color13">#ff8f8370</color>
+    <color name="img_text_color14">#ff31a59c</color>
+    <color name="img_text_color15">#ff1c5e8f</color>
+    <color name="img_text_color16">#ff19534b</color>
+    <color name="img_text_color17">#ff40ed48</color>
+    <color name="img_text_color18">#ffeded4b</color>
+    <color name="img_text_color19">#ff63641a</color>
+    <color name="img_text_color20">#ffdb6d23</color>
+    <color name="img_text_color21">#ff4b87b5</color>
+    <color name="img_text_color22">#ffde2e87</color>
+    <color name="img_text_color23">#ff63618d</color>
+    <color name="img_text_color24">#ff6f7172</color>
+    <color name="img_text_color25">#ff000000</color>
+    <color name="img_text_color26">#ffffffff</color>
+    <color name="effect_text_color">#fff7b400 </color>
+    <color name="effect_button_color">#ff312d27</color>
+    <!-- add by yaping.liu for pr452145 -->
+    <color name="album_press_color">#224957</color>
+        <color name="grid_state_pressed">#bb7dbcd3</color>
+    <color name="grid_state_focused">#777dbcd3</color>
+     <color name="line1">#ff000000</color>
+    <color name="text_setting">#ff9e9e9e</color>
+    <color name="bg_effect_tip">#f21d1d1d</color>
+    <color name="grid_state_pressed">#bb7dbcd3</color>
+    <color name="grid_state_focused">#777dbcd3</color>
+    <color name="thumbnial_default_bg">#FF888888</color>
+</resources>

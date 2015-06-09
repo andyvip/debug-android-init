@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+<!-- modify by liang.zhang for PR 861403 at 2014-12-18 begin -->
+    <TextView
+        android:id="@+id/tile"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/timer_ringtone_choose_title"
+        android:textColor="@color/alarm_time"
+        android:textSize="22sp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#2eb5fc" />
+    
+	<ListView
+		android:id="@+id/music_ringtone_list_view"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="12"
+		android:divider="#cfd0d1"
+		android:dividerHeight="1dp"
+		android:listSelector="@drawable/list_selector" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/cancle_button"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector"
+        android:scaleType="center"
+        android:text="@string/cancle"
+        android:textColor="#000" />
+<!-- modify by liang.zhang for PR 861403 at 2014-12-18 begin -->
+</LinearLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="loading_ringtone">"Načítava sa zvonenie\u2026"</string>
+	<!---->
+	<string name="app_name">"Čas"</string>
+	<!---->
+	<string name="activity_worldclock">"Svetový čas"</string>
+	<!---->
+	<string name="activity_alarm">"Budík"</string>
+	<!---->
+	<string name="activity_Timer">"Časovač"</string>
+	<!---->
+	<string name="activity_timer">"Odpočítavanie"</string>
+	<!---->
+	<string name="Timer_start">"Spustiť"</string>
+	<!---->
+	<string name="Timer_stop">"Zastaviť"</string>
+	<!---->
+	<string name="Timer_resume">"Obnoviť"</string>
+	<!---->
+	<string name="Timer_clean">"Vymazať"</string>
+	<!---->
+	<string name="Timer_record">"Úsek"</string>
+	<!---->
+	<string name="Timer_absolutetime">"Celkom"</string>
+	<!---->
+	<string name="Timer_relativetime">"Tento úsek"</string>
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!---->
+	<string name="Timer_warning">"Varovanie"</string>
+	<!---->
+	<string name="Timer_exit_warning">"Časovač je spustený. Chcete skončiť?"</string>
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"Zvonenie"</string>
+	<!---->
+	<string name="timer_start">"Spustiť"</string>
+	<!---->
+	<string name="timer_cancel">"Zrušiť"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"Tichý"</string>
+	<!---->
+	<string name="timer_ringtone_choose_title">"Nastaviť zvonenie"</string>
+	<!---->
+	<string name="timer_exit_warning">"Odpočítavanie beží, chcete skončiť?"</string>
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_alert_label">"Čas vypršal"</string>
+	<!---->
+	<string name="timer_hour">"Hodina"</string>
+	<!---->
+	<string name="timer_minute">"Minúta"</string>
+	<!---->
+	<string name="timer_second">"Sekunda"</string>
+	<!---->
+	<string name="set_alarm">"Nastaviť budík"</string>
+	<!---->
+	<string name="settings">"Nastavenia"</string>
+	<!---->
+	<string name="auto_silence_title">"Automatické stíšenie"</string>
+	<!---->
+	<string name="auto_silence_summary">"Budík sa stíši po <xliff:g id="minutes">%d</xliff:g> minútach"</string>
+	<!---->
+	<string name="auto_silence_never">"VYP."</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"Budík v Tichom režime"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"Spustiť budík aj pri tichom režime telefónu"</string>
+	<string-array name="auto_silence_entries">
+		<item>"Vyp."</item>
+		<item>"5 minút"</item>
+		<item>"10 minút"</item>
+		<item>"15 minút"</item>
+		<item>"20 minút"</item>
+		<item>"25 minút"</item>
+		<item>"30 minút"</item>
+	</string-array>
+	<!---->
+	<string name="add_alarm">"Pridať budík"</string>
+	<!---->
+	<string name="default_label">"Budík"</string>
+	<!---->
+	<string name="never">"Nikdy"</string>
+	<!---->
+	<string name="every_day">"každý deň"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!---->
+	<string name="alarm_settings">"Nastavenia"</string>
+	<!---->
+	<string name="delete_alarm">"Odstrániť budík"</string>
+	<!---->
+	<string name="delete_alarm_confirm">"Tento budík bude vymazaný."</string>
+	<!---->
+	<string name="snooze_duration_title">"Trvanie odloženia"</string>
+	<!---->
+	<string name="delete_alarm_message">"Odstrániť zvolený budík?"</string>
+	<string-array name="snooze_duration_entries">
+		<item>"5 minút"</item>
+		<item>"10 minút"</item>
+		<item>"15 minút"</item>
+		<item>"20 minút"</item>
+		<item>"25 minút"</item>
+		<item>"30 minút"</item>
+	</string-array>
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"Tlačidlá hlasitosti"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"Funkcia tlačidiel"</string>
+	<!---->
+	<string name="volume_button_setting_summary">"Nastaviť požadované správanie tlačidiel po stlačení počas budíka"</string>
+	<string-array name="volume_button_setting_entries">
+		<item>"Žiadne"</item>
+		<item>"Odložiť"</item>
+		<item>"Zrušiť"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!---->
+	<string name="turn_over_to_active_title">"Prevrátením aktivovať"</string>
+	<!---->
+	<string name="turn_over_to_active_dialog_title">"Obrátiť správanie"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"Opakovať"</string>
+	<!---->
+	<string name="alarm_vibrate">"Vibrovať"</string>
+	<!---->
+	<string name="label">"Označenie"</string>
+	<!---->
+	<string name="day">"1 deň"</string>
+	<!---->
+	<string name="days">"%s dní"</string>
+	<!---->
+	<string name="hour">"1 hodina"</string>
+	<!---->
+	<string name="hours">"%s hodín"</string>
+	<!---->
+	<string name="minute">"1 minúta"</string>
+	<!---->
+	<string name="minutes">"%s minút"</string>
+	<string-array name="alarm_set">
+		<item>"Budík je odteraz nastavený na menej ako 1 minútu."</item>
+		<item>"Tento budík je nastavený na %1$s odteraz."</item>
+		<item>"Tento budík je nastavený na %2$s odteraz."</item>
+		<item>"Tento budík je nastavený na %1$s a %2$s odteraz."</item>
+		<item>"Tento budík je nastavený na %3$s odteraz."</item>
+		<item>"Tento budík je nastavený na %1$s a %3$s odteraz."</item>
+		<item>"Tento budík je nastavený na %2$s a %3$s odteraz."</item>
+		<item>"Tento budík je nastavený na %1$s, %2$s a %3$s odteraz."</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"Tichý"</string>
+	<!---->
+	<string name="alarm_notify_text">"Voľbou tento budík odložte alebo zrušte."</string>
+	<!---->
+	<string name="alarm_alert_alert_silenced">"Budík sa stíši po %d minútach"</string>
+	<!---->
+	<string name="alarm_alert_snooze_text">"Odložiť"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"Zastaviť"</string>
+	<!---->
+	<string name="alarm_notify_snooze_label">"%s（odložené）"</string>
+	<!---->
+	<string name="alarm_notify_snooze_text">"Budík je nastavený na čas <xliff:g id="time">%s</xliff:g>. Dotykom budík zrušíte."</string>
+	<!---->
+	<string name="alarm_alert_snooze_set">"Odloženie na %d minút."</string>
+	<!---->
+	<string name="system_acticity_name">"Systém"</string>
+	<!---->
+	<string name="music_acticity_name">"M. hudba"</string>
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!---->
+	<string name="no_music">"Žiadna hudba"</string>
+	<!---->
+	<string name="default_ringtone">"Predvolený signál zvonenia"</string>
+	<!---->
+	<string name="add_city">"Pridať mesto"</string>
+	<!---->
+	<string name="select_city">"Zvoliť mesto"</string>
+	<!---->
+	<string name="delete_city">"Odstrániť"</string>
+	<!---->
+	<string name="delete_worldtime_message">"Naozaj chcete vymazať hodiny?"</string>
+	<!---->
+	<string name="worldtime_search_hint">"Zadať názov mesta"</string>
+	<!---->
+	<string name="sel_from_below">"Alebo vyberte z nižšie uvedených:"</string>
+	<!---->
+	<string name="worldtime_is_showed">"(Pridané)"</string>
+	<!---->
+	<string name="worldtime_menu_delete">"Odstrániť"</string>
+	<!---->
+	<string name="worldtime_delete_title">"Odstrániť mesto"</string>
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"Dnes"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"Včera"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"Zajtra"</string>
+	<!---->
+	<string name="time_am">"AM"</string>
+	<!---->
+	<string name="time_pm">"PM"</string>
+	<!---->
+	<string name="no_city">"Mesto sa nedá nájsť"</string>
+	<!---->
+	<string name="time_picker_cancel">"Zrušiť"</string>
+	<!---->
+	<string name="time_picker_set">"OK"</string>
+	<!---->
+	<string name="night_mode_title">"Nočný režim"</string>
+	<!---->
+	<string name="night_mode_summary">"Veľmi tlmený displej (pre tmavé miestnosti)"</string>
+	<!---->
+	<string name="app_label">"Hodiny"</string>
+	<!---->
+	<string name="clock_style">"Štýl"</string>
+	<!---->
+	<string name="screensaver_settings">"Nastavenia Sen"</string>
+	<!---->
+	<string name="screensaver_clock_label">"Hodiny"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary_tablet">"Spustiť budík aj v tichom režime tabletu."</string>
+	<!---->
+	<string name="app_name_clock">"Hodiny"</string>
+</resources>

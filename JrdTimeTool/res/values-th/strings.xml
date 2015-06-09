@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="loading_ringtone">"กำลังโหลดเสียงเรียกเข้า..."</string>
+	<!---->
+	<string name="app_name">"เวลา"</string>
+	<!---->
+	<string name="activity_worldclock">"เวลาโลก"</string>
+	<!---->
+	<string name="activity_alarm">"การปลุก"</string>
+	<!---->
+	<string name="activity_Timer">"ตัวจับเวลา"</string>
+	<!---->
+	<string name="activity_timer">"การนับถอยหลัง"</string>
+	<!---->
+	<string name="Timer_start">"เริ่มต้น"</string>
+	<!---->
+	<string name="Timer_stop">"หยุด"</string>
+	<!---->
+	<string name="Timer_resume">"เริ่มดำเนินการต่อ"</string>
+	<!---->
+	<string name="Timer_clean">"ล้าง"</string>
+	<!---->
+	<string name="Timer_record">"รอบ"</string>
+	<!---->
+	<string name="Timer_absolutetime">"ทั้งหมด"</string>
+	<!---->
+	<string name="Timer_relativetime">"รอบนี้"</string>
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!---->
+	<string name="Timer_warning">"คำเตือน"</string>
+	<!---->
+	<string name="Timer_exit_warning">"ระบบตั้งเวลากำลังทำงาน, ต้องการออกหรือไม่?"</string>
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"เสียงเรียกเข้า"</string>
+	<!---->
+	<string name="timer_start">"เริ่มต้น"</string>
+	<!---->
+	<string name="timer_cancel">"ยกเลิก"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"ปิดเสียง"</string>
+	<!---->
+	<string name="timer_ringtone_choose_title">"ตั้งเสียงเรียกเข้า"</string>
+	<!---->
+	<string name="timer_exit_warning">"การนับถอยหลังกำลังทำงาน, คุณต้องการออกหรือไม่?"</string>
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_alert_label">"หมดเวลา"</string>
+	<!---->
+	<string name="timer_hour">"ชั่วโมง"</string>
+	<!---->
+	<string name="timer_minute">"นาที"</string>
+	<!---->
+	<string name="timer_second">"วินาที"</string>
+	<!---->
+	<string name="set_alarm">"ตั้งปลุก"</string>
+	<!---->
+	<string name="settings">"การตั้งค่า"</string>
+	<!---->
+	<string name="auto_silence_title">"ปิดเสียงอัตโนมัติ"</string>
+	<!---->
+	<string name="auto_silence_summary">"เสียงปลุกจะเงียบลงหลังจาก <xliff:g id="minutes">%d</xliff:g> นาที"</string>
+	<!---->
+	<string name="auto_silence_never">"ปิด"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"การปลุกอยู่ในโหมดปิดเสียง"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"การปลุกยังคงทำงานเมื่อโทรศัพท์อยู่ในโหมดปิดเสียง"</string>
+	<string-array name="auto_silence_entries">
+		<item>"ปิด"</item>
+		<item>"5 นาที"</item>
+		<item>"10 นาที"</item>
+		<item>"15 นาที"</item>
+		<item>"20 นาที"</item>
+		<item>"25 นาที"</item>
+		<item>"30 นาที"</item>
+	</string-array>
+	<!---->
+	<string name="add_alarm">"เพิ่มการปลุก"</string>
+	<!---->
+	<string name="default_label">"การปลุก"</string>
+	<!---->
+	<string name="never">"ไม่เคย"</string>
+	<!---->
+	<string name="every_day">"ทุกวัน"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!---->
+	<string name="alarm_settings">"การตั้งค่า"</string>
+	<!---->
+	<string name="delete_alarm">"ลบการปลุก"</string>
+	<!---->
+	<string name="delete_alarm_confirm">"การปลุกนี้จะถูกลบ"</string>
+	<!---->
+	<string name="snooze_duration_title">"ช่วงเวลาเลื่อนปลุก"</string>
+	<!---->
+	<string name="delete_alarm_message">"ลบการแจ้งเตือนที่เลือก?"</string>
+	<string-array name="snooze_duration_entries">
+		<item>"5 นาที"</item>
+		<item>"10 นาที"</item>
+		<item>"15 นาที"</item>
+		<item>"20 นาที"</item>
+		<item>"25 นาที"</item>
+		<item>"30 นาที"</item>
+	</string-array>
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"ปุ่มระดับเสียง"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"ลักษณะการทำงานของปุ่ม"</string>
+	<!---->
+	<string name="volume_button_setting_summary">"ตั้งค่าลักษณะการทำงานของปุ่มเมื่อกดในระหว่างปลุก"</string>
+	<string-array name="volume_button_setting_entries">
+		<item>"ไม่มี"</item>
+		<item>"เลื่อนปลุก"</item>
+		<item>"ยกเลิก"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!---->
+	<string name="turn_over_to_active_title">"พลิกเพื่อเปิดใช้"</string>
+	<!---->
+	<string name="turn_over_to_active_dialog_title">"ลักษณะการทำงานเมื่อพลิก"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"ทำซ้ำ"</string>
+	<!---->
+	<string name="alarm_vibrate">"สั่น"</string>
+	<!---->
+	<string name="label">"ป้าย"</string>
+	<!---->
+	<string name="day">"1 วัน"</string>
+	<!---->
+	<string name="days">"%s วัน"</string>
+	<!---->
+	<string name="hour">"1 ชั่วโมง"</string>
+	<!---->
+	<string name="hours">"%s ชั่วโมง"</string>
+	<!---->
+	<string name="minute">"1 นาที"</string>
+	<!---->
+	<string name="minutes">"%s นาที"</string>
+	<string-array name="alarm_set">
+		<item>"การปลุกนี้ตั้งไว้สำหรับเวลาน้อยกว่า 1 นาทีนับจากตอนนี้"</item>
+		<item>"การปลุกนี้ถูกตั้งค่าเป็นเวลา %1$s นับจากตอนนี้"</item>
+		<item>"การปลุกนี้ถูกตั้งค่าเป็นเวลา %2$s นับจากตอนนี้"</item>
+		<item>"การปลุกนี้ถูกตั้งค่าเป็นเวลา %1$s และ %2$s นับจากตอนนี้"</item>
+		<item>"การปลุกนี้ถูกตั้งค่าเป็นเวลา %3$s นับจากตอนนี้"</item>
+		<item>"การปลุกนี้ถูกตั้งค่าเป็นเวลา %1$s และ %3$s นับจากตอนนี้"</item>
+		<item>"การปลุกนี้ถูกตั้งค่าเป็นเวลา %2$s และ %3$s นับจากตอนนี้"</item>
+		<item>"การปลุกนี้ถูกตั้งค่าเป็นเวลา %1$s, %2$s และ %3$s นับจากตอนนี้"</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"ปิดเสียง"</string>
+	<!---->
+	<string name="alarm_notify_text">"เลือกเพื่อเลื่อนปลุก หรือยกเลิกการปลุกนี้"</string>
+	<!---->
+	<string name="alarm_alert_alert_silenced">"ปิดเสียงปลุกหลังจาก %d นาที"</string>
+	<!---->
+	<string name="alarm_alert_snooze_text">"เลื่อนปลุก"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"หยุด"</string>
+	<!---->
+	<string name="alarm_notify_snooze_label">"%s (เลื่อนปลุก)"</string>
+	<!---->
+	<string name="alarm_notify_snooze_text">"ตั้งปลุกสำหรับ <xliff:g id="time">%s</xliff:g>. เลือกที่จะยกเลิก"</string>
+	<!---->
+	<string name="alarm_alert_snooze_set">"เลื่อนปลุก %d นาที"</string>
+	<!---->
+	<string name="system_acticity_name">"ระบบ"</string>
+	<!---->
+	<string name="music_acticity_name">"เพลงของฉัน"</string>
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!---->
+	<string name="no_music">"ไม่มีเพลง"</string>
+	<!---->
+	<string name="default_ringtone">"เสียงเรียกเข้าเริ่มต้น"</string>
+	<!---->
+	<string name="add_city">"เพิ่มเมือง"</string>
+	<!---->
+	<string name="select_city">"เลือกเมือง"</string>
+	<!---->
+	<string name="delete_city">"ลบ"</string>
+	<!---->
+	<string name="delete_worldtime_message">"คุณแน่ใจหรือไม่ว่าคุณต้องการลบนาฬิกา?"</string>
+	<!---->
+	<string name="worldtime_search_hint">"ใส่ชื่อเมือง"</string>
+	<!---->
+	<string name="sel_from_below">"หรือเลือกจากด้านล่าง:"</string>
+	<!---->
+	<string name="worldtime_is_showed">"(เพิ่มแล้ว)"</string>
+	<!---->
+	<string name="worldtime_menu_delete">"ลบ"</string>
+	<!---->
+	<string name="worldtime_delete_title">"ลบเมือง"</string>
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"วันนี้"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"เมื่อวานนี้"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"วันพรุ่งนี้"</string>
+	<!---->
+	<string name="time_am">"AM"</string>
+	<!---->
+	<string name="time_pm">"PM"</string>
+	<!---->
+	<string name="no_city">"ไม่พบเมือง"</string>
+	<!---->
+	<string name="time_picker_cancel">"ยกเลิก"</string>
+	<!---->
+	<string name="time_picker_set">"ตกลง"</string>
+	<!---->
+	<string name="night_mode_title">"โหมดกลางคืน"</string>
+	<!---->
+	<string name="night_mode_summary">"จอแสดงผลสลัวมาก (สำหรับห้องที่มืด)"</string>
+	<!---->
+	<string name="app_label">"นาฬิกา"</string>
+	<!---->
+	<string name="clock_style">"รูปแบบ"</string>
+	<!---->
+	<string name="screensaver_settings">"การตั้งค่านาฬิกา"</string>
+	<!---->
+	<string name="screensaver_clock_label">"นาฬิกา"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary_tablet">"เล่นเสียงปลุกแม้แท็บเลตจะอยู่ในโหมดเงียบ"</string>
+	<!---->
+	<string name="app_name_clock">"นาฬิกา"</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pickerlable="http://schemas.android.com/apk/res/com.android.deskclock"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal" >
+
+    <com.jrdcom.timetool.countdown.view.PickerLable
+        android:id="@+id/timerpicker_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        pickerlable:lable="@string/timer_hour" />
+
+    <com.jrdcom.timetool.countdown.view.PickerLable
+        android:id="@+id/timerpicker_minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        pickerlable:lable="@string/timer_minute" />
+
+    <com.jrdcom.timetool.countdown.view.PickerLable
+        android:id="@+id/timerpicker_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        pickerlable:lable="@string/timer_second" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/txt_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dip"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black"
+        android:textSize="15dip"
+        android:text="@string/cool" />
+
+    <TextView
+        android:id="@+id/txt_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dip"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black"
+        android:textSize="15dip"
+        android:text="@string/warm" />
+
+    <SeekBar
+        android:id="@+id/seekbar_fuse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/txt_right"
+        android:layout_toRightOf="@id/txt_left"
+        android:layout_centerVertical="true"
+        android:max="100"
+        android:maxHeight="10dip"
+        android:minHeight="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:progressDrawable="@drawable/fuse_seekbar_view"
+        android:thumb="@drawable/seek_thumb_normal" />
+
+</merge>

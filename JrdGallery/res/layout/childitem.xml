@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:focusable="false"
+        android:background="@color/thumbnial_default_bg"
+        android:layout_centerInParent="true">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/is_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:focusable="false"
+        android:clickable="false"
+        android:visibility="gone" >
+    </ImageView>
+
+    <!-- PR464501 ming.zhang modify begin -->
+    <!-- show DRM image‘s thumbnails lock icon -->
+    <ImageView
+        android:id="@+id/is_drm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:clickable="false"
+        android:visibility="gone" >
+    </ImageView>
+    <!-- PR464501 ming.zhang modify end -->
+
+    <CheckBox
+        android:id="@+id/item_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:clickable="false"
+        android:visibility="gone" >
+    </CheckBox>
+
+</RelativeLayout>

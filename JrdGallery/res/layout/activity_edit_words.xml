@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bitmapback"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+    <include
+        android:id="@+id/common_top_bar"
+        layout="@layout/layout_common_top_bar" />
+    <RelativeLayout
+        android:id="@+id/edit_text_panel"
+        android:layout_width="280.0dip"
+        android:layout_height="145.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_below="@id/common_top_bar"
+        android:layout_centerHorizontal="true"
+    >
+        <EditText android:id="@+id/edit_text"
+            android:gravity="top"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="@string/mosaic_edit"
+            android:maxLines="5"
+            android:layout_centerHorizontal="true" />
+        <TextView android:id="@+id/edit_text_length"
+            android:textSize="14.0dip"
+            android:textStyle="normal"
+            android:textColor="@color/light_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:text="@string/mosaic_edit_num"
+            android:singleLine="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView
+        android:textSize="14.0dip"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginRight="15.0dip"
+        android:text="@string/word_edit_tip"
+        android:layout_below="@id/edit_text_panel"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

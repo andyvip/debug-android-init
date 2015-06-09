@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_effect_and_frame_background"
+>
+    <TextView
+        android:id="@+id/label_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="@string/pref_exposure_title"
+        android:layout_marginLeft="3.0dip" />
+    <SeekBar
+        android:id="@+id/sb_enhance_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="200"
+        android:progress="100"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
+        android:maxHeight="10.0dip"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:minHeight="10.0dip"
+        android:thumb="@drawable/seek_thumb_normal"/>
+</LinearLayout>

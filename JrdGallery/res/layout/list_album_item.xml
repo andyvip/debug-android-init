@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="5.0dip"
+    android:paddingTop="5.0dip" >
+
+    <!--
+         <com.meitu.pintu.album.ThumbImageView
+        android:id="@+id/list_thumb"
+        android:layout_width="60.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:src="@drawable/loading" />
+    -->
+
+    <ImageView
+        android:id="@+id/list_thumb"
+        android:layout_width="60.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:src="@drawable/loading" />
+
+    <TextView
+        android:id="@+id/dir_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/list_thumb"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="18.0dip" />
+
+    <TextView
+        android:id="@+id/dir_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dir_name"
+        android:layout_below="@+id/dir_name"
+        android:lines="2"
+        android:paddingRight="20.0dip"
+        android:text="@string/dir_path"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12.0dip" />
+
+    <TextView
+        android:id="@+id/dir_item_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dir_path"
+        android:layout_toRightOf="@+id/dir_name"
+        android:singleLine="true"
+        android:text="@string/choosed_num"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="13.0dip" />
+
+</RelativeLayout>

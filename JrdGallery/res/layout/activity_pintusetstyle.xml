@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/accountback" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="42.0dip" >
+
+        <com.jrdcom.example.joinpic.GridViewOpen
+            android:id="@+id/setStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/headerView"
+            android:clipToPadding="true"
+            android:gravity="center"
+            android:horizontalSpacing="10.0dip"
+            android:listSelector="@color/lucency"
+            android:numColumns="3"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="3.0dip"
+            android:persistentDrawingCache="none"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10.0dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pintuSetStyleTopview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_view_topmenubackgroundpic_a" >
+
+        <Button
+            android:id="@+id/btn_setstyle_cancel"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="5.0dip"
+            android:background="@drawable/btn_square_short"
+            android:text="@string/cancel"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/setstyle_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9.0dip"
+            android:gravity="center"
+            android:text="@string/frame_list"
+            android:textColor="@color/black"
+            android:textSize="20.0sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

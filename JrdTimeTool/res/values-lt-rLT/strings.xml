@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="loading_ringtone">"Įkeliamas skambėjimo tonas\u2026"</string>
+	<!---->
+	<string name="app_name">"Laikas"</string>
+	<!---->
+	<string name="activity_worldclock">"Pasaulio laikrodis"</string>
+	<!---->
+	<string name="activity_alarm">"Signalas"</string>
+	<!---->
+	<string name="activity_Timer">"Laikmatis"</string>
+	<!---->
+	<string name="activity_timer">"Laikmatis"</string>
+	<!---->
+	<string name="Timer_start">"Pradžia"</string>
+	<!---->
+	<string name="Timer_stop">"Sustabdyti"</string>
+	<!---->
+	<string name="Timer_resume">"Tęsti"</string>
+	<!---->
+	<string name="Timer_clean">"Išvalyti"</string>
+	<!---->
+	<string name="Timer_record">"Ratas"</string>
+	<!---->
+	<string name="Timer_absolutetime">"Iš viso"</string>
+	<!---->
+	<string name="Timer_relativetime">"Šis ratas"</string>
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!---->
+	<string name="Timer_warning">"Įspėjimas"</string>
+	<!---->
+	<string name="Timer_exit_warning">"Laikmatis veikia. Ar norite išeiti?"</string>
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"Skambėjimo tonas"</string>
+	<!---->
+	<string name="timer_start">"Pradžia"</string>
+	<!---->
+	<string name="timer_cancel">"Atšaukti"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"Tylus"</string>
+	<!---->
+	<string name="timer_ringtone_choose_title">"Nust. sk. toną"</string>
+	<!---->
+	<string name="timer_exit_warning">"Atgalinio skaičiavimo laikmatis veikia, ar norite išeiti?"</string>
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_alert_label">"Laikas baigėsi"</string>
+	<!---->
+	<string name="timer_hour">"val."</string>
+	<!---->
+	<string name="timer_minute">"min."</string>
+	<!---->
+	<string name="timer_second">"antras"</string>
+	<!---->
+	<string name="set_alarm">"Nustatyti signalą"</string>
+	<!---->
+	<string name="settings">"Nustatymai"</string>
+	<!---->
+	<string name="auto_silence_title">"Automatinis nutildymas"</string>
+	<!---->
+	<string name="auto_silence_summary">"Signalai bus nutildyti po <xliff:g id="minutes">%d</xliff:g> min."</string>
+	<!---->
+	<string name="auto_silence_never">"IŠJUNGTA"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"Signalas tyliuoju režimu"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"Leisti signalą, net jei telefonas veikia tyliuoju rež."</string>
+	<string-array name="auto_silence_entries">
+		<item>"Išj."</item>
+		<item>"5 min."</item>
+		<item>"10 min."</item>
+		<item>"15 min."</item>
+		<item>"20 min."</item>
+		<item>"25 min."</item>
+		<item>"30 min."</item>
+	</string-array>
+	<!---->
+	<string name="add_alarm">"Pridėti signalą"</string>
+	<!---->
+	<string name="default_label">"Signalas"</string>
+	<!---->
+	<string name="never">"Niekada"</string>
+	<!---->
+	<string name="every_day">"kasdien"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!---->
+	<string name="alarm_settings">"Nustatymai"</string>
+	<!---->
+	<string name="delete_alarm">"Ištrinti signalą"</string>
+	<!---->
+	<string name="delete_alarm_confirm">"Šis signalas bus ištrintas."</string>
+	<!---->
+	<string name="snooze_duration_title">"Snaudimo trukmė"</string>
+	<!---->
+	<string name="delete_alarm_message">"Ištrinti pasirinktą signalą?"</string>
+	<string-array name="snooze_duration_entries">
+		<item>"5 min."</item>
+		<item>"10 min."</item>
+		<item>"15 min."</item>
+		<item>"20 min."</item>
+		<item>"25 min."</item>
+		<item>"30 min."</item>
+	</string-array>
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"Garsumo mygtukai"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"Mygtuko efektas"</string>
+	<!-- no translation found for volume_button_setting_summary -->
+	<skip />
+	<string-array name="volume_button_setting_entries">
+		<item>"Nėra"</item>
+		<item>"Snausti"</item>
+		<item>"Atsisakyti"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!---->
+	<string name="turn_over_to_active_title">"Aktyvinimas apverčiant"</string>
+	<!---->
+	<string name="turn_over_to_active_dialog_title">"Elgsena apverčiant"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"Kartoti"</string>
+	<!---->
+	<string name="alarm_vibrate">"Vibruoti"</string>
+	<!---->
+	<string name="label">"Etiketė"</string>
+	<!---->
+	<string name="day">"1 d."</string>
+	<!---->
+	<string name="days">"%s d."</string>
+	<!---->
+	<string name="hour">"1 val."</string>
+	<!---->
+	<string name="hours">"%s val."</string>
+	<!---->
+	<string name="minute">"1 min."</string>
+	<!---->
+	<string name="minutes">"%s min."</string>
+	<string-array name="alarm_set">
+		<item>"Šis signalas nustatytas mažiau nei 1 min. nuo dabar."</item>
+		<item>"Nuo šiol nustatytas %1$s signalas."</item>
+		<item>"Nuo šiol nustatytas %2$s signalas."</item>
+		<item>"Nuo šiol nustatyti %1$s ir %2$s signalai."</item>
+		<item>"Nuo šiol nustatytas %3$s signalas."</item>
+		<item>"Nuo šiol nustatyti %1$s ir %3$s signalai."</item>
+		<item>"Nuo šiol nustatyti %2$s ir %3$s signalai."</item>
+		<item>"Nuo šiol nustatyti %1$s, %2$s ir %3$s signalai."</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"Tylus"</string>
+	<!---->
+	<string name="alarm_notify_text">"Pasirinkite, kad šis signalas veiktų snaudimo režimu, arba atsisakykite jo."</string>
+	<!---->
+	<string name="alarm_alert_alert_silenced">"Žadintuvo signalas nutildytas po %d min."</string>
+	<!---->
+	<string name="alarm_alert_snooze_text">"Snausti"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"Sustabdyti"</string>
+	<!---->
+	<string name="alarm_notify_snooze_label">"%s (atidėta)"</string>
+	<!---->
+	<string name="alarm_notify_snooze_text">"Signalas nustatytas <xliff:g id="TIME">%s</xliff:g>. Pasirinkite, jei norite atšaukti."</string>
+	<!---->
+	<string name="alarm_alert_snooze_set">"Atidėta, skambės po %d min."</string>
+	<!---->
+	<string name="system_acticity_name">"Sistema"</string>
+	<!---->
+	<string name="music_acticity_name">"Mano muzika"</string>
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!---->
+	<string name="no_music">"Nėra muzikos"</string>
+	<!---->
+	<string name="default_ringtone">"Numatytasis skambėjimo tonas"</string>
+	<!---->
+	<string name="add_city">"Pridėti miestą"</string>
+	<!---->
+	<string name="select_city">"Pasirinkite miestą"</string>
+	<!---->
+	<string name="delete_city">"ištrinti"</string>
+	<!---->
+	<string name="delete_worldtime_message">"Ar tikrai norite ištrinti šį laikrodį?"</string>
+	<!---->
+	<string name="worldtime_search_hint">"Įveskite miesto pavadinimą"</string>
+	<!---->
+	<string name="sel_from_below">"Arba pasirinkite miestą iš sąrašo:"</string>
+	<!---->
+	<string name="worldtime_is_showed">"(Pridėta)"</string>
+	<!---->
+	<string name="worldtime_menu_delete">"ištrinti"</string>
+	<!---->
+	<string name="worldtime_delete_title">"Ištrinti miestą"</string>
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"Šiandien"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"vakar"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"Rytoj"</string>
+	<!---->
+	<string name="time_am">"Priešpiet"</string>
+	<!---->
+	<string name="time_pm">"PM"</string>
+	<!-- no translation found for no_city -->
+	<skip />
+	<!---->
+	<string name="time_picker_cancel">"Atšaukti"</string>
+	<!---->
+	<string name="time_picker_set">"Gerai"</string>
+	<!---->
+	<string name="night_mode_title">"Nakties režimas"</string>
+	<!---->
+	<string name="night_mode_summary">"Labai pritemdytas ekranas (tamsioms patalpoms)"</string>
+	<!---->
+	<string name="app_label">"Laik."</string>
+	<!---->
+	<string name="clock_style">"Stilius"</string>
+	<!-- no translation found for screensaver_settings -->
+	<skip />
+	<!---->
+	<string name="screensaver_clock_label">"Laikrodis"</string>
+	<!-- no translation found for alarm_in_silent_mode_summary_tablet -->
+	<skip />
+	<!---->
+	<string name="app_name_clock">"Laik."</string>
+</resources>

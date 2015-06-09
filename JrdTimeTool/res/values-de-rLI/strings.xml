@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="loading_ringtone">"Klingelton wird geladen..."</string>
+	<!---->
+	<string name="app_name">"Uhr"</string>
+	<!---->
+	<string name="activity_worldclock">"Weltuhr"</string>
+	<!---->
+	<string name="activity_alarm">"Wecker"</string>
+	<!---->
+	<string name="activity_Timer">"Timer"</string>
+	<!---->
+	<string name="activity_timer">"Countdown"</string>
+	<!---->
+	<string name="Timer_start">"Starten"</string>
+	<!---->
+	<string name="Timer_stop">"Stoppen"</string>
+	<!---->
+	<string name="Timer_resume">"Fortsetzen"</string>
+	<!---->
+	<string name="Timer_clean">"Löschen"</string>
+	<!---->
+	<string name="Timer_record">"Runde"</string>
+	<!---->
+	<string name="Timer_absolutetime">"Insgesamt"</string>
+	<!---->
+	<string name="Timer_relativetime">"Aktuelle Runde"</string>
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!---->
+	<string name="Timer_warning">"Mit Hinweis"</string>
+	<!---->
+	<string name="Timer_exit_warning">"Der Timer läuft. Möchten Sie ihn beenden?"</string>
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"Klingelton"</string>
+	<!---->
+	<string name="timer_start">"Starten"</string>
+	<!---->
+	<string name="timer_cancel">"Abbrechen"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"Lautlos"</string>
+	<!---->
+	<string name="timer_ringtone_choose_title">"Klingelton festlegen"</string>
+	<!---->
+	<string name="timer_exit_warning">"Countdown ist aktiviert. Beenden?"</string>
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_alert_label">"Zeit ist abgelaufen"</string>
+	<!---->
+	<string name="timer_hour">"Stunde"</string>
+	<!---->
+	<string name="timer_minute">"Minuten"</string>
+	<!---->
+	<string name="timer_second">"Sekunde"</string>
+	<!---->
+	<string name="set_alarm">"Weckzeit einstellen"</string>
+	<!---->
+	<string name="settings">"Einstellungen"</string>
+	<!---->
+	<string name="auto_silence_title">"Autom. Stummschaltung"</string>
+	<!---->
+	<string name="auto_silence_summary">"Wecker hört nach <xliff:g id="minutes">%d</xliff:g> Minuten auf zu klingeln"</string>
+	<!---->
+	<string name="auto_silence_never">"AUS"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"Wecker im Lautlosmodus"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"Wecker auch im Lautlosmodus auslösen"</string>
+	<string-array name="auto_silence_entries">
+		<item>"Aus"</item>
+		<item>"5 Minuten"</item>
+		<item>"10 Minuten"</item>
+		<item>"15 Minuten"</item>
+		<item>"20 Minuten"</item>
+		<item>"25 Minuten"</item>
+		<item>"30 Minuten"</item>
+	</string-array>
+	<!---->
+	<string name="add_alarm">"Weckzeit hinzufügen"</string>
+	<!---->
+	<string name="default_label">"Wecker"</string>
+	<!---->
+	<string name="never">"Nie"</string>
+	<!---->
+	<string name="every_day">"Täglich"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!---->
+	<string name="alarm_settings">"Einstellungen"</string>
+	<!---->
+	<string name="delete_alarm">"Weckzeit löschen"</string>
+	<!---->
+	<string name="delete_alarm_confirm">"Wecker wird gelöscht"</string>
+	<!---->
+	<string name="snooze_duration_title">"Schlummer-Dauer"</string>
+	<!---->
+	<string name="delete_alarm_message">"Ausgewählten Wecker löschen?"</string>
+	<string-array name="snooze_duration_entries">
+		<item>"5 Minuten"</item>
+		<item>"10 Minuten"</item>
+		<item>"15 Minuten"</item>
+		<item>"20 Minuten"</item>
+		<item>"25 Minuten"</item>
+		<item>"30 Minuten"</item>
+	</string-array>
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"Lautstärketaste"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"Tastenverhalten"</string>
+	<!---->
+	<string name="volume_button_setting_summary">"Aktion festlegen, die beim Drücken einer Taste ausgeführt wird, wenn der Wecker klingelt"</string>
+	<string-array name="volume_button_setting_entries">
+		<item>"Keine"</item>
+		<item>"Schlummer-Funktion"</item>
+		<item>"Ausschalten"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!---->
+	<string name="turn_over_to_active_title">"Umdrehen: aktivieren"</string>
+	<!---->
+	<string name="turn_over_to_active_dialog_title">"Aktion beim Umdrehen"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"Wiederholen"</string>
+	<!---->
+	<string name="alarm_vibrate">"Vibrieren"</string>
+	<!---->
+	<string name="label">"Titel"</string>
+	<!---->
+	<string name="day">"1 Tag"</string>
+	<!---->
+	<string name="days">"%s Tage"</string>
+	<!---->
+	<string name="hour">"1 Stunde"</string>
+	<!---->
+	<string name="hours">"%s Stunden"</string>
+	<!---->
+	<string name="minute">"1 Minute"</string>
+	<!---->
+	<string name="minutes">"%s Minuten"</string>
+	<string-array name="alarm_set">
+		<item>"Dieser Wecker klingelt in weniger als 1 Minute."</item>
+		<item>"Dieser Wecker klingelt in %1$s."</item>
+		<item>"Dieser Wecker klingelt in %2$s."</item>
+		<item>"Dieser Wecker klingelt in %1$s und %2$s."</item>
+		<item>"Dieser Wecker klingelt in %3$s."</item>
+		<item>"Dieser Wecker klingelt in %1$s und %3$s."</item>
+		<item>"Dieser Wecker klingelt in %2$s und %3$s."</item>
+		<item>"Dieser Wecker klingelt in %1$s, %2$s und %3$s."</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"Lautlos"</string>
+	<!---->
+	<string name="alarm_notify_text">"Auswählen: Schlummerfunktion aktivieren oder diesen Wecker ausschalten"</string>
+	<!---->
+	<string name="alarm_alert_alert_silenced">"Der Wecker hört nach %d Minuten auf zu klingeln"</string>
+	<!---->
+	<string name="alarm_alert_snooze_text">"Schlummern"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"Anhalten"</string>
+	<!---->
+	<string name="alarm_notify_snooze_label">"%s (Schlummern)"</string>
+	<!---->
+	<string name="alarm_notify_snooze_text">"Wecker für <xliff:g id="TIME">%s</xliff:g> gestellt. Zum Abbrechen auswählen."</string>
+	<!---->
+	<string name="alarm_alert_snooze_set">"%d Minuten lang schlummern"</string>
+	<!---->
+	<string name="system_acticity_name">"System"</string>
+	<!---->
+	<string name="music_acticity_name">"Musik"</string>
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!---->
+	<string name="no_music">"Keine Musik"</string>
+	<!---->
+	<string name="default_ringtone">"Standardklingelton"</string>
+	<!---->
+	<string name="add_city">"Stadt hinzufügen"</string>
+	<!---->
+	<string name="select_city">"Stadt auswählen"</string>
+	<!---->
+	<string name="delete_city">"Löschen"</string>
+	<!---->
+	<string name="delete_worldtime_message">"Möchten Sie die Uhreinstellung wirklich löschen?"</string>
+	<!---->
+	<string name="worldtime_search_hint">"Stadt eingeben"</string>
+	<!---->
+	<string name="sel_from_below">"Wählen Sie bei Bedarf eine andere Option aus:"</string>
+	<!---->
+	<string name="worldtime_is_showed">"(Hinzugefügt)"</string>
+	<!---->
+	<string name="worldtime_menu_delete">"Löschen"</string>
+	<!---->
+	<string name="worldtime_delete_title">"Stadt löschen"</string>
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"Heute"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"Gestern"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"Morgen"</string>
+	<!---->
+	<string name="time_am">"AM"</string>
+	<!---->
+	<string name="time_pm">"PM"</string>
+	<!---->
+	<string name="no_city">"Stadt kann nicht gefunden werden"</string>
+	<!---->
+	<string name="time_picker_cancel">"Abbrechen"</string>
+	<!---->
+	<string name="time_picker_set">"OK"</string>
+	<!---->
+	<string name="night_mode_title">"Nachtmodus"</string>
+	<!---->
+	<string name="night_mode_summary">"Sehr dunkles Display (für dunkle Räume)"</string>
+	<!---->
+	<string name="app_label">"Uhr"</string>
+	<!---->
+	<string name="clock_style">"Stil"</string>
+	<!---->
+	<string name="screensaver_settings">"Schlummereinstellungen"</string>
+	<!---->
+	<string name="screensaver_clock_label">"Uhr"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary_tablet">"Wecker auch im Lautlosmodus auslösen"</string>
+	<!---->
+	<string name="app_name_clock">"Uhr"</string>
+</resources>

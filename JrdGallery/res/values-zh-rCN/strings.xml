@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"图库"</string>
+    <string name="gadget_title" msgid="259405922673466798">"相框"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"视频播放器"</string>
+    <string name="loading_video" msgid="4013492720121891585">"正在载入视频..."</string>
+    <string name="loading_image" msgid="1200894415793838191">"正在载入图片..."</string>
+    <string name="loading_account" msgid="928195413034552034">"正在加载帐户…"</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"继续播放视频"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"从 %s 开始继续播放？"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"继续播放"</string>
+    <string name="loading" msgid="7038208555304563571">"正在载入..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"无法加载"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"无法加载此图片"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"无缩略图"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"重新开始"</string>
+    <string name="crop_save_text" msgid="152200178986698300">"确定"</string>
+    <string name="ok" msgid="5296833083983263293">"确定"</string>
+    <string name="multiface_crop_help" msgid="2554690102655855657">"触摸一张脸开始裁剪。"</string>
+    <string name="saving_image" msgid="7270334453636349407">"正在保存照片..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"正在将照片保存到“<xliff:g id="ALBUM_NAME">%1$s</xliff:g>”…"</string>
+    <string name="save_error" msgid="6857408774183654970">"无法保存经过裁剪的图片。"</string>
+    <string name="crop_label" msgid="521114301871349328">"修剪照片"</string>
+    <string name="trim_label" msgid="274203231381209979">"剪辑视频"</string>
+    <string name="select_image" msgid="7841406150484742140">"选择照片"</string>
+    <string name="select_video" msgid="4859510992798615076">"选择视频"</string>
+    <string name="select_item" msgid="2816923896202086390">"选择条目"</string>
+    <string name="select_album" msgid="1557063764849434077">"选择相册"</string>
+    <string name="select_group" msgid="6744208543323307114">"选择群组"</string>
+    <string name="set_image" msgid="2331476809308010401">"将照片设置为"</string>
+    <string name="set_wallpaper" msgid="8491121226190175017">"设置壁纸"</string>
+    <string name="wallpaper" msgid="140165383777262070">"正在设置壁纸..."</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"壁纸"</string>
+    <string name="delete" msgid="2839695998251824487">"删除"</string>
+  <plurals name="delete_selection">
+    <item quantity="one" msgid="6453379735401083732">"要删除所选内容吗？"</item>
+    <item quantity="other" msgid="5874316486520635333">"要删除所选内容吗？"</item>
+  </plurals>
+    <string name="confirm" msgid="8646870096527848520">"确认"</string>
+    <string name="cancel" msgid="3637516880917356226">"取消"</string>
+    <string name="share" msgid="3619042788254195341">"分享"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"分享全景图"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"以照片形式分享"</string>
+    <string name="deleted" msgid="6795433049119073871">"已删除"</string>
+    <string name="undo" msgid="2930873956446586313">"撤消"</string>
+    <string name="select_all" msgid="3403283025220282175">"全选"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"取消全选"</string>
+    <string name="slideshow" msgid="4355906903247112975">"播放幻灯片"</string>
+    <string name="details" msgid="8415120088556445230">"详细信息"</string>
+    <string name="details_title" msgid="2611396603977441273">"第 %1$d 项（共 %2$d 项）："</string>
+    <string name="close" msgid="5585646033158453043">"关闭"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"切换到相机"</string>
+  <plurals name="number_of_items_selected">
+    <item quantity="zero" msgid="2142579311530586258">"选中了 %1$d 项"</item>
+    <item quantity="one" msgid="2478365152745637768">"选中了 %1$d 项"</item>
+    <item quantity="other" msgid="754722656147810487">"选中了 %1$d 项"</item>
+  </plurals>
+  <plurals name="number_of_albums_selected">
+    <item quantity="zero" msgid="749292746814788132">"选中了 %1$d 本相册"</item>
+    <item quantity="one" msgid="6184377003099987825">"选中了 %1$d 本相册"</item>
+    <item quantity="other" msgid="53105607141906130">"选中了 %1$d 本相册"</item>
+  </plurals>
+  <plurals name="number_of_groups_selected">
+    <item quantity="zero" msgid="3466388370310869238">"选中了 %1$d 组"</item>
+    <item quantity="one" msgid="5030162638216034260">"选中了 %1$d 组"</item>
+    <item quantity="other" msgid="3512041363942842738">"选中了 %1$d 组"</item>
+  </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"显示在地图上"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"向左旋转"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"向右旋转"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"找不到指定的项。"</string>
+    <string name="edit" msgid="1502273844748580847">"编辑"</string>
+    <string name="process_caching_requests" msgid="8722939570307386071">"正在处理缓存请求"</string>
+    <string name="caching_label" msgid="4521059045896269095">"正在缓存..."</string>
+    <string name="crop_action" msgid="3427470284074377001">"修剪"</string>
+    <string name="trim_action" msgid="703098114452883524">"修剪"</string>
+    <string name="set_as" msgid="3636764710790507868">"设置为"</string>
+    <string name="video_err" msgid="7003051631792271009">"无法播放视频。"</string>
+    <string name="group_by_location" msgid="316641628989023253">"按位置分组"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"按时间分组"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"按标签分组"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"按人物"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"按相册分组"</string>
+    <string name="group_by_size" msgid="153766174950394155">"按大小分组"</string>
+    <string name="untagged" msgid="7281481064509590402">"未加标签"</string>
+    <string name="no_location" msgid="4043624857489331676">"无位置信息"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"出现网络问题，系统无法识别某些位置。"</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"无法下载此相册中的照片，请稍后重试。"</string>
+    <string name="show_images_only" msgid="7263218480867672653">"仅限图片"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"仅限视频"</string>
+    <string name="show_all" msgid="6963292714584735149">"图片和视频"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"照片"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"没有照片。"</string>
+    <string name="crop_saved" msgid="1595985909779105158">"经过裁剪的图片已保存至“<xliff:g id="FOLDER_NAME">%s</xliff:g>”。"</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"没有可用的相册。"</string>
+    <string name="empty_album" msgid="4542880442593595494">"没有图片/视频。"</string>
+    <string name="picasa_posts" msgid="1497721615718760613">"帖子"</string>
+    <string name="make_available_offline" msgid="5157950985488297112">"允许离线查看"</string>
+    <string name="sync_picasa_albums" msgid="8522572542111169872">"刷新"</string>
+    <string name="done" msgid="217672440064436595">"完成"</string>
+    <string name="sequence_in_set" msgid="7235465319919457488">"第 %1$d 个项（共 %2$d 个）："</string>
+    <string name="title" msgid="7622928349908052569">"标题"</string>
+    <string name="description" msgid="3016729318096557520">"描述"</string>
+    <string name="time" msgid="1367953006052876956">"时间"</string>
+    <string name="location" msgid="3432705876921618314">"地点"</string>
+    <string name="path" msgid="4725740395885105824">"路径"</string>
+    <string name="width" msgid="9215847239714321097">"宽度"</string>
+    <string name="height" msgid="3648885449443787772">"高度"</string>
+    <string name="orientation" msgid="4958327983165245513">"浏览模式"</string>
+    <string name="duration" msgid="8160058911218541616">"时长"</string>
+    <string name="mimetype" msgid="8024168704337990470">"MIME 类型"</string>
+    <string name="file_size" msgid="8486169301588318915">"文件大小"</string>
+    <string name="maker" msgid="7921835498034236197">"制造商"</string>
+    <string name="model" msgid="8240207064064337366">"模型"</string>
+    <string name="flash" msgid="2816779031261147723">"闪光灯"</string>
+    <string name="aperture" msgid="5920657630303915195">"光圈"</string>
+    <string name="focal_length" msgid="1291383769749877010">"焦距"</string>
+    <string name="white_balance" msgid="1582509289994216078">"白平衡"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"曝光时间"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"手动"</string>
+    <string name="auto" msgid="4296941368722892821">"自动"</string>
+    <string name="flash_on" msgid="7891556231891837284">"使用了闪光灯"</string>
+    <string name="flash_off" msgid="1445443413822680010">"未使用闪光灯"</string>
+    <string name="ffx_original" msgid="372686331501281474">"原照片"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"复古"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"瞬时"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"漂除银影"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"蓝色"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"黑白"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"冲压"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"负冲"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"拿铁咖啡"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"版印"</string>
+  <plurals name="make_albums_available_offline">
+    <item quantity="one" msgid="2171596356101611086">"允许离线查看相册。"</item>
+    <item quantity="other" msgid="4948604338155959389">"允许离线查看相册。"</item>
+  </plurals>
+    <string name="try_to_set_local_album_available_offline" msgid="2184754031896160755">"该项是存储在本地的，可在离线状态下使用。"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"所有相册"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"本地相册"</string>
+    <string name="set_label_mtp_devices" msgid="1283513183744896368">"MTP 设备"</string>
+    <string name="set_label_picasa_albums" msgid="5356258354953935895">"Picasa 相册"</string>
+    <string name="free_space_format" msgid="8766337315709161215">"可用空间：<xliff:g id="BYTES">%s</xliff:g>"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> 或更小"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> 或更大"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> 到 <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"导入"</string>
+    <string name="import_complete" msgid="3875040287486199999">"导入已完成"</string>
+    <string name="import_fail" msgid="8497942380703298808">"导入失败"</string>
+    <string name="camera_connected" msgid="916021826223448591">"相机已连接。"</string>
+    <string name="camera_disconnected" msgid="2100559901676329496">"相机已断开连接。"</string>
+    <string name="click_import" msgid="6407959065464291972">"触摸此处可导入"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"选择相册"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"随机显示所有图片"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"选择图片"</string>
+    <string name="widget_type" msgid="1364653978966343448">"选择图片"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"幻灯片"</string>
+    <string name="albums" msgid="7320787705180057947">"相册"</string>
+    <string name="times" msgid="2023033894889499219">"时间"</string>
+    <string name="locations" msgid="6649297994083130305">"地点"</string>
+    <string name="people" msgid="4114003823747292747">"人物"</string>
+    <string name="tags" msgid="5539648765482935955">"标签"</string>
+    <string name="group_by" msgid="4308299657902209357">"分组依据"</string>
+    <string name="settings" msgid="1534847740615665736">"设置"</string>
+    <string name="add_account" msgid="4271217504968243974">"添加帐户"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"相机"</string>
+    <string name="folder_download" msgid="7186215137642323932">"下载"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"编辑过的在线照片"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"已导入"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"屏幕截图"</string>
+    <string name="help" msgid="7368960711153618354">"帮助"</string>
+    <string name="no_external_storage_title" msgid="2408933644249734569">"没有存储设备"</string>
+    <string name="no_external_storage" msgid="95726173164068417">"没有可用的外部存储设备"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"幻灯片视图"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"网格视图"</string>
+    <string name="trimming" msgid="9122385768369143997">"正在剪辑"</string>
+    <string name="please_wait" msgid="7296066089146487366">"请稍候"</string>
+    <string name="save_into" msgid="4960537214388766062">"正在将剪辑视频保存到相册："</string>
+    <string name="trim_too_short" msgid="751593965620665326">"无法剪辑：目标视频太短"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"正在渲染全景图"</string>
+    <string name="save" msgid="613976532235060516">"保存"</string>
+    <!-- add byq qjz for Gallery NewUI  2013-04-15 begin-->
+    <string name="hide_albums">隐藏文件</string>
+    <!-- add byq qjz for Gallery NewUI  2013-04-15 end-->
+    
+    <string name="home">首页</string>
+    <string name="btn_set">设置</string>
+    <string name="exit">退出</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <string name="prompt">提示</string>
+    <string name="btn_return">返回</string>
+    <string name="mainmenu_frame">边框</string>
+    <string name="mainmenu_word">文字</string>
+    <string name="btn_edit">编辑</string>
+    <string name="puzzle_template">模板拼图</string>
+    <string name="puzzle_freedom">自由拼图</string>
+    <string name="puzzle_join">图片拼接</string>
+    <string name="puzzle_custom_background">自定义背景</string>
+    <string name="puzzle_more_background">更多背景</string>
+    <string name="change_frame">版式切换中</string>
+    <string name="change_style">样式切换中</string>
+    <string name="btn_save">保存</string>
+    <string name="saveandshare">保存</string>
+    <string name="save_waitamoment">请稍等片刻...</string>
+    <string name="save_dataprocessing">数据处理中...</string>
+    <string name="progress_dialog_title">处理中</string>
+    <string name="save_hasSave2Album">已保存到相册</string>
+    <string name="save_saving">正在保存...</string>
+    <string name="save_success">保存成功!</string>
+    <string name="share_loginFailednoSign">登录失败</string>
+    <string name="choose_frame">选边框</string>
+    <string name="select_template">选模板</string>
+    <string name="add_delete">添加删除</string>
+    <string name="replace_pic">替换图片</string>
+    <string name="more_frame_pic">更多边框素材</string>
+    <string name="frame_list">边框列表</string>
+    <string name="choosed_pic">当前选中</string>
+    <string name="start_jonitpic">开始拼图</string>
+    <string name="pic_num">张(最多9张)</string>
+    <string name="main_page">首页</string>
+    <string name="chooseDir">目录</string>
+    <string name="choosed_num">(num)</string>
+    <string name="picnum_text">0</string>
+    <string name="dir_path">path</string>
+    <string name="choose_bg">选择背景</string>
+    <string name="mainmenu_edit">编辑</string>
+    <string name="mainmenu_mosaic">马赛克</string>
+    <string name="mainmenu_enhance">增强</string>
+    <string name="mainmenu_weak">背景虚化</string>
+    <string name="mainmenu_effect">特效</string>
+    <string name="beauty_main_whitemopi">磨皮美白</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="effect_normal">原图</string>
+    <string name="effect_lomo_1">经典LOMO</string>
+    <string name="effect_lomo_2">胶片</string>
+    <string name="effect_lomo_3">淡雅</string>
+    <string name="effect_lomo_4">复古</string>
+    <string name="effect_lomo_5">苦艾</string>
+    <string name="effect_lomo_6">80’s</string>
+    <string name="effect_lomo_7">印象</string>
+    <string name="effect_lomo_8">HDR</string>
+    <string name="effect_lomo_9">老照片</string>
+    <string name="effect_lomo_10">古铜色</string>
+    <string name="effect_lomo_11">粉红佳人</string>
+    <string name="effect_lomo_12">哥特风</string>
+    <string name="effect_lomo_13">反转色</string>
+    <string name="effect_lomo_14">移轴</string>
+    <string name="effect_photo_1">柔光</string>
+    <string name="effect_photo_2">粉嫩系</string>
+    <string name="effect_photo_3">自然</string>
+    <string name="effect_photo_4">甜美可人</string>
+    <string name="effect_photo_5">清凉</string>
+    <string name="effect_photo_11">唯美</string>
+    <string name="effect_photo_6">日系</string>
+    <string name="effect_photo_7">阿宝色</string>
+    <string name="effect_photo_8">流年</string>
+    <string name="effect_photo_9">黑白</string>
+    <string name="effect_photo_10">暖洋洋</string>
+    <string name="effect_fashion_1">亮红</string>
+    <string name="effect_fashion_2">日光</string>
+    <string name="effect_fashion_3">平安夜</string>
+    <string name="effect_fashion_4">夜景</string>
+    <string name="effect_fashion_5">飞雪</string>
+    <string name="effect_fashion_6">七彩光晕</string>
+    <string name="effect_fashion_7">时光隧道</string>
+    <string name="effect_art_1">写生素描</string>
+    <string name="effect_art_2">古典素描</string>
+    <string name="effect_art_3">彩铅</string>
+    <string name="effect_art_4">油画</string>
+    <string name="effect_art_5">漫画</string>
+    <string name="effect_art_6">牛皮纸</string>
+    <string name="lomo">LOMO</string>
+    <string name="portrait">人像</string>
+    <string name="fashion">时尚</string>
+    <string name="art">艺术</string>
+    <string name="seekbartext">100%</string>
+    <string name="mosaic_style">马赛克样式</string>
+    <string name="word_style">文字样式</string>
+    <string name="bubble_words">会话气泡</string>
+    <string name="btn_add_word">添加文字</string>
+    <string name="empitiness_round">圆形虚化</string>
+    <string name="empitiness_line">直线虚化</string>
+    <string name="empitiness_range">范围</string>
+    <string name="empitiness_size">大小</string>
+    <string name="mosaic_edit">请写些什么吧..</string>
+    <string name="mosaic_edit_num">0/140</string>
+    <string name="word_edit_tip">温馨提示:输入框里的内容编排是所见即所得的,文字如果很长了记得点“换行”哦！</string>
+    <string name="palette">调色</string>
+    <string name="exposure">智能补光</string>
+    <string name="brightness">亮度</string>
+    <string name="img_enhance_title">增强</string>
+    <string name="beauty_mopi">磨皮</string>
+    <string name="beauty_meibai">美白</string>
+    <string name="beauty_fuse">肤色</string>
+    <string name="bg_emptiness">背景虚化</string>
+    <string name="cool">冷</string>
+    <string name="warm">暖</string>
+    <string name="min">0</string>
+    <string name="max">100</string>
+    <string name="btn_compare">对比</string>
+    <string name="simple_frame">简单边框</string>
+    <string name="color_frame">炫彩边框</string>
+    <string name="edit_tailor">裁剪</string>
+    <string name="edit_spin">旋转</string>
+    <string name="edit_sharpen">锐化</string>
+    <string name="reset">重置</string>
+    <string name="reseting">重置中...</string>
+    <string name="ratio_freedom">比例：自由</string>
+    <string name="confirm_crop">确定裁剪</string>
+    <string name="freedom_rotate">自由旋转</string>
+    <string name="blod">粗体</string>
+    <string name="italic">阴影</string>
+    <string name="cut_1_1">1:1</string>
+    <string name="cut_3_2">3:2</string>
+    <string name="cut_4_3">4:3</string>
+    <string name="cut_2_3">2:3</string>
+    <string name="cut_3_4">3:4</string>
+    <string name="cut_16_9">16:9</string>
+    <string name="freedom_crop">其他</string>
+    <string name="text_bubble_add_content_title">编辑文字内容</string>
+    <string name="rename_folder">重命名文件夹</string>
+    <string name="filename_not_null">文件名不能为空!</string>
+    <string name="folder_rename_success">重命名成功!</string>
+    <string name="folder_rename_fail">重命名失败!</string>
+    <string name="filename">文件名</string>
+    <string name="new_album">新建文件夹</string>
+    <string name="album_exist_message_format_toast">%s 已存在</string>
+    <string name="tip_please_wait">请稍等...</string>
+    <string name="tip_please_wait_content">正在加载图片</string>
+    <string name="mosaic_progess_title">马赛克处理中</string>
+    <string name="mopi_progess_title">智能磨皮美白中...</string>
+    <string name="frame_simple_1">白框</string>
+    <string name="frame_simple_2">黑框</string>
+    <string name="frame_simple_3">经典边框</string>
+    <string name="frame_simple_4">可爱半圆</string>
+    <string name="frame_simple_5">电影胶片</string>
+    <string name="frame_simple_6">菲林</string>
+    <string name="frame_simple_7">录像机</string>
+    <string name="frame_simple_8">胶带</string>
+    <string name="frame_simple_9">蕾丝</string>
+    <string name="frame_simple_10">邮票</string>
+    <string name="frame_simple_11">粉红心情</string>
+    <string name="frame_simple_12">波点</string>
+    <string name="frame_colorful_1">光晕</string>
+    <string name="frame_colorful_2">银河</string>
+    <string name="frame_colorful_3">雪夜</string>
+    <string name="frame_colorful_4">爱心</string>
+    <string name="frame_colorful_5">五角星</string>
+    <string name="frame_colorful_6">七色花</string>
+    <string name="album_title">选择图库</string>
+    <string name="edit_word">编辑文字</string>
+    <string name="puzzle_title">至少2张才能拼图</string><!-- add by biao.luo for pr460354 -->
+    <string name="save_path">保存路径:</string><!-- add by biao.luo for pr464687 -->
+    <string name="select_background">选背景</string>
+    <string name="move_picutre_tip">请稍等正在移动图片...</string>
+    <!-- add by qjz for pr481424 -->
+    <string name="unable_to_play">通话中无法播放</string>
+    <!-- yaogang.hao for PR517080 -->
+    <string name="prohibit_use">不支持此比例图片</string>
+
+    <!-- PR857320 modify Can not use Scale Free operation by fengke at 2014.12.02 start -->
+    <string name="jrdgallery_scale_not_support">这张照片的尺寸无法被裁剪！</string>
+    <!-- PR857320 modify Can not use Scale Free operation by fengke at 2014.12.02 end -->
+
+</resources>

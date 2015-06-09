@@ -1,0 +1,8 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar camera;
+!slot <photo>;
+!start <testing>;
+<testing>: <action1>;
+<action1>: <photo>;
+
+<photo>:拍照|来|来一张|茄子;

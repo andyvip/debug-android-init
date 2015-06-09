@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_title_heght"
+        android:background="@drawable/title_bar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:duplicateParentState="true"
+            android:gravity="center_vertical"
+            android:text="@string/activity_Timer"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/Timer_absolute_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:focusable="false"
+                    android:text="@string/Timer_time_format"
+                    android:textColor="@color/timer_absolute_color"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/Timer_relative_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Timer_absolute_time"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:focusable="false"
+                    android:text="@string/Timer_time_format"
+                    android:textColor="@color/timer_absolute_color"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <Button
+                    android:id="@+id/Timer_start"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/timer_btn_green_bk"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:onClick="onButtonClick"
+                    android:singleLine="true"
+                    android:text="@string/Timer_start"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/Timer_stop"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dip"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/timer_btn_red_bk"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:onClick="onButtonClick"
+                    android:singleLine="true"
+                    android:text="@string/Timer_stop"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/Timer_resume"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dip"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/timer_btn_green_bk"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:onClick="onButtonClick"
+                    android:singleLine="true"
+                    android:text="@string/Timer_resume"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="1dp" />
+
+                <Button
+                    android:id="@+id/Timer_clean"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dip"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/timer_btn_gray_bk"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:onClick="onButtonClick"
+                    android:singleLine="true"
+                    android:text="@string/Timer_clean"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/Timer_record"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dip"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/timer_record_bg"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:onClick="onButtonClick"
+                    android:singleLine="true"
+                    android:text="@string/Timer_record"
+                    android:textColor="@color/timer_record_color"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:background="@drawable/timer_title"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="@string/Timer_record"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="@string/Timer_absolutetime"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="@string/Timer_relativetime"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="@drawable/timer_list" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="@drawable/timer_list" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="@drawable/timer_list" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="@drawable/timer_list" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="@drawable/timer_list" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="@drawable/timer_list" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="@drawable/timer_list" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/Timer_loglist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cacheColorHint="#00000000"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:singleLine="true" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

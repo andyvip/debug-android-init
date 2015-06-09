@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="loading_ringtone">"Мелодията се зарежда..."</string>
+	<!---->
+	<string name="app_name">"Час"</string>
+	<!---->
+	<string name="activity_worldclock">"Световен часовник"</string>
+	<!---->
+	<string name="activity_alarm">"Аларма"</string>
+	<!---->
+	<string name="activity_Timer">"Таймер"</string>
+	<!---->
+	<string name="activity_timer">"Отброяване"</string>
+	<!---->
+	<string name="Timer_start">"Начало"</string>
+	<!---->
+	<string name="Timer_stop">"Стоп"</string>
+	<!---->
+	<string name="Timer_resume">"Възобновяване"</string>
+	<!---->
+	<string name="Timer_clean">"Изчисти"</string>
+	<!---->
+	<string name="Timer_record">"Вр."</string>
+	<!---->
+	<string name="Timer_absolutetime">"Общо"</string>
+	<!---->
+	<string name="Timer_relativetime">"Това време"</string>
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!---->
+	<string name="Timer_warning">"Предупреждение"</string>
+	<!---->
+	<string name="Timer_exit_warning">"Времето изтича. Искате ли да прекъснете?"</string>
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"Мелодия"</string>
+	<!---->
+	<string name="timer_start">"Начало"</string>
+	<!---->
+	<string name="timer_cancel">"Отказ"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"Без звук"</string>
+	<!---->
+	<string name="timer_ringtone_choose_title">"Задайте мелодия на зв."</string>
+	<!---->
+	<string name="timer_exit_warning">"Обратното броене е в ход, искате ли да се откажете?"</string>
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_alert_label">"Врем.изтече"</string>
+	<!---->
+	<string name="timer_hour">"час"</string>
+	<!---->
+	<string name="timer_minute">"Минута"</string>
+	<!---->
+	<string name="timer_second">"Сек."</string>
+	<!---->
+	<string name="set_alarm">"Настройте аларма"</string>
+	<!---->
+	<string name="settings">"Настройки"</string>
+	<!---->
+	<string name="auto_silence_title">"Автоматично заглушаване"</string>
+	<!---->
+	<string name="auto_silence_summary">"Алармите ще бъдат заглуш.след <xliff:g id="minutes">%d</xliff:g> м."</string>
+	<!---->
+	<string name="auto_silence_never">"Изк"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"Аларма в безшум.режим"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"Възпроизвеждане на аларма дори когато телефонът е в режим без звук"</string>
+	<string-array name="auto_silence_entries">
+		<item>"Изкл."</item>
+		<item>"5 минути"</item>
+		<item>"10 минути"</item>
+		<item>"15 минути"</item>
+		<item>"20 минути"</item>
+		<item>"25 минути"</item>
+		<item>"30 минути"</item>
+	</string-array>
+	<!---->
+	<string name="add_alarm">"Добавяне на аларма"</string>
+	<!---->
+	<string name="default_label">"Аларма"</string>
+	<!---->
+	<string name="never">"Никога"</string>
+	<!---->
+	<string name="every_day">"всеки ден"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!---->
+	<string name="alarm_settings">"Настройки"</string>
+	<!---->
+	<string name="delete_alarm">"Изтриване на аларма"</string>
+	<!---->
+	<string name="delete_alarm_confirm">"Тази аларма ще бъде изтрита."</string>
+	<!---->
+	<string name="snooze_duration_title">"Повторете след"</string>
+	<!---->
+	<string name="delete_alarm_message">"Изтриване на избраната аларма?"</string>
+	<string-array name="snooze_duration_entries">
+		<item>"5 минути"</item>
+		<item>"10 минути"</item>
+		<item>"15 минути"</item>
+		<item>"20 минути"</item>
+		<item>"25 минути"</item>
+		<item>"30 минути"</item>
+	</string-array>
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"Бутони за силата"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"Работа на бутон"</string>
+	<!---->
+	<string name="volume_button_setting_summary">"Настройте желаното поведение от бутоните при натискане по време на аларма"</string>
+	<string-array name="volume_button_setting_entries">
+		<item>"Няма"</item>
+		<item>"Повторение"</item>
+		<item>"Изход"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!---->
+	<string name="turn_over_to_active_title">"Обърнете за активиране"</string>
+	<!---->
+	<string name="turn_over_to_active_dialog_title">"Обърни поведението"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"Повторение"</string>
+	<!---->
+	<string name="alarm_vibrate">"Вибрация"</string>
+	<!---->
+	<string name="label">"Етикет"</string>
+	<!---->
+	<string name="day">"1 ден"</string>
+	<!---->
+	<string name="days">"%s дни"</string>
+	<!---->
+	<string name="hour">"1 час"</string>
+	<!---->
+	<string name="hours">"%s часа"</string>
+	<!---->
+	<string name="minute">"1 минута"</string>
+	<!---->
+	<string name="minutes">"%s минути"</string>
+	<string-array name="alarm_set">
+		<item>"Тази аларама е настроена за по-малко от 1 мин. от този момент."</item>
+		<item>"Тази аларма е настроена за %1$s от сега."</item>
+		<item>"Тази аларма е настроена за %2$s от сега."</item>
+		<item>"Тази аларма е настроена за %1$s и %2$s от сега."</item>
+		<item>"Тази аларма е настроена за %3$s от сега."</item>
+		<item>"Тази аларма е настроена за %1$s и %3$s от сега."</item>
+		<item>"Тази аларма е настроена за %2$s и %3$s от сега."</item>
+		<item>"Тази аларма е настроена за %1$s, %2$s и %3$s от сега."</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"Без звук"</string>
+	<!---->
+	<string name="alarm_notify_text">"Изберете да отложите или да изключите тази аларма."</string>
+	<!---->
+	<string name="alarm_alert_alert_silenced">"Алармата ще бъде заглушена след %d минути"</string>
+	<!---->
+	<string name="alarm_alert_snooze_text">"Повторение"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"Стоп"</string>
+	<!---->
+	<string name="alarm_notify_snooze_label">"%s (отложена)"</string>
+	<!---->
+	<string name="alarm_notify_snooze_text">"Следващата аларма в <xliff:g id="TIME">%s</xliff:g>.Изберете откажи"</string>
+	<!---->
+	<string name="alarm_alert_snooze_set">"Отменяне за %d минути."</string>
+	<!---->
+	<string name="system_acticity_name">"Система"</string>
+	<!---->
+	<string name="music_acticity_name">"Моя муз."</string>
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!---->
+	<string name="no_music">"Няма музика"</string>
+	<!---->
+	<string name="default_ringtone">"Мелодия по подразбиране"</string>
+	<!---->
+	<string name="add_city">"Добавете град"</string>
+	<!---->
+	<string name="select_city">"Изберете град"</string>
+	<!---->
+	<string name="delete_city">"Изтриване"</string>
+	<!---->
+	<string name="delete_worldtime_message">"Сигурни ли сте, че искате да изтриете часовника?"</string>
+	<!---->
+	<string name="worldtime_search_hint">"Въведете име на град"</string>
+	<!---->
+	<string name="sel_from_below">"Или изберете от по-долу:"</string>
+	<!---->
+	<string name="worldtime_is_showed">"(Добавен)"</string>
+	<!---->
+	<string name="worldtime_menu_delete">"Изтриване"</string>
+	<!---->
+	<string name="worldtime_delete_title">"Изтриване на град"</string>
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"Днес"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"Вчера"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"Утре"</string>
+	<!---->
+	<string name="time_am">"AM"</string>
+	<!---->
+	<string name="time_pm">"PM"</string>
+	<!---->
+	<string name="no_city">"Градът не може да бъде намерен"</string>
+	<!---->
+	<string name="time_picker_cancel">"Отказ"</string>
+	<!---->
+	<string name="time_picker_set">"ОК"</string>
+	<!---->
+	<string name="night_mode_title">"Нощен режим"</string>
+	<!---->
+	<string name="night_mode_summary">"Много тъмен дисплей(за тъмни стаи)"</string>
+	<!---->
+	<string name="app_label">"Часовник"</string>
+	<!---->
+	<string name="clock_style">"Стил"</string>
+	<!---->
+	<string name="screensaver_settings">"Дрийм настройки"</string>
+	<!---->
+	<string name="screensaver_clock_label">"Часовник"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary_tablet">"Възпроизвеждане на алармата, когато таблета е в тих режим."</string>
+	<!---->
+	<string name="app_name_clock">"Часовник"</string>
+</resources>

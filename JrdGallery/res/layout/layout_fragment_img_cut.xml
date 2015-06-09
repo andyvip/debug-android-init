@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="-5.0dip"
+>
+<com.jrdcom.mt.widget.ViewEditCut
+        android:id="@+id/view_editcut"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10.0dip"
+        android:layout_above="@+id/Edit_cut_bottom"/>
+<!-- yaogang.hao for PR 491845 The "Confirm crop" button diaplay abnormal  -->
+    <RelativeLayout
+        android:id="@+id/Edit_cut_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_effect_and_frame_background"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+    >
+        <Button
+            android:textSize="12.0dip"
+            android:id="@+id/cut_reset"
+            android:background="@drawable/btn_clip_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="2.0dip"
+            android:text="@string/reset"/>
+        <CheckBox
+            android:id="@+id/edit_cut_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="28.5dip"
+            android:textSize="12.0dip"
+            android:background="@drawable/btn_clip_scale"
+            android:paddingLeft="3.0dip"
+            android:paddingRight="3.0dip"
+            android:text="@string/ratio_freedom"
+            android:layout_toRightOf="@id/cut_reset"
+            android:layout_toLeftOf="@+id/edit_cut_finish"
+            android:layout_marginLeft="8.0dip"
+            style="@style/bth_checkbox"
+            android:singleLine="true"
+            />
+        <Button
+            android:id="@+id/edit_cut_finish"
+            android:background="@drawable/btn_gopintu_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12.0dip"
+            android:textColor="@color/effect_button_color"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="2.0dip"
+            android:paddingRight="6.0dip"
+            android:text="@string/confirm_crop"
+            android:drawableLeft="@drawable/icon_clip"
+            android:drawablePadding="-3.0dip"
+            android:layout_marginLeft="5dip"
+            android:maxWidth="120dip"
+            android:singleLine="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>

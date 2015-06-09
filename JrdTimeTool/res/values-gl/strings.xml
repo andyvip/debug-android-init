@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="loading_ringtone">"Cargando ton de chamada\u2026"</string>
+	<!---->
+	<string name="app_name">"Hora"</string>
+	<!---->
+	<string name="activity_worldclock">"Reloxo mundial"</string>
+	<!---->
+	<string name="activity_alarm">"Alarma"</string>
+	<!---->
+	<string name="activity_Timer">"Temporizador"</string>
+	<!---->
+	<string name="activity_timer">"Conta atrás"</string>
+	<!---->
+	<string name="Timer_start">"Iniciar"</string>
+	<!---->
+	<string name="Timer_stop">"Deter"</string>
+	<!---->
+	<string name="Timer_resume">"Recomezar"</string>
+	<!---->
+	<string name="Timer_clean">"Borrar"</string>
+	<!---->
+	<string name="Timer_record">"Volta"</string>
+	<!---->
+	<string name="Timer_absolutetime">"Total"</string>
+	<!---->
+	<string name="Timer_relativetime">"Esta volta"</string>
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!---->
+	<string name="Timer_warning">"Advertencia"</string>
+	<!---->
+	<string name="Timer_exit_warning">"O cronómetro está en uso. Quere saír?"</string>
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"Ton de chamada"</string>
+	<!---->
+	<string name="timer_start">"Iniciar"</string>
+	<!---->
+	<string name="timer_cancel">"Cancelar"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"Silencio"</string>
+	<!---->
+	<string name="timer_ringtone_choose_title">"Definir ton de chamada"</string>
+	<!---->
+	<string name="timer_exit_warning">"Conta Atrás está activo. Desexa saír?"</string>
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_alert_label">"Tempo esgotado"</string>
+	<!---->
+	<string name="timer_hour">"hora"</string>
+	<!---->
+	<string name="timer_minute">"Minuto"</string>
+	<!---->
+	<string name="timer_second">"Segundo"</string>
+	<!---->
+	<string name="set_alarm">"Fixar alarma"</string>
+	<!---->
+	<string name="settings">"Axustes"</string>
+	<!---->
+	<string name="auto_silence_title">"Silenciar automaticamente"</string>
+	<!---->
+	<string name="auto_silence_summary">"A alarma silenciarase despois de <xliff:g id="minutes">%d</xliff:g> minutos"</string>
+	<!---->
+	<string name="auto_silence_never">"DESACT."</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"Alarma en modo silencio"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"Reproducir alarma en modo silencio"</string>
+	<string-array name="auto_silence_entries">
+		<item>"Desactivado"</item>
+		<item>"5 minutos"</item>
+		<item>"10 minutos"</item>
+		<item>"15 minutos"</item>
+		<item>"20 minutos"</item>
+		<item>"25 minutos"</item>
+		<item>"30 minutos"</item>
+	</string-array>
+	<!---->
+	<string name="add_alarm">"Engadir alarma"</string>
+	<!---->
+	<string name="default_label">"Alarma"</string>
+	<!---->
+	<string name="never">"Nunca"</string>
+	<!---->
+	<string name="every_day">"a diario"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!---->
+	<string name="alarm_settings">"Axustes"</string>
+	<!---->
+	<string name="delete_alarm">"Eliminar alarma"</string>
+	<!---->
+	<string name="delete_alarm_confirm">"Esta alarma será eliminada."</string>
+	<!---->
+	<string name="snooze_duration_title">"Duración snooze"</string>
+	<!---->
+	<string name="delete_alarm_message">"Eliminar alarma seleccionada?"</string>
+	<string-array name="snooze_duration_entries">
+		<item>"5 minutos"</item>
+		<item>"10 minutos"</item>
+		<item>"15 minutos"</item>
+		<item>"20 minutos"</item>
+		<item>"25 minutos"</item>
+		<item>"30 minutos"</item>
+	</string-array>
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"Conducta botón lateral"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"Conducta botón"</string>
+	<!---->
+	<string name="volume_button_setting_summary">"Defina a conducta dos botóns ao premelos durante unha alarma."</string>
+	<string-array name="volume_button_setting_entries">
+		<item>"Ningún"</item>
+		<item>"Repetir"</item>
+		<item>"Desbotar"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!---->
+	<string name="turn_over_to_active_title">"Dar a volta para activar"</string>
+	<!---->
+	<string name="turn_over_to_active_dialog_title">"Acción ao xirar o teléfono."</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"Repetir"</string>
+	<!---->
+	<string name="alarm_vibrate">"Vibrar"</string>
+	<!---->
+	<string name="label">"Etiqueta"</string>
+	<!---->
+	<string name="day">"1 día"</string>
+	<!---->
+	<string name="days">"%s días"</string>
+	<!---->
+	<string name="hour">"1 hora"</string>
+	<!---->
+	<string name="hours">"%s horas"</string>
+	<!---->
+	<string name="minute">"1 minuto"</string>
+	<!---->
+	<string name="minutes">"%s minutos"</string>
+	<string-array name="alarm_set">
+		<item>"A alarma soará en menos dun minuto."</item>
+		<item>"Esta alarma soará dentro de %1$s."</item>
+		<item>"Esta alarma soará dentro de %2$s."</item>
+		<item>"Esta alarma soará dentro de %1$s e %2$s."</item>
+		<item>"Esta alarma soará dentro de %3$s."</item>
+		<item>"Esta alarma soará dentro de %1$s e %3$s."</item>
+		<item>"Esta alarma soará dentro de %2$s e %3$s."</item>
+		<item>"Esta alarma soará dentro de %1$s, %2$s e %3$s."</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"Silencio"</string>
+	<!---->
+	<string name="alarm_notify_text">"Seleccione para repetir a alarma ou desbotala."</string>
+	<!---->
+	<string name="alarm_alert_alert_silenced">"Alarma silenciada despois de %d minutos"</string>
+	<!---->
+	<string name="alarm_alert_snooze_text">"Repetir"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"Deter"</string>
+	<!---->
+	<string name="alarm_notify_snooze_label">"%s (repetida)"</string>
+	<!---->
+	<string name="alarm_notify_snooze_text">"Alarma fixada para as <xliff:g id="time">%s</xliff:g>. Selecc. para cancelar."</string>
+	<!---->
+	<string name="alarm_alert_snooze_set">"Repetir %d minutos."</string>
+	<!---->
+	<string name="system_acticity_name">"Sistema"</string>
+	<!---->
+	<string name="music_acticity_name">"Música"</string>
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!---->
+	<string name="no_music">"Non hai música"</string>
+	<!---->
+	<string name="default_ringtone">"Ton por omisión"</string>
+	<!---->
+	<string name="add_city">"Engadir cidade"</string>
+	<!---->
+	<string name="select_city">"Seleccione a cidade"</string>
+	<!---->
+	<string name="delete_city">"Suprimir"</string>
+	<!---->
+	<string name="delete_worldtime_message">"Seguro que desexa eliminar o reloxo?"</string>
+	<!---->
+	<string name="worldtime_search_hint">"Introduza o nome da cidade"</string>
+	<!---->
+	<string name="sel_from_below">"O escolla unha cidade da lista:"</string>
+	<!---->
+	<string name="worldtime_is_showed">"(Engadido)"</string>
+	<!---->
+	<string name="worldtime_menu_delete">"Suprimir"</string>
+	<!---->
+	<string name="worldtime_delete_title">"Eliminar cidade"</string>
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"Hoxe"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"Onte"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"mañá"</string>
+	<!---->
+	<string name="time_am">"AM"</string>
+	<!---->
+	<string name="time_pm">"PM"</string>
+	<!---->
+	<string name="no_city">"Imposible atopar a cidade"</string>
+	<!---->
+	<string name="time_picker_cancel">"Cancelar"</string>
+	<!---->
+	<string name="time_picker_set">"OK"</string>
+	<!---->
+	<string name="night_mode_title">"Modo nocturno"</string>
+	<!---->
+	<string name="night_mode_summary">"Pantalla moi tenue (para habitacións escuras)"</string>
+	<!---->
+	<string name="app_label">"Reloxo"</string>
+	<!---->
+	<string name="clock_style">"Estilo"</string>
+	<!---->
+	<string name="screensaver_settings">"Axustes de Dream"</string>
+	<!---->
+	<string name="screensaver_clock_label">"Reloxo"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary_tablet">"Reproducir alarma mesmo se a tablet esta en modo silencio"</string>
+	<!---->
+	<string name="app_name_clock">"Reloxo"</string>
+</resources>

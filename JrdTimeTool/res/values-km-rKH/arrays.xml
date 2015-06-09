@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Dec 09 13:35:51 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="gestures_alarm_item">
+		<item>"ដេកបន្តិច"</item>
+		<item>"ទាត់ចោល"</item>
+	</string-array>
+	<string-array name="clock_style_entries">
+		<item>"អាណាឡក"</item>
+		<item>"ឌីជីថល"</item>
+	</string-array>
+</resources>

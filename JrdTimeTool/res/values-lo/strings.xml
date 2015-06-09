@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for loading_ringtone -->
+	<skip />
+	<!-- no translation found for app_name -->
+	<skip />
+	<!---->
+	<string name="activity_worldclock">"ເວລາ ຂອງໂລກ"</string>
+	<!---->
+	<string name="activity_alarm">"ປຸກ"</string>
+	<!-- no translation found for activity_Timer -->
+	<skip />
+	<!-- no translation found for activity_timer -->
+	<skip />
+	<!-- no translation found for Timer_start -->
+	<skip />
+	<!-- no translation found for Timer_stop -->
+	<skip />
+	<!---->
+	<string name="Timer_resume">"ເລີ້ມ​ດຳ​ເນີນ​ການ​ຕໍ່"</string>
+	<!-- no translation found for Timer_clean -->
+	<skip />
+	<!-- no translation found for Timer_record -->
+	<skip />
+	<!---->
+	<string name="Timer_absolutetime">"ທັງໜົດ"</string>
+	<!-- no translation found for Timer_relativetime -->
+	<skip />
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!-- no translation found for Timer_warning -->
+	<skip />
+	<!-- no translation found for Timer_exit_warning -->
+	<skip />
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"ສຽງເອີ້ນເຂົ້າ"</string>
+	<!-- no translation found for timer_start -->
+	<skip />
+	<!---->
+	<string name="timer_cancel">"ຍົກເລີກ"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"ສຽງງຽບ"</string>
+	<!-- no translation found for timer_ringtone_choose_title -->
+	<skip />
+	<!-- no translation found for timer_exit_warning -->
+	<skip />
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!-- no translation found for timer_alert_label -->
+	<skip />
+	<!---->
+	<string name="timer_hour">"ຊົ່ວໂມງ"</string>
+	<!-- no translation found for timer_minute -->
+	<skip />
+	<!-- no translation found for timer_second -->
+	<skip />
+	<!---->
+	<string name="set_alarm">"ຕັ້ງປຸກ"</string>
+	<!-- no translation found for settings -->
+	<skip />
+	<!-- no translation found for auto_silence_title -->
+	<skip />
+	<!-- no translation found for auto_silence_summary -->
+	<skip />
+	<!---->
+	<string name="auto_silence_never">"ປິດ"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"ການປຸກຢູ່ໃນແບບສຽງງຽບ"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"ການປຸກຍັງເຮັດວຽກຢູ່ ເມື່ອໂທລະສັບຢູ່ຮູບແບບສຽງງຽບ"</string>
+	<!-- no translation found for auto_silence_entries -->
+	<skip />
+	<!---->
+	<string name="add_alarm">"ເພີ່ມໂມງປຸກ"</string>
+	<!---->
+	<string name="default_label">"ປຸກ"</string>
+	<!---->
+	<string name="never">"ບໍ່ເຄີຍ"</string>
+	<!---->
+	<string name="every_day">"ທຸກໆມື້"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!-- no translation found for alarm_settings -->
+	<skip />
+	<!---->
+	<string name="delete_alarm">"ລຶບການປຸກ"</string>
+	<!-- no translation found for delete_alarm_confirm -->
+	<skip />
+	<!---->
+	<string name="snooze_duration_title">"ຊ່ວງເວລາເລື່ອນປຸກ"</string>
+	<!-- no translation found for delete_alarm_message -->
+	<skip />
+	<!-- no translation found for snooze_duration_entries -->
+	<skip />
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"ການເຮັດວຽກຂອງປຸ່ມດ້ານຂ້າງ"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"ລັກສະນະການເຮັດວຽກຂອງປຸ່ມ"</string>
+	<!-- no translation found for volume_button_setting_summary -->
+	<skip />
+	<string-array name="volume_button_setting_entries">
+		<item>"ບໍ່ມີ"</item>
+		<item>"ເລື່ອນປຸກ"</item>
+		<item>"ຍົກເລີກ"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!-- no translation found for turn_over_to_active_title -->
+	<skip />
+	<!-- no translation found for turn_over_to_active_dialog_title -->
+	<skip />
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"ເຮັດຊໍ້າ"</string>
+	<!---->
+	<string name="alarm_vibrate">"ສັ່ນ"</string>
+	<!---->
+	<string name="label">"ເຄື່ອງໝາຍກຳກັບ"</string>
+	<!---->
+	<string name="day">"1 ມື້"</string>
+	<!-- no translation found for days -->
+	<skip />
+	<!---->
+	<string name="hour">"1 ຊົ່ວໂມງ"</string>
+	<!-- no translation found for hours -->
+	<skip />
+	<!---->
+	<string name="minute">"1 ນາທີ"</string>
+	<!-- no translation found for minutes -->
+	<skip />
+	<string-array name="alarm_set">
+		<item>"ໄດ້ກໍານົດຫານປຸກນີ້ເພື່ອໃຫ້ບັນລຸ 1 ນາທີຈາກນີ້ໄປເພື່ອເຕືອນ."</item>
+		<item>"This alarm is set for %1$s from now."</item>
+		<item>"This alarm is set for %2$s from now."</item>
+		<item>"This alarm is set for %1$s and %2$s from now."</item>
+		<item>"This alarm is set for %3$s from now."</item>
+		<item>"This alarm is set for %1$s and %3$s from now."</item>
+		<item>"This alarm is set for %2$s and %3$s from now."</item>
+		<item>"This alarm is set for %1$s, %2$s, and %3$s from now."</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"ສຽງງຽບ"</string>
+	<!-- no translation found for alarm_notify_text -->
+	<skip />
+	<!-- no translation found for alarm_alert_alert_silenced -->
+	<skip />
+	<!---->
+	<string name="alarm_alert_snooze_text">"ເລື່ອນປຸກ"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"ຢຸດ"</string>
+	<!-- no translation found for alarm_notify_snooze_label -->
+	<skip />
+	<!---->
+	<string name="alarm_notify_snooze_text">"ຕັ້ງປຸກສຳລັບ <xliff:g id="TIME">%s</xliff:g>ເລືອກເພື່ອຍັກເລີກ。"</string>
+	<!-- no translation found for alarm_alert_snooze_set -->
+	<skip />
+	<!-- no translation found for system_acticity_name -->
+	<skip />
+	<!-- no translation found for music_acticity_name -->
+	<skip />
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!-- no translation found for no_music -->
+	<skip />
+	<!---->
+	<string name="default_ringtone">"ສຽງເອີ້ນເຂົ້າເລີ່ມຕົ້ນ"</string>
+	<!-- no translation found for add_city -->
+	<skip />
+	<!-- no translation found for select_city -->
+	<skip />
+	<!---->
+	<string name="delete_city">"ລົບ"</string>
+	<!-- no translation found for delete_worldtime_message -->
+	<skip />
+	<!-- no translation found for worldtime_search_hint -->
+	<skip />
+	<!-- no translation found for sel_from_below -->
+	<skip />
+	<!-- no translation found for worldtime_is_showed -->
+	<skip />
+	<!---->
+	<string name="worldtime_menu_delete">"ລົບ"</string>
+	<!-- no translation found for worldtime_delete_title -->
+	<skip />
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"ມື້ນີ້"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"ມື້ວານນີ້"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"ມື້ອື່ນ"</string>
+	<!-- no translation found for time_am -->
+	<skip />
+	<!-- no translation found for time_pm -->
+	<skip />
+	<!-- no translation found for no_city -->
+	<skip />
+	<!---->
+	<string name="time_picker_cancel">"ຍົກເລີກ"</string>
+	<!---->
+	<string name="time_picker_set">"ຕົກລົງ"</string>
+	<!-- no translation found for night_mode_title -->
+	<skip />
+	<!-- no translation found for night_mode_summary -->
+	<skip />
+	<!---->
+	<string name="app_label">"ໂມງ"</string>
+	<!-- no translation found for clock_style -->
+	<skip />
+	<!-- no translation found for screensaver_settings -->
+	<skip />
+	<!---->
+	<string name="screensaver_clock_label">"ໂມງ"</string>
+	<!-- no translation found for alarm_in_silent_mode_summary_tablet -->
+	<skip />
+	<!---->
+	<string name="app_name_clock">"ໂມງ"</string>
+</resources>

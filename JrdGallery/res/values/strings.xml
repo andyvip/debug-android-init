@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Gallery</string>
+    <!-- Title for picture frame gadget to show in list of all available gadgets -->
+    <string name="gadget_title">Picture frame</string>
+
+    <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <!-- Activity label. This might show up in the activity-picker -->
+    <string name="movie_view_label">Video player</string>
+    <!-- shown in the video player view while the video is being loaded, before it starts playing -->
+    <string name="loading_video">Loading video\u2026</string>
+    <string name="loading_image">Loading image\u2026</string>
+
+    <!-- Message shown on the progress dialog to indicate we're loading the
+            account info [CHAR LIMIT=30] -->
+    <string name="loading_account">Loading account\u2026</string>
+
+    <!-- Movie View Resume Playing dialog title -->
+    <string name="resume_playing_title">Resume video</string>
+
+    <!-- Movie View Start Playing dialog title -->
+    <string name="resume_playing_message">Resume playing from %s ?</string>
+    <!-- Movie View Start Playing button "Resume from bookmark" -->
+    <string name="resume_playing_resume">Resume playing</string>
+
+    <!-- Displayed in the title of those albums that are being loaded -->
+    <string name="loading">Loading\u2026</string>
+
+    <!-- Displayed in the title of those pictures that fails to be loaded
+         [CHAR LIMIT=50]-->
+    <string name="fail_to_load">Couldn\'t load</string>
+
+    <!-- Used in a toast message when an image fails to be loaded
+         [CHAR LIMIT=50]-->
+    <string name="fail_to_load_image">Couldn\'t load the image</string>
+
+    <!-- Displayed in place of the picture when we fail to get the thumbnail of it.
+         [CHAR LIMIT=50]-->
+    <string name="no_thumbnail">No thumbnail</string>
+
+    <!-- Movie View Start Playing button "Beginning" -->
+    <string name="resume_playing_restart">Start over</string>
+
+    <!-- Title of a menu item to indicate performing the image crop operation
+         [CHAR LIMIT=20] -->
+    <string name="crop_save_text">OK</string>
+    <!-- Title of a menu item to indicate performing the image crop operation
+         [CHAR LIMIT=20] -->
+    <string name="ok">OK</string>
+    <!-- Button indicating that the cropped image should be reverted back to the original -->
+    <!-- Hint that appears when cropping an image with more than one face -->
+    <string name="multiface_crop_help">Touch a face to begin.</string>
+    <!-- Toast/alert that the image is being saved to the SD card -->
+    <string name="saving_image">Saving picture\u2026</string>
+
+    <!-- Toast/alert that the image is being saved after editing in filtershow [CHAR LIMIT=40]-->
+    <string name="filtershow_saving_image">Saving picture to <xliff:g id="album_name">%1$s</xliff:g> \u2026</string>
+
+    <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->
+    <string name="save_error">Couldn\'t save cropped image.</string>
+
+    <!-- menu pick: crop the currently selected image [CHAR LIMIT=30]-->
+    <string name="crop_label">Crop picture</string>
+    <!-- menu pick: trim the currently selected video [CHAR LIMIT=30]-->
+    <string name="trim_label">Trim video</string>
+
+    <!-- Toast/alert that the face detection is being run -->
+
+    <!-- Title prompted for user to choose a photo item [CHAR LIMIT=20] -->
+    <string name="select_image">Select photo</string>
+    <!-- Title prompted for user to choose a video item [CHAR LIMIT=20] -->
+    <string name="select_video">Select video</string>
+    <!-- Title prompted for user to choose a media object [CHAR LIMIT=20] -->
+    <string name="select_item">Select item</string>
+    <!-- Title prompted for user to choose an album [CHAR LIMIT=20] -->
+    <string name="select_album">Select album</string>
+    <!-- Title prompted for user to choose a group [CHAR LIMIT=20] -->
+    <string name="select_group">Select group</string>
+
+    <!-- Displayed in the title of the dialog for things to do with a picture
+             that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
+    <string name="set_image">Set picture as</string>
+    <!-- Activity title for cropping picture and setting it as wallpaper [CHAR LIMIT=20] -->
+    <string name="set_wallpaper">Set wallpaper</string>
+    <!-- Toast/alert after saving wallpaper -->
+    <string name="wallpaper">Setting wallpaper\u2026</string>
+    <string name="camera_setas_wallpaper">Wallpaper</string>
+
+    <!-- Details dialog "OK" button. Dismisses dialog. -->
+    <string name="delete">Delete</string>
+    <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
+    <plurals name="delete_selection">
+        <item quantity="one">Delete selected item?</item>
+        <item quantity="other">Delete selected items?</item>
+    </plurals>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="share">Share</string>
+    <string name="share_panorama">Share panorama</string>
+    <string name="share_as_photo">Share as photo</string>
+
+    <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
+    <string name="deleted">Deleted</string>
+
+    <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
+    <string name="undo">UNDO</string>
+
+    <!-- String indicating more actions are available -->
+    <string name="select_all">Select all</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="slideshow">Slideshow</string>
+
+    <string name="details">Details</string>
+    <string name="details_title">%1$d of %2$d items:</string>
+    <string name="close">Close</string>
+
+    <!-- Title of a menu item to switch from Gallery to Camera app [CHAR LIMIT=30] -->
+    <string name="switch_to_camera">Switch to Camera</string>
+
+    <!-- String indicating how many media item(s) is(are) selected
+            eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_items_selected">
+        <item quantity="zero">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+
+    <!-- String indicating how many media album(s) is(are) selected
+            eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_albums_selected">
+        <item quantity="zero">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+
+    <!-- String indicating how many media group(s) is(are) selected
+            eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_groups_selected">
+        <item quantity="zero">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+
+    <!-- String indicating timestamp of photo or video -->
+    <string name="show_on_map">Show on map</string>
+    <string name="rotate_left">Rotate left</string>
+    <string name="rotate_right">Rotate right</string>
+
+    <!-- Toast message prompted when the specified item is not found [CHAR LIMIT=40]-->
+    <string name="no_such_item">Couldn\'t find item.</string>
+
+    <!-- String used as a menu label. The suer can choose to edit the image
+         [CHAR_LIMIT=20]-->
+    <string name="edit">Edit</string>
+
+    <!-- String used as a title of a progress dialog. The user can
+         choose to cache some Picasa picture albums on device, so it can
+         be viewed offline. This string is shown when the request is being
+         processed. [CHAR LIMIT=50] -->
+    <string name="process_caching_requests">Processing caching requests</string>
+
+    <!-- String used as a small notification label above a Picasa album.
+         It means the pictures of the Picasa album is currently being
+         transferred to local storage, so the pictures can later be viewed
+         offline. [CHAR LIMIT=15] -->
+    <string name="caching_label">Caching\u2026</string>
+
+    <string name="crop_action">Crop</string>
+    <string name="trim_action">Trim</string>
+    <string name="set_as">Set as</string>
+
+    <!-- String indicating an approximate location eg. Around Palo Alto, CA -->
+    <string name="video_err">Can\'t play video.</string>
+
+    <!-- Strings for grouping operations in the menu. The photos can be grouped
+         by their location, taken time, or tags. -->
+    <!-- The title of the menu item to let user choose the grouping rule, when
+         pressed, a submenu will shown and user can choose one grouping rule
+         from the submenu. -->
+
+    <!-- Title of a menu item to group photo by location [CHAR LIMIT=30] -->
+    <string name="group_by_location">Group by</string>
+
+    <!-- Title of a menu tiem to group photo by taken date [CHAR LIMIT=30]-->
+    <string name="group_by_time">By time</string>
+
+    <!-- Title of a menu item to group photo by tags [CHAR LIMIT=30]-->
+    <string name="group_by_tags">By tags</string>
+
+    <!-- Title of a menu item to group photo by faces [CHAR LIMIT=30]-->
+    <string name="group_by_faces">By people</string>
+
+    <!-- Title of a menu item to group photo by albums [CHAR LIMIT=30]-->
+    <string name="group_by_album">By album</string>
+
+    <!-- Title of a menu item to group photo by size [CHAR LIMIT=30]-->
+    <string name="group_by_size">By size</string>
+
+    <!-- When grouping photos by tags, the label used for photos without tags
+         [CHAR LIMIT=20]-->
+    <string name="untagged">Untagged</string>
+
+    <!-- When grouping photos by locations, the label used for photos that don't
+         have location information in them [CHAR LIMIT=20]-->
+    <string name="no_location">No location</string>
+
+    <!-- This toast message is shown when network connection is lost while doing clustering -->
+    <string name="no_connectivity">Some locations couldn\'t be identified due to network problems.</string>
+
+    <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
+    <string name="sync_album_error">Couldn\'t download the photos in this album. Retry later.</string>
+
+    <!-- The title of the menu item to let user choose the which portion of
+         the media items the user wants to see. When pressed, a submenu will
+         appear and user can choose one of "show images only",
+         "show videos only", or "show all" from the submenu. -->
+
+    <!-- Title of a menu item to show images only [CHAR LIMIT=30]-->
+    <string name="show_images_only">Images only</string>
+
+    <!-- Title of a menu item to show videos only [CHAR LIMIT=30]-->
+    <string name="show_videos_only">Videos only</string>
+
+    <!-- Title of a menu item to show all (both images and videos) [CHAR LIMIT=30]-->
+    <string name="show_all">Images &amp; videos</string>
+
+    <!-- Title of the StackView AppWidget -->
+    <string name="appwidget_title">Photo Gallery</string>
+
+    <!-- Text for the empty state of the StackView AppWidget [CHAR LIMIT=30] -->
+    <string name="appwidget_empty_text">No photos.</string>
+
+    <!-- Toast message shown when the cropped image has been saved in the
+         %s folder (string: folder_download) [CHAR LIMIT=50]-->
+    <string name="crop_saved">
+        Cropped image saved to <xliff:g id="folder_name">%s</xliff:g>.</string>
+
+    <!-- Toast message shown when there is no albums available [CHAR LIMIT=50]-->
+    <string name="no_albums_alert">No albums available.</string>
+
+    <!-- Toast message shown when we close the AlbumPage because it is empty
+            [CHAR LIMIT=50] -->
+    <string name="empty_album">O images/videos available.</string>
+
+    <!-- Album label used to indicate the collection of PWA Buzz/Post photos -->
+    <string name="picasa_posts">Posts</string>
+
+    <!-- A label describing that the current screen is for the user to pick
+         some albums to be viewable offline [CHAR LIMIT=30] -->
+    <string name="make_available_offline">Make available offline</string>
+
+    <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
+    <string name="sync_picasa_albums">Refresh</string>
+
+    <!-- A label on a button. The user clicks this button after he has
+         finished selection. [CHAR LIMIT=15] -->
+    <string name="done">Done</string>
+
+    <!-- String indicating the sequence of currently selected item in the
+            media set eg. 3 of 5 items [CHAR LIMIT=30] -->
+    <string name="sequence_in_set">%1$d of %2$d items:</string>
+    <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
+    <string name="title">Title</string>
+    <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
+    <string name="description">Description</string>
+    <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
+    <string name="time">Time</string>
+    <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
+    <string name="location">Location</string>
+    <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
+    <string name="path">Path</string>
+    <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
+    <string name="width">Width</string>
+    <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
+    <string name="height">Height</string>
+    <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
+    <string name="orientation">Orientation</string>
+    <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=14] -->
+    <string name="duration">Duration</string>
+    <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
+    <string name="mimetype">MIME type</string>
+    <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
+    <string name="file_size">File size</string>
+    <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
+    <string name="maker">Maker</string>
+    <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+    <string name="model">Model</string>
+    <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
+    <string name="flash">Flash</string>
+    <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
+    <string name="aperture">Aperture</string>
+    <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
+    <string name="focal_length">Focal Length</string>
+    <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=14] -->
+    <string name="white_balance">White balance</string>
+    <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
+    <string name="exposure_time">Exposure time</string>
+    <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+    <string name="iso">ISO</string>
+    <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
+    <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+    <string name="unit_mm">mm</string>
+    <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
+    <string name="manual">Manual</string>
+    <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
+    <string name="auto">Auto</string>
+    <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
+    <string name="flash_on">Flash fired</string>
+    <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
+    <string name="flash_off">No flash</string>
+
+    <!-- String for the empty not filtered image[CHAR LIMIT=14] -->
+    <string name="ffx_original">Original</string>
+   <!-- String for filter filtershow_fx_0000_vintage [CHAR LIMIT=14] -->
+    <string name="ffx_vintage">Vintage</string>
+    <!-- String for filter filtershow_fx_0001_instant [CHAR LIMIT=14] -->
+    <string name="ffx_instant">Instant</string>
+    <!-- String for filter filtershow_fx_0002_bleach [CHAR LIMIT=14] -->
+    <string name="ffx_bleach">Bleach</string>
+    <!-- String for filter filtershow_fx_0003_blue_crush [CHAR LIMIT=14] -->
+    <string name="ffx_blue_crush">Blue</string>
+    <!-- String for filter filtershow_fx_0004_bw_contrast [CHAR LIMIT=14] -->
+    <string name="ffx_bw_contrast">B/W</string>
+    <!-- String for filter filtershow_fx_0005_punch [CHAR LIMIT=14] -->
+    <string name="ffx_punch">Punch</string>
+    <!-- String for filter filtershow_fx_0006_x_process [CHAR LIMIT=14] -->
+    <string name="ffx_x_process">X Process</string>
+    <!-- String for filter filtershow_fx_0007_washout [CHAR LIMIT=14] -->
+    <string name="ffx_washout">Latte</string>
+    <!-- String for filter filtershow_fx_0008_washout_color [CHAR LIMIT=14] -->
+    <string name="ffx_washout_color">Litho</string>
+
+    <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
+    <plurals name="make_albums_available_offline">
+        <item quantity="one">Making album available offline.</item>
+        <item quantity="other">Making albums available offline.</item>
+    </plurals>
+
+    <!-- Toast message shown after we try to make a local album available offline
+         [CHAR LIMIT=150] -->
+    <string name="try_to_set_local_album_available_offline">
+        This item is stored locally and available offline.</string>
+
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing all available albums [CHAR LIMIT=20] -->
+    <string name="set_label_all_albums">All albums</string>
+
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing albums stored locally on the device [CHAR LIMIT=20] -->
+    <string name="set_label_local_albums">Local albums</string>
+
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing MTP devices connected (like other digital cameras).
+         [CHAR LIMIT=20] -->
+    <string name="set_label_mtp_devices">MTP devices</string>
+
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing Picasa albums [CHAR LIMIT=20] -->
+    <string name="set_label_picasa_albums">Picasa albums</string>
+
+    <!-- Label indicating the amount on free space on the device. The parameter
+         is a string representation of the amount of free space, eg. "20MB".
+         [CHAR LIMIT=20]
+    -->
+    <string name="free_space_format"><xliff:g id="bytes">%s</xliff:g> free</string>
+
+    <!-- Label of a group of pictures. The size of each picture in this group is
+         less than a certain amount. The parameter is a string representation
+         of that amount, eg. "10MB".
+         [CHAR LIMIT=20]
+    -->
+    <string name="size_below"><xliff:g id="size">%1$s</xliff:g> or below</string>
+
+    <!-- Label of a group of pictures. The size of each picture in this group is
+         more than a certain amount. The parameter is a string representation
+         of that amount, eg. "10MB".
+         [CHAR LIMIT=20]
+    -->
+    <string name="size_above"><xliff:g id="size">%1$s</xliff:g> or above</string>
+
+    <!-- Label of a group of pictures. The size of each picture in this group is
+         between two amounts. The parameters are string representations of the two
+         amounts, eg. "10MB", "100MB".
+         [CHAR LIMIT=20]
+    -->
+    <string name="size_between"><xliff:g id="min_size">%1$s</xliff:g> to <xliff:g id="max_size">%2$s</xliff:g></string>
+
+    <!-- A label shown on the action bar. It indicates that the operation
+         to import media item(s) [CHAR LIMIT=20] -->
+    <string name="Import">Import</string>
+
+    <!-- A label shown on the action bar. It indicates whether the import
+         operation succeeds or fails. [CHAR LIMIT=20] -->
+    <string name="import_complete">Import complete</string>
+    <string name="import_fail">Import unsuccessful</string>
+
+    <!-- A toast indicating a camera is connected to the device [CHAR LIMIT=30]-->
+    <string name="camera_connected">Camera connected.</string>
+    <!-- A toast indicating a camera is disconnected [CHAR LIMIT=30] -->
+    <string name="camera_disconnected">Camera disconnected.</string>
+    <!-- A label shown on MTP albums thumbnail to instruct users to import
+        [CHAR LIMIT=40] -->
+    <string name="click_import">Touch here to import</string>
+
+    <!-- The label on the radio button for the widget type that shows the images randomly. [CHAR LIMIT=30]-->
+    <string name="widget_type_album">Choose an album</string>
+    <!-- The label on the radio button for the widget type that shows the images in an album. [CHAR LIMIT=30]-->
+    <string name="widget_type_shuffle">Shuffle all images</string>
+    <!-- The label on the radio button for the widget type that shows only one image. [CHAR LIMIT=30]-->
+    <string name="widget_type_photo">Choose an image</string>
+
+    <!-- The title of the dialog for choosing the type of widget. [CHAR LIMIT=20] -->
+    <string name="widget_type">Choose images</string>
+
+    <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
+    <string name="slideshow_dream_name">Slideshow</string>
+
+    <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="albums">Albums</string>
+
+    <!-- Group by Times tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="times">Times</string>
+
+    <!-- Group by Locations tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="locations">Locations</string>
+
+    <!-- Group by People tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="people">People</string>
+
+    <!-- Group by Tags tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="tags">Tags</string>
+
+    <!-- Group by menu item. [CHAR LIMIT=20] -->
+    <string name="group_by">Group by</string>
+
+    <!-- The title of the menu item which enable the settings [CHAR LIMIT=20] -->
+    <string name="settings">Settings</string>
+
+    <!-- The title of menu item where user can add a new account -->
+    <string name="add_account">Add account</string>
+
+    <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
+    <string name="folder_camera">Camera</string>
+
+    <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
+    <string name="folder_download">Download</string>
+
+    <!-- The label for the folder contains edited online pictures. [CHAR LIMIT=40]-->
+    <string name="folder_edited_online_photos">Edited Online Photos</string>
+
+    <!-- The label for the folder contains pictures that was imported from an
+         external camera. [CHAR LIMIT=20]-->
+    <string name="folder_imported">Imported</string>
+
+    <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
+    <string name="folder_screenshot">Screenshot</string>
+
+    <!-- The title of the menu item which display online help in browser. [CHAR LIMIT=20]-->
+    <string name="help">Help</string>
+
+    <!-- Web address for gallery help.  DO NOT TRANSLATE -->
+    <string name="help_url_gallery_main" translatable="false"></string>
+
+    <!-- The tilte of a dialog showing there is no external storage. [CHAR LIMIT=20] -->
+    <string name="no_external_storage_title">No Storage</string>
+
+    <!-- The message of a dialog showing there is no external storage. [CHAR LIMIT=none] -->
+    <string name="no_external_storage">No external storage available</string>
+
+    <!-- Label for album filmstrip button -->
+    <string name="switch_photo_filmstrip">Filmstrip view</string>
+
+    <!-- Label for album grid button -->
+    <string name="switch_photo_grid">Grid view</string>
+
+    <!-- The tilte of a dialog showing trimming in progress. [CHAR LIMIT=20] -->
+    <string name="trimming">Trimming</string>
+
+    <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
+    <string name="please_wait">Please wait</string>
+
+    <!-- Toast after the trimming is done. [CHAR LIMIT=50] -->
+    <!-- TODO: this should be a format string!-->
+    <string name="save_into">Saving trimmed video into album :</string>
+
+    <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
+    <string name="trim_too_short">Can not trim : target video is too short</string>
+
+    <!-- Text to show with progress bar while stitching in Gallery -->
+    <string name="pano_progress_text">Rendering panorama</string>
+
+    <!-- The label on the button that will save an edited image -->
+    <string name="save" msgid="8140440041190264400">Save</string>
+
+    <!-- filename -->
+    <string name="filename">Filename</string>
+
+    <string name="home">home</string>
+    <string name="btn_set">set</string>
+    <string name="exit">exit</string>
+    <string name="prompt">prompt</string>
+    <string name="btn_return">back</string>
+    <string name="btn_edit">edit</string>
+    <string name="puzzle_template">template</string>
+    <string name="puzzle_freedom">freedom</string>
+    <string name="puzzle_join">join</string>
+    <string name="puzzle_custom_background">custom background</string>
+    <string name="puzzle_more_background">more background</string>
+    <string name="change_frame">change frame</string>
+    <string name="change_style">change style</string>
+    <string name="btn_save">save</string>
+    <string name="saveandshare">save</string>
+    <string name="save_waitamoment">wait amoment...</string>
+    <string name="save_dataprocessing">data processing...</string>
+    <string name="progress_dialog_title">processing</string>
+    <string name="save_hasSave2Album">has saved to album</string>
+    <string name="save_saving">saving...</string>
+    <string name="save_success">saving success!</string>
+    <string name="choose_frame">choose frame</string>
+    <string name="add_delete">add or delete</string>
+    <string name="select_template">select template</string>
+    <string name="replace_pic">replace</string>
+    <string name="more_frame_pic">more frame</string>
+    <string name="frame_list">frame list</string>
+    <string name="choosed_pic">Selected</string>
+    <string name="start_jonitpic">Begin</string>
+    <string name="pic_num">(max 9 )</string>
+    <string name="main_page">main page</string>
+    <string name="choosed_num">(num)</string>
+    <string name="picnum_text" translatable="false">0</string>
+    <string name="dir_path">path</string>
+    <string name="choose_bg">choose background</string>
+    <!-- add byq qjz for Gallery NewUI  2013-04-15-->
+    <string name="hide_albums">Hide albums</string>
+    
+    <string name="mainmenu_edit">Edit</string>
+    <string name="mainmenu_mosaic">Mosaics</string>
+    <string name="mainmenu_enhance">Enhance</string>
+    <string name="mainmenu_weak">Bokeh</string>
+    <string name="mainmenu_word">Word</string>
+    <string name="beauty_main_whitemopi">Beauty</string>
+    <string name="lomo">LOMO</string>
+    <string name="portrait">Portrait</string>
+    <string name="fashion">Fashion</string>
+    <string name="art">Art</string>
+    <string name="seekbartext" translatable="false">100%</string>
+    <string name="mosaic_style">Mosaics style</string>
+    <string name="word_style">Word style</string>
+    <string name="bubble_words">Conversation bubbles</string>
+    <string name="btn_add_word">Add word</string>
+    <string name="empitiness_round">Circle bokeh</string>
+    <string name="empitiness_line">Line bokeh</string>
+    <string name="empitiness_range">Radius</string>
+    <string name="empitiness_size">Size</string>
+    <string name="mosaic_edit">Write something...</string>
+    <string name="mosaic_edit_num"  translatable="false">0/140</string>
+    <string name="word_edit_tip">Kindly prompt: What you see in the input text is what you get; Please add new line if the content is too long!</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="effect_normal">Original</string>
+    <string name="effect_lomo_1">Classic LOMO</string>
+    <string name="effect_lomo_2">Film</string>
+    <string name="effect_lomo_3">Elegant</string>
+    <string name="effect_lomo_4">Retro</string>
+    <string name="effect_lomo_5">Wormwood</string>
+    <string name="effect_lomo_6">80’s</string>
+    <string name="effect_lomo_7">Impression</string>
+    <string name="effect_lomo_8">HDR</string>
+    <string name="effect_lomo_9">Old photo</string>
+    <string name="effect_lomo_10">Cinnamon</string>
+    <string name="effect_lomo_11">Pink Lady</string>
+    <string name="effect_lomo_12">Gothic style</string>
+    <string name="effect_lomo_13">Inverted colors</string>
+    <string name="effect_lomo_14">Tilt shift</string>
+    <string name="effect_photo_1">Soft</string>
+    <string name="effect_photo_2">Tender</string>
+    <string name="effect_photo_3">Natural</string>
+    <string name="effect_photo_4">Sweet</string>
+    <string name="effect_photo_5">Cool</string>
+    <string name="effect_photo_11">Aestheticism</string>
+    <string name="effect_photo_6">Sun</string>
+    <string name="effect_photo_7">Abao color</string>
+    <string name="effect_photo_8">Fleeting time</string>
+    <string name="effect_photo_9">Black and white</string>
+    <string name="effect_photo_10">Warm</string>
+    <string name="effect_fashion_1">Bright red</string>
+    <string name="effect_fashion_2">Sun</string>
+    <string name="effect_fashion_3">Christmas Eve</string>
+    <string name="effect_fashion_4">Night view</string>
+    <string name="effect_fashion_5">Snow</string>
+    <string name="effect_fashion_6">Colorful Halo</string>
+    <string name="effect_fashion_7">Time tunnel</string>
+    <string name="effect_art_1">Sketching sketch</string>
+    <string name="effect_art_2">Classical sketch</string>
+    <string name="effect_art_3">Color pencil</string>
+    <string name="effect_art_4">Painting</string>
+    <string name="effect_art_5">Cartoon</string>
+    <string name="effect_art_6">Kraft</string>
+
+    <string name="palette">Color mixing</string>
+    <string name="brightness">Brightness</string>
+    <string name="img_enhance_title">Enhance</string>
+    <string name="beauty_mopi">Dermabrasion</string>
+    <string name="beauty_meibai">Whitening</string>
+    <string name="beauty_fuse">Complexion</string>
+    <string name="bg_emptiness">Bokeh</string>
+    <string name="mainmenu_effect">Effect</string>
+    <string name="mainmenu_frame">Frame</string>
+    <string name="cool">Cool</string>
+    <string name="warm">Warm</string>
+    <string name="min" translatable="false">0</string>
+    <string name="max" translatable="false">100</string>
+    <string name="btn_compare">Contrast</string>
+    <string name="exposure">Smart fill light</string>
+    <string name="simple_frame">Simple frame</string>
+    <string name="color_frame">Colorful frame</string>
+    <string name="edit_tailor">Crop</string>
+    <string name="edit_spin">Rotate</string>
+    <string name="edit_sharpen">Sharpen</string>
+    <string name="reset">Reset</string>
+    <string name="reseting">Reseting...</string>
+    <string name="ratio_freedom">Scale：Freedom</string>
+    <string name="confirm_crop">Confirm crop</string>
+    <string name="freedom_rotate">Free rotate</string>
+    <string name="blod">Bold</string>
+    <string name="italic">Shadow</string>
+    <string name="cut_1_1" translatable="false">1:1</string>
+    <string name="cut_3_2" translatable="false">3:2</string>
+    <string name="cut_4_3" translatable="false">4:3</string>
+    <string name="cut_2_3" translatable="false">2:3</string>
+    <string name="cut_3_4" translatable="false">3:4</string>
+    <string name="cut_16_9" translatable="false">16:9</string>
+    <string name="freedom_crop">Other</string>
+    <string name="mainmenu_weak">Bokeh</string>
+    <string name="text_bubble_add_content_title">Edit text content</string>
+    <string name="rename_folder">Rename fileFolder</string>
+    <string name="filename_not_null">File name not null!</string>
+    <string name="folder_rename_success">Rename success!</string>
+    <string name="folder_rename_fail">Rename failure!</string>
+    <string name="new_album">New Album</string>
+    <string name="album_exist_message_format_toast">"\"%s\"" exists.</string>
+    <string name="tip_please_wait">Please wait a moment...</string>
+    <string name="tip_please_wait_content">Loading Images</string>
+    <string name="frame_simple_1">White frame</string>
+    <string name="frame_simple_2">Black frame</string>
+    <string name="frame_simple_3">Classic frame</string>
+    <string name="frame_simple_4">Cute semicircle</string>
+    <string name="frame_simple_5">Movie film</string>
+    <string name="frame_simple_6">Film</string>
+    <string name="frame_simple_7">VCR</string>
+    <string name="frame_simple_8">Tape</string>
+    <string name="frame_simple_9">Lace</string>
+    <string name="frame_simple_10">Stamp</string>
+    <string name="frame_simple_11">Pink mood</string>
+    <string name="frame_simple_12">Wave</string>
+    <string name="frame_colorful_1">Halo</string>
+    <string name="frame_colorful_2">Galaxy</string>
+    <string name="frame_colorful_3">Snowy night</string>
+    <string name="frame_colorful_4">Love</string>
+    <string name="frame_colorful_5">Five-pointed star</string>
+    <string name="frame_colorful_6">Rainbow Flower</string>
+    <string name="album_title">Select Gallery</string>
+    <!-- add by yaping.liu for pr452145 -->
+    <string name="selected">selected</string>
+    <string name="mosaic_progess_title">Mosaic processing</string>
+    <string name="mopi_progess_title">Intelligent dermabrasion whitening...</string>
+    <string name="edit_word">Edit Word</string>
+    <string name="puzzle_title">At least 2 delegates to puzzle</string><!-- add by biao.luo for pr460354 -->
+    <string name="save_path">save path:</string>
+    <string name="select_background">choose background</string>
+    <string name="move_picutre_tip">Moving pictures,Please wait ...</string>
+    <!-- add by qjz for pr481424 -->
+    <string name="unable_to_play">Unable to play during call</string>
+    <!--PR485011-lilei-begin-->
+    <string name="more_action">More</string>
+    <string name="joint_action">Joint</string>
+    <!--PR485011-lilei-end-->
+    <!--PR501920-lilei-begin-->
+    <string name="add_word_text">click here to add words</string>
+    <!--PR501920-lilei-end-->
+    <!-- PR511200-Xiaowei.Xu begin -->
+    <string name="prohibit_use">can not use this picture</string>
+    <!-- PR511200-Xiaowei.Xu end -->
+    <!-- CR535794-lilei-begin -->
+    <string name="set_wallpaper_title">Set as</string>
+    <string name="set_as_lockscreen">Lockscreen</string>
+    <string name="set_as_homescreen">Homescreen</string>
+    <string name="set_as_both">Both</string>
+    <string name="set_homescreen">Set Homecreen\u2026</string>
+    <string name="set_lockscreen">Set Lockscreen\u2026</string>
+    <string name="set_both">Set both\u2026</string>
+    <string name="crop_set_text">Set</string>
+    <!-- CR535794-lilei-end -->
+    <!--FR583902-renjie.xu-begin-->
+    <string name="tips_done">Done</string>
+    <!-- PR912344 Add One finger zoom function by fengke at 2015.01.26 start -->
+    <string name="onef_inger_zoomer_tips">Double tap and slide to zoom in/out in gallery</string>
+    <string name="onef_inger_zoomer_tips_camera">Double tap and slide to zoom in/out in camera</string>
+    <!-- PR912344 Add One finger zoom function by fengke at 2015.01.26 end -->
+    <string name="onef_inger_zoomer_tips_title">Learn about one finger zoom</string>
+    <!--FR583902-renjie.xu-end-->
+    <string name="sync_album_set_error"></string>
+    <string name="crop_not_saved"></string>
+    <string name="confirm_delete"></string>
+    <string name="activity_not_found"></string>
+    <string name="title_activity_main"></string>
+    <string name="share_loginFailednoSign"></string>
+    <string name="chooseDir"></string>
+    <string name="alert_dialog_ok"></string>
+    <string name="alert_dialog_cancel"></string>
+    <string name="not_enough_storage">your storage is full!</string><!--PR651227-tao li-001-->
+    <!-- modified by junliang.liu.hz for CR604778 begin -->
+    <string name="text_gesture_backward">-30 sec</string>
+    <string name="text_gesture_forward">+30 sec</string>
+    <!-- modified by junliang.liu.hz for CR604778 end -->
+
+    <!-- modified by sima.chen for PR810665 begin -->
+    <string name="VideoView_error_text_connection_failed">Network connection failure, please check network connection.</string>
+    <!-- modified by sima.chen for PR810665 end -->
+
+    <!-- PR857320 modify Can not use Scale Free operation by fengke at 2014.12.02 start -->
+    <string name="jrdgallery_scale_tips">The picture can not choose scale,you can manually crop the picture!</string>
+    <!-- PR857320 modify Can not use Scale Free operation by fengke at 2014.12.02 end -->
+
+    <!-- PR857320 modify Can not use Scale Free operation by fengke at 2014.12.02 start -->
+    <string name="jrdgallery_scale_not_support">The picture\'s scale is not support by crop function!</string>
+    <!-- PR857320 modify Can not use Scale Free operation by fengke at 2014.12.02 end -->
+
+    <!-- PR860361 modify translation problem by fengke at 2014.12.10 start -->
+    <string name="pixi335_effect_fashion_6">Colorful Halo</string>
+    <string name="pixi335_add_delete">add or delete</string>
+    <string name="pixi335_bubble_words">Conversation bubbles</string>
+    <!-- PR860361 modify translation problem by fengke at 2014.12.10 end -->
+    <!-- PR936992 Undo and Redo icon are useless,while SD card is full add by limin.zhuo at 2015.03.06 begin -->
+    <string name="storage_full_tag">your storage is full,photo edit function is abnormal</string>
+    <!-- PR936992 Undo and Redo icon are useless,while SD card is full add by limin.zhuo at 2015.03.06 end -->
+
+</resources>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="loading_ringtone">"Zil sesi yükleniyor..."</string>
+	<!---->
+	<string name="app_name">"Saat"</string>
+	<!---->
+	<string name="activity_worldclock">"Dünya saati"</string>
+	<!---->
+	<string name="activity_alarm">"Alarm"</string>
+	<!---->
+	<string name="activity_Timer">"Zamanlayıcı"</string>
+	<!---->
+	<string name="activity_timer">"Geriye sayım"</string>
+	<!---->
+	<string name="Timer_start">"Başlangıç"</string>
+	<!---->
+	<string name="Timer_stop">"Durdur"</string>
+	<!---->
+	<string name="Timer_resume">"Sürdürme"</string>
+	<!---->
+	<string name="Timer_clean">"Temizle"</string>
+	<!---->
+	<string name="Timer_record">"Tur"</string>
+	<!---->
+	<string name="Timer_absolutetime">"Toplam"</string>
+	<!---->
+	<string name="Timer_relativetime">"Bu Tur"</string>
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!---->
+	<string name="Timer_warning">"Uyarı"</string>
+	<!---->
+	<string name="Timer_exit_warning">"Zamanlayıcı çalışıyor. Çıkmak istiyor musunuz?"</string>
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"Zil sesi"</string>
+	<!---->
+	<string name="timer_start">"Başlangıç"</string>
+	<!---->
+	<string name="timer_cancel">"İptal"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"Sessiz"</string>
+	<!---->
+	<string name="timer_ringtone_choose_title">"Zil sesi ayarla"</string>
+	<!---->
+	<string name="timer_exit_warning">"Geriye Sayım çalışıyor, çıkmak istiyor musunuz?"</string>
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_alert_label">"Süre doldu"</string>
+	<!---->
+	<string name="timer_hour">"Saat"</string>
+	<!---->
+	<string name="timer_minute">"Dakika"</string>
+	<!---->
+	<string name="timer_second">"Saniye"</string>
+	<!---->
+	<string name="set_alarm">"Alarm kur"</string>
+	<!---->
+	<string name="settings">"Ayarlar"</string>
+	<!---->
+	<string name="auto_silence_title">"Otomatik susma"</string>
+	<!---->
+	<string name="auto_silence_summary">"Alarmlar <xliff:g id="minutes">%d</xliff:g> dakika sonra sessize alınacak"</string>
+	<!---->
+	<string name="auto_silence_never">"KPL"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"Alarm sessiz modda"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"Telefon sessiz modda olsa bile alarmı çaldır"</string>
+	<string-array name="auto_silence_entries">
+		<item>"Kapalı"</item>
+		<item>"5 dakika"</item>
+		<item>"10 dakika"</item>
+		<item>"15 dakika"</item>
+		<item>"20 dakika"</item>
+		<item>"25 dakika"</item>
+		<item>"30 dakika"</item>
+	</string-array>
+	<!---->
+	<string name="add_alarm">"Alarm ekle"</string>
+	<!---->
+	<string name="default_label">"Alarm"</string>
+	<!---->
+	<string name="never">"Hiç bir zaman"</string>
+	<!---->
+	<string name="every_day">"her gün"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!---->
+	<string name="alarm_settings">"Ayarlar"</string>
+	<!---->
+	<string name="delete_alarm">"Alarm sil"</string>
+	<!---->
+	<string name="delete_alarm_confirm">"Bu alarm silinecek."</string>
+	<!---->
+	<string name="snooze_duration_title">"Erteleme süresi"</string>
+	<!---->
+	<string name="delete_alarm_message">"Seçili alarm silinsin mi?"</string>
+	<string-array name="snooze_duration_entries">
+		<item>"5 dakika"</item>
+		<item>"10 dakika"</item>
+		<item>"15 dakika"</item>
+		<item>"20 dakika"</item>
+		<item>"25 dakika"</item>
+		<item>"30 dakika"</item>
+	</string-array>
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"Ses düğmeleri"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"Düğme davranışı"</string>
+	<!---->
+	<string name="volume_button_setting_summary">"Bir alarm sırasında basıldığında düğmelerin istenen davranışını ayarlayın"</string>
+	<string-array name="volume_button_setting_entries">
+		<item>"Hiçbiri"</item>
+		<item>"Ertele"</item>
+		<item>"Reddet"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!---->
+	<string name="turn_over_to_active_title">"Etkinleştirmek için döndür"</string>
+	<!---->
+	<string name="turn_over_to_active_dialog_title">"Döndürme davranışı"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"Tekrarla"</string>
+	<!---->
+	<string name="alarm_vibrate">"Titreşim"</string>
+	<!---->
+	<string name="label">"Etiket"</string>
+	<!---->
+	<string name="day">"1 gün"</string>
+	<!---->
+	<string name="days">"%s gün"</string>
+	<!---->
+	<string name="hour">"1 saat"</string>
+	<!---->
+	<string name="hours">"%s saat"</string>
+	<!---->
+	<string name="minute">"1 dakika"</string>
+	<!---->
+	<string name="minutes">"%s dakika"</string>
+	<string-array name="alarm_set">
+		<item>"Bu alarm şu andan itibaren 1 dakikadan az bir süre olarak ayarlandı."</item>
+		<item>"Bu alarm şu andan itibaren %1$s sonraya ayarlandı."</item>
+		<item>"Bu alarm şu andan itibaren %2$s sonraya ayarlandı."</item>
+		<item>"Bu alarm şu andan itibaren %1$s ve %2$s sonraya ayarlandı."</item>
+		<item>"Bu alarm şu andan itibaren %3$s sonraya ayarlandı."</item>
+		<item>"Bu alarm şu andan itibaren %1$s ve %3$s sonraya ayarlandı."</item>
+		<item>"Bu alarm şu andan itibaren %2$s ve %3$s sonraya ayarlandı."</item>
+		<item>"Bu alarm şu andan itibaren %1$s, %2$s ve %3$s sonraya ayarlandı."</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"Sessiz"</string>
+	<!---->
+	<string name="alarm_notify_text">"Bu alarmı ertelemek veya kapatmak için seçin."</string>
+	<!---->
+	<string name="alarm_alert_alert_silenced">"Alarm %d dakika sonra sessize alındı"</string>
+	<!---->
+	<string name="alarm_alert_snooze_text">"Ertele"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"Durdur"</string>
+	<!---->
+	<string name="alarm_notify_snooze_label">"%s ( ertelendi )"</string>
+	<!---->
+	<string name="alarm_notify_snooze_text">"Alarm <xliff:g id="time">%s</xliff:g> için ayarlandı. İptal için seçin."</string>
+	<!---->
+	<string name="alarm_alert_snooze_set">"%d dakika için erteleniyor."</string>
+	<!---->
+	<string name="system_acticity_name">"Sistem"</string>
+	<!---->
+	<string name="music_acticity_name">"Müziğim"</string>
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!---->
+	<string name="no_music">"Müzik yok"</string>
+	<!---->
+	<string name="default_ringtone">"Varsayılan Zil sesi"</string>
+	<!---->
+	<string name="add_city">"Şehir ekle"</string>
+	<!---->
+	<string name="select_city">"Şehir seçin"</string>
+	<!---->
+	<string name="delete_city">"Sil"</string>
+	<!---->
+	<string name="delete_worldtime_message">"Saati silmek istediğinizden emin misiniz?"</string>
+	<!---->
+	<string name="worldtime_search_hint">"Şehir adı girin"</string>
+	<!---->
+	<string name="sel_from_below">"Veya aşağıdakilerden seçin:"</string>
+	<!---->
+	<string name="worldtime_is_showed">"(Eklendi)"</string>
+	<!---->
+	<string name="worldtime_menu_delete">"Sil"</string>
+	<!---->
+	<string name="worldtime_delete_title">"Şehir sil"</string>
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"Bugün"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"Dün"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"Yarın"</string>
+	<!---->
+	<string name="time_am">"AM"</string>
+	<!---->
+	<string name="time_pm">"PM"</string>
+	<!---->
+	<string name="no_city">"Şehir bulunamıyor"</string>
+	<!---->
+	<string name="time_picker_cancel">"İptal"</string>
+	<!---->
+	<string name="time_picker_set">"TAMAM"</string>
+	<!---->
+	<string name="night_mode_title">"Gece modu"</string>
+	<!---->
+	<string name="night_mode_summary">"Çok karanlık ekran (karanlık odalar için)"</string>
+	<!---->
+	<string name="app_label">"Saat"</string>
+	<!---->
+	<string name="clock_style">"Stil"</string>
+	<!---->
+	<string name="screensaver_settings">"Rüya ayarları"</string>
+	<!---->
+	<string name="screensaver_clock_label">"Saat"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary_tablet">"Tablet sessiz moddayken de alarm çalsın"</string>
+	<!---->
+	<string name="app_name_clock">"Saat"</string>
+</resources>

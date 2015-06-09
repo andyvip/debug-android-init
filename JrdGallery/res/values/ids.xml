@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2010 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <item type="id" name="action_toggle_full_caching" />
+    <item type="id" name="action_select_all" />
+    <item type="id" name="bubble" />
+    <item type="id" name="img_new" />
+    <item type="id" name="select" />
+    <!-- free puzzle -->
+    <item type="id" name="btn_pintu_laststyle" />
+    <item type="id" name="btn_pintu_nextstyle" />
+     <item type="id" name="freepuzzle_view" />
+    <item type="id" name="topbar">false</item>
+    <item type="id" name="btn_goPintu">false</item>
+    <item type="id" name="album_grid">false</item>
+    <item type="id" name="album_thumb">false</item>
+    <item type="id" name="album_thumb_checked">false</item>
+    <item type="id" name="album_list">false</item>
+    <item type="id" name="album_dir_thumb">false</item>
+    <item type="id" name="album_dir_name">false</item>
+    <item type="id" name="album_dir_path">false</item>
+    <item type="id" name="album_dir_item_num">false</item>
+    <item type="id" name="btn_back">false</item>
+    <item type="id" name="btn_cancel">false</item>
+    <item type="id" name="album_title">false</item>
+    <item type="id" name="album_content">false</item>
+    <item type="id" name="album_selector">false</item>
+    <item type="id" name="album_select_image">false</item>
+    <item type="id" name="tv_selected">false</item>
+    <item type="id" name="album_scroll">false</item>
+    <item type="id" name="topselect_folder">false</item>
+    <item type="id" name="folders_back">false</item>
+</resources>

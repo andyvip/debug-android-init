@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Dec 29 15:44:17 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="loading_ringtone">"着信音を読み込み中..."</string>
+	<!---->
+	<string name="app_name">"時間"</string>
+	<!---->
+	<string name="activity_worldclock">"世界時計"</string>
+	<!---->
+	<string name="activity_alarm">"アラーム"</string>
+	<!---->
+	<string name="activity_Timer">"タイマー"</string>
+	<!---->
+	<string name="activity_timer">"タイマー"</string>
+	<!---->
+	<string name="Timer_start">"開始"</string>
+	<!---->
+	<string name="Timer_stop">"停止"</string>
+	<!---->
+	<string name="Timer_resume">"再開"</string>
+	<!---->
+	<string name="Timer_clean">"クリア"</string>
+	<!---->
+	<string name="Timer_record">"順番"</string>
+	<!---->
+	<string name="Timer_absolutetime">"合計"</string>
+	<!---->
+	<string name="Timer_relativetime">"ラップ"</string>
+	<!-- no translation found for Timer_time_format -->
+	<skip />
+	<!---->
+	<string name="Timer_warning">"警告"</string>
+	<!---->
+	<string name="Timer_exit_warning">"タイマーが動いています。終了しますか？"</string>
+	<!-- no translation found for Timer_ok -->
+	<skip />
+	<!-- no translation found for Timer_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_choose_ring">"着信音"</string>
+	<!---->
+	<string name="timer_start">"開始"</string>
+	<!---->
+	<string name="timer_cancel">"キャンセル"</string>
+	<!---->
+	<string name="timer_ringtone_silent">"マナーモード"</string>
+	<!---->
+	<string name="timer_ringtone_choose_title">"着信音を設定"</string>
+	<!-- no translation found for timer_exit_warning -->
+	<skip />
+	<!-- no translation found for timer_dialog_ok -->
+	<skip />
+	<!-- no translation found for timer_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="timer_alert_label">"時間切れ"</string>
+	<!---->
+	<string name="timer_hour">"時間"</string>
+	<!---->
+	<string name="timer_minute">"分"</string>
+	<!---->
+	<string name="timer_second">"第2"</string>
+	<!---->
+	<string name="set_alarm">"アラームを設定"</string>
+	<!---->
+	<string name="settings">"設定"</string>
+	<!---->
+	<string name="auto_silence_title">"自動消音"</string>
+	<!---->
+	<string name="auto_silence_summary">"<xliff:g id="MINUTES">%d</xliff:g>分後にアラームを消音"</string>
+	<!---->
+	<string name="auto_silence_never">"オフ"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_title">"マナーモード中のアラーム"</string>
+	<!---->
+	<string name="alarm_in_silent_mode_summary">"マナーモード中もアラームを鳴らす"</string>
+	<string-array name="auto_silence_entries">
+		<item>"オフ"</item>
+		<item>"5分"</item>
+		<item>"10分"</item>
+		<item>"15分"</item>
+		<item>"20分"</item>
+		<item>"25分"</item>
+		<item>"30分"</item>
+	</string-array>
+	<!---->
+	<string name="add_alarm">"アラームの設定"</string>
+	<!---->
+	<string name="default_label">"アラーム"</string>
+	<!---->
+	<string name="never">"保存しない"</string>
+	<!---->
+	<string name="every_day">"毎日"</string>
+	<!-- no translation found for day_concat -->
+	<skip />
+	<!---->
+	<string name="alarm_settings">"設定"</string>
+	<!---->
+	<string name="delete_alarm">"アラームを削除"</string>
+	<!---->
+	<string name="delete_alarm_confirm">"このアラームは削除されます。"</string>
+	<!---->
+	<string name="snooze_duration_title">"スヌーズ間隔"</string>
+	<!-- no translation found for delete_alarm_message -->
+	<skip />
+	<string-array name="snooze_duration_entries">
+		<item>"5分"</item>
+		<item>"10分"</item>
+		<item>"15分"</item>
+		<item>"20分"</item>
+		<item>"25分"</item>
+		<item>"30分"</item>
+	</string-array>
+	<!-- no translation found for snooze_duration_values -->
+	<skip />
+	<!---->
+	<string name="volume_button_setting_title">"音量ボタン"</string>
+	<!---->
+	<string name="volume_button_dialog_title">"音量ボタン"</string>
+	<!---->
+	<string name="volume_button_setting_summary">"アラームが鳴っている最中に押したときのボタン動作を設定"</string>
+	<string-array name="volume_button_setting_entries">
+		<item>"なし"</item>
+		<item>"再通知"</item>
+		<item>"無効"</item>
+	</string-array>
+	<!-- no translation found for volume_button_setting_values -->
+	<skip />
+	<!---->
+	<string name="turn_over_to_active_title">"携帯電話を裏返したときの動作"</string>
+	<!---->
+	<string name="turn_over_to_active_dialog_title">"裏返したときの動作"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="alarm_repeat">"リピート"</string>
+	<!---->
+	<string name="alarm_vibrate">"バイブ"</string>
+	<!---->
+	<string name="label">"ラベル"</string>
+	<!---->
+	<string name="day">"1日"</string>
+	<!---->
+	<string name="days">"%s 日"</string>
+	<!---->
+	<string name="hour">"1時間"</string>
+	<!---->
+	<string name="hours">"%s 時間"</string>
+	<!---->
+	<string name="minute">"1分"</string>
+	<!---->
+	<string name="minutes">"%s 分"</string>
+	<string-array name="alarm_set">
+		<item>"アラームは今から1分以内に設定されました。"</item>
+		<item>"アラームは今から %1$s 後に設定されました。"</item>
+		<item>"アラームは今から %2$s 後に設定されました。"</item>
+		<item>"アラームは今から %1$s および %2$s 後に設定されました。"</item>
+		<item>"アラームは今から %3$s 後に設定されました。"</item>
+		<item>"アラームは今から %1$s および %3$s 後に設定されました。"</item>
+		<item>"アラームは今から %2$s および %3$s 後に設定されました。"</item>
+		<item>"アラームは今から %1$s、%2$s、および %3$s 後に設定されました。"</item>
+	</string-array>
+	<!---->
+	<string name="silent_alarm_summary">"マナーモード"</string>
+	<!---->
+	<string name="alarm_notify_text">"このアラームをスヌーズするか止めるか選択してください。"</string>
+	<!---->
+	<string name="alarm_alert_alert_silenced">"アラームは %d 分後に鳴り止みます"</string>
+	<!---->
+	<string name="alarm_alert_snooze_text">"再通知"</string>
+	<!---->
+	<string name="alarm_alert_dismiss_text">"停止"</string>
+	<!---->
+	<string name="alarm_notify_snooze_label">"%s （スヌーズ）"</string>
+	<!---->
+	<string name="alarm_notify_snooze_text">"アラームは<xliff:g id="TIME">%s</xliff:g>に設定されています。選択すると解除されます。"</string>
+	<!---->
+	<string name="alarm_alert_snooze_set">"%d 分間スヌーズします。"</string>
+	<!---->
+	<string name="system_acticity_name">"システム"</string>
+	<!---->
+	<string name="music_acticity_name">"マイ ミュージック"</string>
+	<!-- no translation found for cancle -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!---->
+	<string name="no_music">"音楽なし"</string>
+	<!---->
+	<string name="default_ringtone">"プリセット着信音"</string>
+	<!---->
+	<string name="add_city">"都市の追加"</string>
+	<!---->
+	<string name="select_city">"都市を選択"</string>
+	<!---->
+	<string name="delete_city">"削除"</string>
+	<!---->
+	<string name="delete_worldtime_message">"時計を削除しますか？"</string>
+	<!---->
+	<string name="worldtime_search_hint">"都市名を入力"</string>
+	<!---->
+	<string name="sel_from_below">"または以下から選択："</string>
+	<!---->
+	<string name="worldtime_is_showed">"(追加済)"</string>
+	<!---->
+	<string name="worldtime_menu_delete">"削除"</string>
+	<!---->
+	<string name="worldtime_delete_title">"都市を削除する"</string>
+	<!-- no translation found for worldtime_cancel -->
+	<skip />
+	<!-- no translation found for worldtime_ok -->
+	<skip />
+	<!---->
+	<string name="wolrdtime_today">"今日"</string>
+	<!---->
+	<string name="wolrdtime_yestoday">"昨日"</string>
+	<!---->
+	<string name="wolrdtime_tomorrow">"明日"</string>
+	<!---->
+	<string name="time_am">"AM"</string>
+	<!---->
+	<string name="time_pm">"PM"</string>
+	<!-- no translation found for no_city -->
+	<skip />
+	<!---->
+	<string name="time_picker_cancel">"キャンセル"</string>
+	<!---->
+	<string name="time_picker_set">"OK"</string>
+	<!---->
+	<string name="night_mode_title">"夜間モード"</string>
+	<!---->
+	<string name="night_mode_summary">"薄暗いディスプレイ (暗い空間向け)"</string>
+	<!---->
+	<string name="app_label">"時計"</string>
+	<!---->
+	<string name="clock_style">"スタイル"</string>
+	<!---->
+	<string name="screensaver_settings">"ドリーム設定"</string>
+	<!---->
+	<string name="screensaver_clock_label">"時計"</string>
+	<!-- no translation found for alarm_in_silent_mode_summary_tablet -->
+	<skip />
+	<!-- no translation found for app_name_clock -->
+	<skip />
+</resources>
