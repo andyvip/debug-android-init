@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--FR583902-renjie.xu-2014-01-09-->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true" android:drawable="@drawable/btn_tips_pressed" />
-    <item android:drawable="@drawable/btn_tips_normal" />
-</selector>
